@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/Level_Mobile.unity
-  isLoaded: 1
-  isActive: 1
