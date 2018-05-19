@@ -38,7 +38,7 @@ public class ChatManager : MonoBehaviour
     {
         if (status["atScene"] != null)
         {
-            ParseText.AtScene(this, status["atScene"]);     // set: status["atScene"] = null
+            //ParseText.AtScene(this, status["atScene"]);     // set: status["atScene"] = null
         }
         else
         {

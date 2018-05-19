@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class ParseText
 {
-    public static void AtScene(ChatManager cm, string scene)
+    public static void AtScene(GameApp cm, string scene)
     {
         bool if_else = false;
         bool skip_line = false;
@@ -54,7 +54,7 @@ public static class ParseText
             else ParseText.AddLeftChats(cm, line);
         }
     }
-    static void HandleSet(ChatManager cm, string line)
+    static void HandleSet(GameApp cm, string line)
     {
         string[] lines = line.Substring(7, line.Length - 9).Replace(" ", "").Split('=');
         if (lines[1].Contains("-1"))
@@ -64,7 +64,7 @@ public static class ParseText
         }
         else cm.status[lines[0]] = lines[1];
     }
-    static void ToNewScene(ChatManager cm, string line)
+    static void ToNewScene(GameApp cm, string line)
     {
         string newLine = line.Substring(2, line.Length - 4);
         if (newLine.StartsWith("delay"))
@@ -75,10 +75,13 @@ public static class ParseText
         else cm.status["atScene"] = newLine;
     }
 
-    static void HandleChoice(ChatManager cm, string line, string scene)
+    static void HandleChoice(GameApp cm, string line, string scene)
     {
-        JSONArray choice = cm.choices[int.Parse(line.Substring(19, line.Length - 21))]["actions"].AsArray;
+        JSONNode choose = cm.choices[int.Parse(line.Substring(19, line.Length - 21))];
+        //JSONArray choice = cm.choices[int.Parse(line.Substring(19, line.Length - 21))]["actions"].AsArray;
 
+        cm.messageManager.AddOneChoice(choose);
+        /*
         ChoiceObject.SetChoiceButton(cm.m_view, new Dictionary<string, Action<string>> {
             // choiceButtonOne
             {choice[0]["choice"], message => {
@@ -89,26 +92,28 @@ public static class ParseText
                 ActionFunction(cm, choice, message, 1);
             }}
          });
+         */
     }
 
-    static void ActionFunction(ChatManager cm, JSONArray choice, string message, int index)
+    static void ActionFunction(GameApp cm, JSONArray choice, string message, int index)
     {
         string newScence = choice[index]["identifier"];
-        ChoiceObject.ReplayMessage(cm.m_view, message);
+        //ChoiceObject.ReplayMessage(cm.m_view, message);
         cm.status["atScene"] = newScence;
         cm.SaveStatusData(newScence);
         // SaveStatusData(scene);
     }
 
-    static void AddLeftChats(ChatManager cm, string line)
+    static void AddLeftChats(GameApp cm, string line)
     {
         if (line.Contains("$pills") || line.Contains("$glowrods") || line.Contains("$power"))
         {
             // 替换$pills、$glowrods 和 $power
             string newLine = line.Replace("$pills", cm.status["pills"]).Replace("$glowrods", cm.status["glowrods"]).Replace("$power", cm.status["power"]);
-            cm.m_leftChats.Enqueue(newLine);
+            cm.messageManager.AddOneNormalMessage(newLine);
         }
-        else cm.m_leftChats.Enqueue(line);
+        else
+            cm.messageManager.AddOneNormalMessage(line);
     }
 }
 

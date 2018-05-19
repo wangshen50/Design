@@ -2,7 +2,7 @@
 using UnityEngine;
 public static class AndOrInLine
 {
-    public static bool and_InLine(ChatManager cm, string line)
+    public static bool and_InLine(GameApp cm, string line)
     {
         string[] newline = line.Split(' ');
         // "gte" 和 “and” 同时出现的行
@@ -29,7 +29,7 @@ public static class AndOrInLine
         }
     }
 
-    public static bool or_InLine(ChatManager cm, string line)
+    public static bool or_InLine(GameApp cm, string line)
     {
         string[] newline = line.Split(' ');
         string valueA = cm.status[newline[1].Substring(1)];
@@ -40,7 +40,7 @@ public static class AndOrInLine
         return !(valueA.Equals(newline[3]) || valueB.Equals(newline[7]));
         // Debug.Log("and skip_line = " + skip_line);
     }
-    public static bool and_or_NotInLine(ChatManager cm, string line)
+    public static bool and_or_NotInLine(GameApp cm, string line)
     {
         string[] newline = line.Split(' ');
         if (line.Contains(" gte "))
