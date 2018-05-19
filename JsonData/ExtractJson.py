@@ -1,4 +1,3 @@
-#coding:utf-8
 #!/usr/bin/env python3
 # 
 # 说明：该脚本仅适用于python3，不兼容python2.
@@ -13,7 +12,6 @@ import sys
 import os
 import json
 import re
-import codecs
 from pprint import pprint
 
 storyDataList = []    # 全局变量，StroyData按行读取生成的list
@@ -24,7 +22,7 @@ def fileLineFeed(lang):
     global colonIndexs
     colonCount = 0    # '::'出现的次数
     txtfile = 'Data/StoryData_' + lang + '.txt'
-    with codecs.open(txtfile, "r","utf-8") as f:
+    with open(txtfile,'r') as f:
         global storyDataList    # 全局变量
         storyDataList = f.read().splitlines();    # 按行读取文本到一个 list，文本的每一行是一个 list 元素
     # 记录前两次‘::’的索引
