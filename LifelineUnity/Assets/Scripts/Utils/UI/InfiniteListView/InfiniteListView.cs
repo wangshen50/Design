@@ -213,7 +213,7 @@ namespace UI_2_SuperScroll
             }
         }
 
-        public bool IsContentTouchEnd()
+        public bool IsContentTouchEnd(float allowOffset = 5.0f)
         {
             var count = _activeElementList.Count;
             if (count <= 0)
@@ -228,7 +228,7 @@ namespace UI_2_SuperScroll
                     tailEle.CachedRectTransform.GetWorldCorners(_elementWorldCorners);
                     var bottomPos = _viewportRectTransform.InverseTransformPoint( _elementWorldCorners[0]).y;
                     var viewportBottomPos = _viewportRectLocalCorners[0].y;
-                    if(bottomPos >= viewportBottomPos) // allow little offset
+                    if(bottomPos + allowOffset >= viewportBottomPos) // allow little offset
                         return true;
                 }
 

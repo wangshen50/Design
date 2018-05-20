@@ -44,6 +44,9 @@ public class MainUI : MonoBehaviour {
     {
         playButton.gameObject.SetActive(false);
         replayButton.gameObject.SetActive(false);
+
+
+        SetToNewestMessage();
     }
     public void OnReplayGame()
     {
@@ -84,7 +87,7 @@ public class MainUI : MonoBehaviour {
         if (_nextToShowMessageIndex >= lst.Count)
             return;
 
-        bool reachEnd = mainListView.IsContentTouchEnd();
+        bool reachEnd = mainListView.IsContentTouchEnd(GameApp.Instance.allowOffset);
 
         _showingMessagetList.Add(lst[_nextToShowMessageIndex]);
 
@@ -92,6 +95,18 @@ public class MainUI : MonoBehaviour {
 
         if (reachEnd)
             mainListView.MovePanelToElementIndex(_nextToShowMessageIndex, 0);
+
+        _currentTimer = 0;
+        _nextToShowMessageIndex++;
+    }
+
+    public void SetToNewestMessage()
+    {
+        var lst = GameApp.Instance.messageManager.historyDataList;
+        _nextToShowMessageIndex = lst.Count - 1;
+
+        mainListView.SetListElementCount(lst.Count);
+        mainListView.MovePanelToElementIndex(_nextToShowMessageIndex, 0);
 
         _currentTimer = 0;
         _nextToShowMessageIndex++;

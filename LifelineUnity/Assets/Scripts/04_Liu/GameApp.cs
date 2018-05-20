@@ -26,6 +26,7 @@ public class GameApp : MonoBehaviour {
     [Tooltip("每隔多少秒弹出下一条信息，如果为负数，表示不会根据时间弹出")]
     public float timerInterval = -1.5f;
     public float clickThrehold = 10.0f;
+    public float allowOffset = 50.0f;
     #endregion Message
 
     #region Data
@@ -46,7 +47,11 @@ public class GameApp : MonoBehaviour {
     }
     #endregion  Sound
 
-    private string status_savePath;
+    [NonSerialized]
+    public string status_savePath = "/status.json";
+
+    [NonSerialized]
+    public string history_savePath = "/history.json";
     public bool m_isGameOver = false;
 
     private void Awake()
@@ -57,7 +62,8 @@ public class GameApp : MonoBehaviour {
 
         LoadStoryData();
 
-        status_savePath = Application.persistentDataPath + "/status.json";
+        status_savePath = Application.persistentDataPath + status_savePath;
+        history_savePath = Application.persistentDataPath + history_savePath;
 
         mainUI.Init();
     }
@@ -98,7 +104,20 @@ public class GameApp : MonoBehaviour {
     public void SaveStatusData(string scene)
     {
         status["atScene"] = scene;
-        status.SaveToFile(status_savePath);
+
+        JSONArray a = new JSONArray();
+        foreach(var h in messageManager.historyDataList)
+        {
+            var node = h.ToJSONNode();
+            a.Add(node);
+        }
+
+        JSONClass saveData = new JSONClass();
+        saveData["status"] = status;
+        saveData["history"] = a;
+        saveData.SaveToFile(status_savePath);
+
+        //status.SaveToFile(status_savePath);
     }
 
     /// <summary>
@@ -109,7 +128,12 @@ public class GameApp : MonoBehaviour {
     {
         if (File.Exists(status_savePath))
         {
-            status = JSONNode.LoadFromFile(status_savePath);
+            Debug.Log(status_savePath);
+            var saveData = JSONNode.LoadFromFile(status_savePath);
+            status = saveData["status"];
+
+            var history = saveData["history"];
+            messageManager.OnLoadHistoryData(history);
         }
         else
         {
@@ -117,11 +141,13 @@ public class GameApp : MonoBehaviour {
         }
 
     }
+
     #endregion StatusData
 
     public void PlayGame()
     {
         LoadStatusData();
+        ParseText.AtScene(this, status["atScene"]);
 
         mainUI.OnPlayGame();
     }

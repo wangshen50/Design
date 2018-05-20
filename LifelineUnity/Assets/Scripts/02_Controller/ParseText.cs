@@ -81,28 +81,8 @@ public static class ParseText
         //JSONArray choice = cm.choices[int.Parse(line.Substring(19, line.Length - 21))]["actions"].AsArray;
 
         cm.messageManager.AddOneChoice(choose);
-        /*
-        ChoiceObject.SetChoiceButton(cm.m_view, new Dictionary<string, Action<string>> {
-            // choiceButtonOne
-            {choice[0]["choice"], message => {
-                ActionFunction(cm, choice, message, 0);
-            }},
-            // choiceButtonTwo
-            {choice[1]["choice"], message => {
-                ActionFunction(cm, choice, message, 1);
-            }}
-         });
-         */
     }
 
-    static void ActionFunction(GameApp cm, JSONArray choice, string message, int index)
-    {
-        string newScence = choice[index]["identifier"];
-        //ChoiceObject.ReplayMessage(cm.m_view, message);
-        cm.status["atScene"] = newScence;
-        cm.SaveStatusData(newScence);
-        // SaveStatusData(scene);
-    }
 
     static void AddLeftChats(GameApp cm, string line)
     {
