@@ -1,3 +1,4 @@
+#encoding:utf-8
 #!/usr/bin/env python3
 # 
 # 说明：该脚本仅适用于python3，不兼容python2.
@@ -112,7 +113,7 @@ def toScenes(lang):
     scenesAll = dict(zip(sceneKey, sceneValue))
     scenes_file = 'Data/scenes_' + lang + '.json'
     with open(scenes_file,'w') as f:
-	    json.dump(scenesAll,f, ensure_ascii = False)
+	    json.dump(scenesAll,f, ensure_ascii = False, indent = 4)
     # print(scenesAll)
     
 # 生成categories.json
@@ -137,7 +138,7 @@ def toChoices(lang):
     # pprint(choices)
     choices_file = 'Data/choices_' + lang + '.json'
     with open(choices_file,'w') as f:
-	    json.dump(choices, f, ensure_ascii = False) # ensure_ascii=False 处理中文
+	    json.dump(choices, f, ensure_ascii = False, indent = 4) # ensure_ascii=False 处理中文
            
 if __name__ == '__main__':
     fileLineFeed('cn')
