@@ -17,7 +17,6 @@ public class MainUI : MonoBehaviour {
 
     int _nextToShowMessageIndex = 0;
     float _currentTimer = 0.0f;
-    List<MessageBase> _showingMessagetList = new List<MessageBase>();
 
 
     private void Start()
@@ -56,6 +55,8 @@ public class MainUI : MonoBehaviour {
 
     private void Update()
     {
+        if (!GameApp.Instance)
+            return;
         var lst = GameApp.Instance.messageManager.historyDataList;
         if(_nextToShowMessageIndex < lst.Count)
         {
@@ -88,8 +89,6 @@ public class MainUI : MonoBehaviour {
             return;
 
         bool reachEnd = mainListView.IsContentTouchEnd(GameApp.Instance.allowOffset);
-
-        _showingMessagetList.Add(lst[_nextToShowMessageIndex]);
 
         mainListView.SetListElementCount(_nextToShowMessageIndex + 1, false);
 
@@ -143,6 +142,17 @@ public class MainUI : MonoBehaviour {
         }
 
         return null;
+    }
+
+    public void OnRevertToMessage()
+    {
+        var lst = GameApp.Instance.messageManager.historyDataList;
+
+        mainListView.SetListElementCount(lst.Count, false);
+        mainListView.MovePanelToElementIndex(lst.Count - 1, 0);
+
+        _nextToShowMessageIndex = lst.Count;
+        _currentTimer = 0;
     }
 
 }

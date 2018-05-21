@@ -52,7 +52,10 @@
 
 
 :: whois
+<<if $toldname is false>>
 <<set $toldname = true>>
+<<revert [[launch]]>>
+<<endif>>
 哎呀呀呀，抱歉。应该刚才就可以用了。
 刚才我太激动了。
 我的名字叫Taylor。 我是，或者说，我曾经是星船瓦利亚号的一名船员。

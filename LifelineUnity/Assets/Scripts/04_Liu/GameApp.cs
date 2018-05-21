@@ -164,9 +164,9 @@ public class GameApp : MonoBehaviour {
         mainUI.replayButton.gameObject.SetActive(true);
     }
 
-    public void OnMessagetListChange()
+    public void OnRevertToMessage()
     {
-        //mainUI.mainListView.SetListElementCount(messageManager.historyDataList.Count, false);
+        mainUI.OnRevertToMessage();
     }
 
 

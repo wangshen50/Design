@@ -51,7 +51,8 @@ public static class ParseText
             else if (line.StartsWith("<<set")) ParseText.HandleSet(cm, line);
             else if (line.StartsWith("[[")) ParseText.ToNewScene(cm, line);
             else if (line.StartsWith("<<category")) ParseText.HandleChoice(cm, line, scene);
-            else ParseText.AddLeftChats(cm, line);
+            else if (line.StartsWith("<<revert ")) { ParseText.HandleRevert(cm, line); break; }
+            else ParseText.AddLeftChats(cm, line, scene);
         }
     }
     static void HandleSet(GameApp cm, string line)
@@ -84,16 +85,27 @@ public static class ParseText
     }
 
 
-    static void AddLeftChats(GameApp cm, string line)
+    static void AddLeftChats(GameApp cm, string line, string scene)
     {
         if (line.Contains("$pills") || line.Contains("$glowrods") || line.Contains("$power"))
         {
             // 替换$pills、$glowrods 和 $power
             string newLine = line.Replace("$pills", cm.status["pills"]).Replace("$glowrods", cm.status["glowrods"]).Replace("$power", cm.status["power"]);
-            cm.messageManager.AddOneNormalMessage(newLine);
+            cm.messageManager.AddOneNormalMessage(newLine, scene);
         }
         else
-            cm.messageManager.AddOneNormalMessage(line);
+            cm.messageManager.AddOneNormalMessage(line, scene);
+    }
+
+    public static void HandleRevert(GameApp cm, string line)
+    {
+        //Debug.Log("revert to:" + line);
+        var scene = line.Substring(11, line.Length - 15);
+        //Debug.Log("revert to:substring: " + content);
+
+        cm.messageManager.RevertTo(scene);
+
+        cm.SaveStatusData(scene);
     }
 }
 

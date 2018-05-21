@@ -93,6 +93,7 @@ public class ChooseMessageData : MessageBase
 public class NormalMessageData : MessageBase
 {
     public string message;
+    public string belongingScene;
 
     public override JSONNode ToJSONNode()
     {
@@ -137,13 +138,13 @@ public class MessageManager  {
         a.SaveToFile(GameApp.Instance.history_savePath);
     }
 
-    public void AddOneNormalMessage(string str)
+    public void AddOneNormalMessage(string str, string scene)
     {
         NormalMessageData message = new NormalMessageData();
         message.message = str;
+        message.belongingScene = scene;
 
         historyDataList.Add(message);
-        GameApp.Instance.OnMessagetListChange();
     }
 
     /// <summary>
@@ -171,29 +172,35 @@ public class MessageManager  {
         data.actions[1].identifier = choiceArr[1]["identifier"];
 
         historyDataList.Add(data);
-        GameApp.Instance.OnMessagetListChange();
     }
 
-    public void AddOneSelectedChoice(JSONNode choices, int selectedIndex)
+    public void RevertTo(string scene)
     {
-        ChooseMessageData data = new ChooseMessageData();
-        data.choiceNode = choices;
+        Debug.Log("revertTo " + scene);
+        bool find = false;
+        for(int i = historyDataList.Count - 1; i >= 0; i--)
+        {
+            var message = historyDataList[i] as NormalMessageData;
+            if (message != null)
+            {
+                if(message.belongingScene == scene)
+                {
+                    find = true;
+                    historyDataList.RemoveAt(i);
+                }else 
+                {
+                    if (find)
+                        break;
 
-        data.identifier = choices["identifier"];
+                    historyDataList.RemoveAt(i);
+                }
+            }else {
 
-        data.selectedIndex = selectedIndex;
+                historyDataList.RemoveAt(i);
+            }
+        }
 
-        var choiceArr = choices["actions"].AsArray;
-        data.actions = new ChoiceAction[2];
-        data.actions[0] = new ChoiceAction();
-        data.actions[0].choice = choiceArr[0]["choice"];
-        data.actions[0].identifier = choiceArr[0]["identifier"];
-
-        data.actions[1] = new ChoiceAction();
-        data.actions[1].choice = choiceArr[1]["choice"];
-        data.actions[1].identifier = choiceArr[1]["identifier"];
-
-        historyDataList.Add(data);
-        GameApp.Instance.OnMessagetListChange();
+        GameApp.Instance.OnRevertToMessage();
     }
+
 }
