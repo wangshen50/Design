@@ -13,6 +13,7 @@ import sys
 import os
 import json
 import re
+import codecs
 from pprint import pprint
 
 storyDataList = []    # 全局变量，StroyData按行读取生成的list
@@ -23,7 +24,7 @@ def fileLineFeed(lang):
     global colonIndexs
     colonCount = 0    # '::'出现的次数
     txtfile = 'Data/StoryData_' + lang + '.txt'
-    with open(txtfile,'r') as f:
+    with codecs.open(txtfile, "r","utf-8") as f:
         global storyDataList    # 全局变量
         storyDataList = f.read().splitlines();    # 按行读取文本到一个 list，文本的每一行是一个 list 元素
     # 记录前两次‘::’的索引
@@ -112,7 +113,8 @@ def toScenes(lang):
         sceneValue.append(scenes)
     scenesAll = dict(zip(sceneKey, sceneValue))
     scenes_file = 'Data/scenes_' + lang + '.json'
-    with open(scenes_file,'w') as f:
+    with codecs.open(scenes_file, "w","utf-8") as f:
+    #with open(scenes_file,'w') as f:
 	    json.dump(scenesAll,f, ensure_ascii = False, indent = 4)
     # print(scenesAll)
     
@@ -137,7 +139,8 @@ def toChoices(lang):
             lineIndex = lineIndex + 1 
     # pprint(choices)
     choices_file = 'Data/choices_' + lang + '.json'
-    with open(choices_file,'w') as f:
+    with codecs.open(choices_file, "w","utf-8") as f:
+    #with open(choices_file,'w') as f:
 	    json.dump(choices, f, ensure_ascii = False, indent = 4) # ensure_ascii=False 处理中文
            
 if __name__ == '__main__':
