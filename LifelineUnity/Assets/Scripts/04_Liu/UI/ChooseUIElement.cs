@@ -7,9 +7,11 @@ using UI_2_SuperScroll;
 public class ChooseUIElement : UIInGroupElement<ChooseMessageData> {
     public Text choice1Text;
     public Button choice1Btn;
+    public GameObject selectedText1;
 
     public Text choice2Text;
     public Button choice2Btn;
+    public GameObject selectedText2;
 
     public string selectedPrefix;
 
@@ -39,6 +41,25 @@ public class ChooseUIElement : UIInGroupElement<ChooseMessageData> {
             choice1Btn.onClick.RemoveAllListeners();
             choice2Btn.onClick.RemoveAllListeners();
         }
+
+        if(GameApp.Instance.status[data.actions[0].identifier].AsBool)
+        {
+            selectedText1.SetActive(true);
+            choice1Btn.onClick.RemoveAllListeners();
+        }else
+        {
+            selectedText1.SetActive(false);
+        }
+
+        if(GameApp.Instance.status[data.actions[1].identifier].AsBool)
+        {
+            selectedText2.SetActive(true);
+            choice2Btn.onClick.RemoveAllListeners();
+        }else
+        {
+            selectedText2.SetActive(false);
+        }
+
     }
 
     private void OnSelect(int selectedIndex)

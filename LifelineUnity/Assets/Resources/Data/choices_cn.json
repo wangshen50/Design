@@ -1,4440 +1,4440 @@
 [
     {
-        "identifier": "lifeline0", 
         "actions": [
             {
-                "identifier": "whois", 
-                "choice": "谁在说话？"
-            }, 
+                "choice": "谁在说话？",
+                "identifier": "whois"
+            },
             {
-                "identifier": "messagereceived", 
-                "choice": "我收到了。"
+                "choice": "我收到了。",
+                "identifier": "messagereceived"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline0"
+    },
     {
-        "identifier": "lifeline1", 
         "actions": [
             {
-                "identifier": "Variainfo", 
-                "choice": "瓦利亚号？"
-            }, 
+                "choice": "瓦利亚号？",
+                "identifier": "Variainfo"
+            },
             {
-                "identifier": "whathappened", 
-                "choice": "曾经是？发生什么了？"
+                "choice": "曾经是？发生什么了？",
+                "identifier": "whathappened"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline1"
+    },
     {
-        "identifier": "lifeline2", 
         "actions": [
             {
-                "identifier": "dontknow", 
-                "choice": "你怎么知道的？"
-            }, 
+                "choice": "你怎么知道的？",
+                "identifier": "dontknow"
+            },
             {
-                "identifier": "usemap", 
-                "choice": "你可以用下地图呀。"
+                "choice": "你可以用下地图呀。",
+                "identifier": "usemap"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline2"
+    },
     {
-        "identifier": "lifeline3", 
         "actions": [
             {
-                "identifier": "calmdown", 
-                "choice": "好吧，冷静点。"
-            }, 
+                "choice": "好吧，冷静点。",
+                "identifier": "calmdown"
+            },
             {
-                "identifier": "whoatakeiteasy", 
-                "choice": "哇哦，放轻松啊。"
+                "choice": "哇哦，放轻松啊。",
+                "identifier": "whoatakeiteasy"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline3"
+    },
     {
-        "identifier": "lifeline4", 
         "actions": [
             {
-                "identifier": "justbreathe", 
-                "choice": "放轻松，伙计，深呼吸。"
-            }, 
+                "choice": "放轻松，伙计，深呼吸。",
+                "identifier": "justbreathe"
+            },
             {
-                "identifier": "talkColby", 
-                "choice": "想谈谈Colby吗"
+                "choice": "想谈谈Colby吗",
+                "identifier": "talkColby"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline4"
+    },
     {
-        "identifier": "lifeline5", 
         "actions": [
             {
-                "identifier": "whereareyou", 
-                "choice": "好的，那么你现在在哪儿？"
-            }, 
+                "choice": "好的，那么你现在在哪儿？",
+                "identifier": "whereareyou"
+            },
             {
-                "identifier": "areyouallright", 
-                "choice": "你受伤了吗？"
+                "choice": "你受伤了吗？",
+                "identifier": "areyouallright"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline5"
+    },
     {
-        "identifier": "lifeline6", 
         "actions": [
             {
-                "identifier": "whereareyou", 
-                "choice": "你现在在哪儿？"
-            }, 
+                "choice": "你现在在哪儿？",
+                "identifier": "whereareyou"
+            },
             {
-                "identifier": "areyouallright", 
-                "choice": "你受伤了吗？"
+                "choice": "你受伤了吗？",
+                "identifier": "areyouallright"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline6"
+    },
     {
-        "identifier": "lifeline7", 
         "actions": [
             {
-                "identifier": "whois", 
-                "choice": "你是谁？"
-            }, 
+                "choice": "你是谁？",
+                "identifier": "whois"
+            },
             {
-                "identifier": "whathappened", 
-                "choice": "发生什么了？"
+                "choice": "发生什么了？",
+                "identifier": "whathappened"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline7"
+    },
     {
-        "identifier": "lifeline8", 
         "actions": [
             {
-                "identifier": "areyouallright", 
-                "choice": "你还好吗？"
-            }, 
+                "choice": "你还好吗？",
+                "identifier": "areyouallright"
+            },
             {
-                "identifier": "whereareyou", 
-                "choice": "你现在在哪儿？"
+                "choice": "你现在在哪儿？",
+                "identifier": "whereareyou"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline8"
+    },
     {
-        "identifier": "lifeline9", 
         "actions": [
             {
-                "identifier": "dontknow", 
-                "choice": "你真的没有一点办法吗？"
-            }, 
+                "choice": "你真的没有一点办法吗？",
+                "identifier": "dontknow"
+            },
             {
-                "identifier": "areyouallright", 
-                "choice": "抱歉，那你还好吗？"
+                "choice": "抱歉，那你还好吗？",
+                "identifier": "areyouallright"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline9"
+    },
     {
-        "identifier": "lifeline10", 
         "actions": [
             {
-                "identifier": "calmdown", 
-                "choice": "一切都会好的，冷静点。"
-            }, 
+                "choice": "一切都会好的，冷静点。",
+                "identifier": "calmdown"
+            },
             {
-                "identifier": "dontbeababy", 
-                "choice": "别耍小孩子脾气。"
+                "choice": "别耍小孩子脾气。",
+                "identifier": "dontbeababy"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline10"
+    },
     {
-        "identifier": "lifeline11", 
         "actions": [
             {
-                "identifier": "sorryaboutearlier", 
-                "choice": "抱歉了啊。"
-            }, 
+                "choice": "抱歉了啊。",
+                "identifier": "sorryaboutearlier"
+            },
             {
-                "identifier": "thickerskin", 
-                "choice": "你还嫩着呢。"
+                "choice": "你还嫩着呢。",
+                "identifier": "thickerskin"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline11"
+    },
     {
-        "identifier": "lifeline12", 
         "actions": [
             {
-                "identifier": "whereareyou", 
-                "choice": "你知道你在哪吗？"
-            }, 
+                "choice": "你知道你在哪吗？",
+                "identifier": "whereareyou"
+            },
             {
-                "identifier": "areyouallright", 
-                "choice": "你还好吗？"
+                "choice": "你还好吗？",
+                "identifier": "areyouallright"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline12"
+    },
     {
-        "identifier": "lifeline13", 
         "actions": [
             {
-                "identifier": "describehere", 
-                "choice": "描述下你所在的位置。"
-            }, 
+                "choice": "描述下你所在的位置。",
+                "identifier": "describehere"
+            },
             {
-                "identifier": "talkColby", 
-                "choice": "想谈谈Colby吗？"
+                "choice": "想谈谈Colby吗？",
+                "identifier": "talkColby"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline13"
+    },
     {
-        "identifier": "lifeline14", 
         "actions": [
             {
-                "identifier": "sorrytoe", 
-                "choice": "为你的脚趾感到抱歉，机灵鬼。"
-            }, 
+                "choice": "为你的脚趾感到抱歉，机灵鬼。",
+                "identifier": "sorrytoe"
+            },
             {
-                "identifier": "leastprepared", 
-                "choice": "“准备得最不充分”？"
+                "choice": "“准备得最不充分”？",
+                "identifier": "leastprepared"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline14"
+    },
     {
-        "identifier": "lifeline15", 
         "actions": [
             {
-                "identifier": "smartkid", 
-                "choice": "哦，聪明。"
-            }, 
+                "choice": "哦，聪明。",
+                "identifier": "smartkid"
+            },
             {
-                "identifier": "whereareyou", 
-                "choice": "好的，那现在你在哪儿？"
+                "choice": "好的，那现在你在哪儿？",
+                "identifier": "whereareyou"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline15"
+    },
     {
-        "identifier": "lifeline16", 
         "actions": [
             {
-                "identifier": "thanksforsharing", 
-                "choice": "能听你分享她的故事真好。"
-            }, 
+                "choice": "能听你分享她的故事真好。",
+                "identifier": "thanksforsharing"
+            },
             {
-                "identifier": "describehere", 
-                "choice": "描述一下你所在的位置。"
+                "choice": "描述一下你所在的位置。",
+                "identifier": "describehere"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline16"
+    },
     {
-        "identifier": "lifeline17", 
         "actions": [
             {
-                "identifier": "coffeesoundsgood", 
-                "choice": "听起来不错哦。"
-            }, 
+                "choice": "听起来不错哦。",
+                "identifier": "coffeesoundsgood"
+            },
             {
-                "identifier": "describehere", 
-                "choice": "描述一下你现在的位置。"
+                "choice": "描述一下你现在的位置。",
+                "identifier": "describehere"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline17"
+    },
     {
-        "identifier": "lifeline18", 
         "actions": [
             {
-                "identifier": "sorrytoe", 
-                "choice": "为你的伤脚趾感到抱歉，爱因斯坦。"
-            }, 
+                "choice": "为你的伤脚趾感到抱歉，爱因斯坦。",
+                "identifier": "sorrytoe"
+            },
             {
-                "identifier": "whereareyou", 
-                "choice": "收到请回答，你现在在哪儿。"
+                "choice": "收到请回答，你现在在哪儿。",
+                "identifier": "whereareyou"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline18"
+    },
     {
-        "identifier": "lifeline19", 
         "actions": [
             {
-                "identifier": "wayaround", 
-                "choice": "在附近找条路。"
-            }, 
+                "choice": "在附近找条路。",
+                "identifier": "wayaround"
+            },
             {
-                "identifier": "backtocrash", 
-                "choice": "回到残骸那儿去。"
+                "choice": "回到残骸那儿去。",
+                "identifier": "backtocrash"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline19"
+    },
     {
-        "identifier": "lifeline20", 
         "actions": [
             {
-                "identifier": "movetopeak", 
-                "choice": "那最好现在就行动呀。"
-            }, 
+                "choice": "那最好现在就行动呀。",
+                "identifier": "movetopeak"
+            },
             {
-                "identifier": "gotocrash", 
-                "choice": "好吧，去残骸看看吧。"
+                "choice": "好吧，去残骸看看吧。",
+                "identifier": "gotocrash"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline20"
+    },
     {
-        "identifier": "lifeline21", 
         "actions": [
             {
-                "identifier": "gotocrash", 
-                "choice": "检查残骸。"
-            }, 
+                "choice": "检查残骸。",
+                "identifier": "gotocrash"
+            },
             {
-                "identifier": "gotopeak", 
-                "choice": "去山峰。"
+                "choice": "去山峰。",
+                "identifier": "gotopeak"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline21"
+    },
     {
-        "identifier": "lifeline22", 
         "actions": [
             {
-                "identifier": "saveyourenergy", 
-                "choice": "保存点体力吧"
-            }, 
+                "choice": "保存点体力吧",
+                "identifier": "saveyourenergy"
+            },
             {
-                "identifier": "describehere", 
-                "choice": "描述下你周围的环境。"
+                "choice": "描述下你周围的环境。",
+                "identifier": "describehere"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline22"
+    },
     {
-        "identifier": "lifeline23", 
         "actions": [
             {
-                "identifier": "movingonforcap", 
-                "choice": "继续向前走。"
-            }, 
+                "choice": "继续向前走。",
+                "identifier": "movingonforcap"
+            },
             {
-                "identifier": "dontforgetcap", 
-                "choice": "一定要记住她的存在。"
+                "choice": "一定要记住她的存在。",
+                "identifier": "dontforgetcap"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline23"
+    },
     {
-        "identifier": "lifeline24", 
         "actions": [
             {
-                "identifier": "backtocrash", 
-                "choice": "那就回去吧。"
-            }, 
+                "choice": "那就回去吧。",
+                "identifier": "backtocrash"
+            },
             {
-                "identifier": "rockclimbing", 
-                "choice": "试一下攀岩嘛。"
+                "choice": "试一下攀岩嘛。",
+                "identifier": "rockclimbing"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline24"
+    },
     {
-        "identifier": "lifeline25", 
         "actions": [
             {
-                "identifier": "sorryforcap", 
-                "choice": "请节哀。"
-            }, 
+                "choice": "请节哀。",
+                "identifier": "sorryforcap"
+            },
             {
-                "identifier": "keepitforcap", 
-                "choice": "把它带上！"
+                "choice": "把它带上！",
+                "identifier": "keepitforcap"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline25"
+    },
     {
-        "identifier": "lifeline26", 
         "actions": [
             {
-                "identifier": "movingonforcap", 
-                "choice": "继续向前走。"
-            }, 
+                "choice": "继续向前走。",
+                "identifier": "movingonforcap"
+            },
             {
-                "identifier": "dontforgetcap", 
-                "choice": "铭记于心。"
+                "choice": "铭记于心。",
+                "identifier": "dontforgetcap"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline26"
+    },
     {
-        "identifier": "lifeline27", 
         "actions": [
             {
-                "identifier": "burythemall", 
-                "choice": "纪念逝者。"
-            }, 
+                "choice": "纪念逝者。",
+                "identifier": "burythemall"
+            },
             {
-                "identifier": "justkeepmovingcrewcapdead", 
-                "choice": "继续向前。"
+                "choice": "继续向前。",
+                "identifier": "justkeepmovingcrewcapdead"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline27"
+    },
     {
-        "identifier": "lifeline28", 
         "actions": [
             {
-                "identifier": "branchingcorridor", 
-                "choice": "不错的主意，继续探索。"
-            }, 
+                "choice": "不错的主意，继续探索。",
+                "identifier": "branchingcorridor"
+            },
             {
-                "identifier": "dignow", 
-                "choice": "现在就挖，迟点探索。"
+                "choice": "现在就挖，迟点探索。",
+                "identifier": "dignow"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline28"
+    },
     {
-        "identifier": "lifeline29", 
         "actions": [
             {
-                "identifier": "gogetcap", 
-                "choice": "当然，去把舰长带上。"
-            }, 
+                "choice": "当然，去把舰长带上。",
+                "identifier": "gogetcap"
+            },
             {
-                "identifier": "betterkeepdigging", 
-                "choice": "最好继续挖吧。"
+                "choice": "最好继续挖吧。",
+                "identifier": "betterkeepdigging"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline29"
+    },
     {
-        "identifier": "lifeline30", 
         "actions": [
             {
-                "identifier": "takeabreak", 
-                "choice": "好吧，休息会儿。"
-            }, 
+                "choice": "好吧，休息会儿。",
+                "identifier": "takeabreak"
+            },
             {
-                "identifier": "gogetcap", 
-                "choice": "好吧，去把舰长带上。"
+                "choice": "好吧，去把舰长带上。",
+                "identifier": "gogetcap"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline30"
+    },
     {
-        "identifier": "lifeline31", 
         "actions": [
             {
-                "identifier": "checkcrewqs", 
-                "choice": "寻找其他船员。"
-            }, 
+                "choice": "寻找其他船员。",
+                "identifier": "checkcrewqs"
+            },
             {
-                "identifier": "totheflightdeck", 
-                "choice": "检查一下飞行甲板。"
+                "choice": "检查一下飞行甲板。",
+                "identifier": "totheflightdeck"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline31"
+    },
     {
-        "identifier": "lifeline32", 
         "actions": [
             {
-                "identifier": "pullitout", 
-                "choice": "把那玩意儿拉出来。"
-            }, 
+                "choice": "把那玩意儿拉出来。",
+                "identifier": "pullitout"
+            },
             {
-                "identifier": "leaveitin", 
-                "choice": "不要管那东西。"
+                "choice": "不要管那东西。",
+                "identifier": "leaveitin"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline32"
+    },
     {
-        "identifier": "lifeline33", 
         "actions": [
             {
-                "identifier": "lookformeds", 
-                "choice": "找些医疗包之类的。"
-            }, 
+                "choice": "找些医疗包之类的。",
+                "identifier": "lookformeds"
+            },
             {
-                "identifier": "makehercomfy", 
-                "choice": "让她舒服点。"
+                "choice": "让她舒服点。",
+                "identifier": "makehercomfy"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline33"
+    },
     {
-        "identifier": "lifeline34", 
         "actions": [
             {
-                "identifier": "movethecap2", 
-                "choice": "移动舰长。"
-            }, 
+                "choice": "移动舰长。",
+                "identifier": "movethecap2"
+            },
             {
-                "identifier": "movethepod", 
-                "choice": "移动吊舱。"
+                "choice": "移动吊舱。",
+                "identifier": "movethepod"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline34"
+    },
     {
-        "identifier": "lifeline35", 
         "actions": [
             {
-                "identifier": "movingonforcap2", 
-                "choice": "继续探索。"
-            }, 
+                "choice": "继续探索。",
+                "identifier": "movingonforcap2"
+            },
             {
-                "identifier": "dontforgetcap2", 
-                "choice": "不要忘了她。"
+                "choice": "不要忘了她。",
+                "identifier": "dontforgetcap2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline35"
+    },
     {
-        "identifier": "lifeline36", 
         "actions": [
             {
-                "identifier": "digthosegraves", 
-                "choice": "挖好那些坟墓。"
-            }, 
+                "choice": "挖好那些坟墓。",
+                "identifier": "digthosegraves"
+            },
             {
-                "identifier": "branchingcorridor", 
-                "choice": "继续探索。"
+                "choice": "继续探索。",
+                "identifier": "branchingcorridor"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline36"
+    },
     {
-        "identifier": "lifeline37", 
         "actions": [
             {
-                "identifier": "dontcelebrateyet", 
-                "choice": "别高兴得太早。"
-            }, 
+                "choice": "别高兴得太早。",
+                "identifier": "dontcelebrateyet"
+            },
             {
-                "identifier": "takearest", 
-                "choice": "你应该休息会儿了。"
+                "choice": "你应该休息会儿了。",
+                "identifier": "takearest"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline37"
+    },
     {
-        "identifier": "lifeline38", 
         "actions": [
             {
-                "identifier": "digthosegraves", 
-                "choice": "挖坟。"
-            }, 
+                "choice": "挖坟。",
+                "identifier": "digthosegraves"
+            },
             {
-                "identifier": "branchingcorridor", 
-                "choice": "继续探索。"
+                "choice": "继续探索。",
+                "identifier": "branchingcorridor"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline38"
+    },
     {
-        "identifier": "lifeline39", 
         "actions": [
             {
-                "identifier": "movethecaptain", 
-                "choice": "带舰长过来。"
-            }, 
+                "choice": "带舰长过来。",
+                "identifier": "movethecaptain"
+            },
             {
-                "identifier": "movethepod", 
-                "choice": "把医疗舱带过去。"
+                "choice": "把医疗舱带过去。",
+                "identifier": "movethepod"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline39"
+    },
     {
-        "identifier": "lifeline40", 
         "actions": [
             {
-                "identifier": "digthosegraves", 
-                "choice": "去挖坟。"
-            }, 
+                "choice": "去挖坟。",
+                "identifier": "digthosegraves"
+            },
             {
-                "identifier": "branchingcorridor", 
-                "choice": "接着探索。"
+                "choice": "接着探索。",
+                "identifier": "branchingcorridor"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline40"
+    },
     {
-        "identifier": "lifeline41", 
         "actions": [
             {
-                "identifier": "sorrycapalive", 
-                "choice": "我感到很抱歉。"
-            }, 
+                "choice": "我感到很抱歉。",
+                "identifier": "sorrycapalive"
+            },
             {
-                "identifier": "keepmovingcapalive", 
-                "choice": "继续向前走。"
+                "choice": "继续向前走。",
+                "identifier": "keepmovingcapalive"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline41"
+    },
     {
-        "identifier": "lifeline42", 
         "actions": [
             {
-                "identifier": "pullitoutcrewfirst", 
-                "choice": "把它扯出来。"
-            }, 
+                "choice": "把它扯出来。",
+                "identifier": "pullitoutcrewfirst"
+            },
             {
-                "identifier": "leaveitincrewfirst", 
-                "choice": "不要拔。"
+                "choice": "不要拔。",
+                "identifier": "leaveitincrewfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline42"
+    },
     {
-        "identifier": "lifeline43", 
         "actions": [
             {
-                "identifier": "lookformedscrewfirst", 
-                "choice": "去找一个急救包。"
-            }, 
+                "choice": "去找一个急救包。",
+                "identifier": "lookformedscrewfirst"
+            },
             {
-                "identifier": "makehercomfycrewfirst", 
-                "choice": "让她安息吧。"
+                "choice": "让她安息吧。",
+                "identifier": "makehercomfycrewfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline43"
+    },
     {
-        "identifier": "lifeline44", 
         "actions": [
             {
-                "identifier": "burythemallcapalive", 
-                "choice": "当然，缅怀他们吧。"
-            }, 
+                "choice": "当然，缅怀他们吧。",
+                "identifier": "burythemallcapalive"
+            },
             {
-                "identifier": "gogetmeds", 
-                "choice": "迟点再说吧，先去找医疗用品。"
+                "choice": "迟点再说吧，先去找医疗用品。",
+                "identifier": "gogetmeds"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline44"
+    },
     {
-        "identifier": "lifeline45", 
         "actions": [
             {
-                "identifier": "movingonforcapcrewfirst", 
-                "choice": "继续向前走。"
-            }, 
+                "choice": "继续向前走。",
+                "identifier": "movingonforcapcrewfirst"
+            },
             {
-                "identifier": "dontforgetcapcrewfirst", 
-                "choice": "永远不要忘记她的存在。"
+                "choice": "永远不要忘记她的存在。",
+                "identifier": "dontforgetcapcrewfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline45"
+    },
     {
-        "identifier": "lifeline46", 
         "actions": [
             {
-                "identifier": "burythemallcrewfirst", 
-                "choice": "缅怀逝者。"
-            }, 
+                "choice": "缅怀逝者。",
+                "identifier": "burythemallcrewfirst"
+            },
             {
-                "identifier": "justkeepmovingcrewfirst", 
-                "choice": "继续走。"
+                "choice": "继续走。",
+                "identifier": "justkeepmovingcrewfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline46"
+    },
     {
-        "identifier": "lifeline47", 
         "actions": [
             {
-                "identifier": "sorryforcapcrewfirst", 
-                "choice": "我感到很抱歉。"
-            }, 
+                "choice": "我感到很抱歉。",
+                "identifier": "sorryforcapcrewfirst"
+            },
             {
-                "identifier": "keepitforcapcrewfirst", 
-                "choice": "把它带上！"
+                "choice": "把它带上！",
+                "identifier": "keepitforcapcrewfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline47"
+    },
     {
-        "identifier": "lifeline48", 
         "actions": [
             {
-                "identifier": "branchingcorridor", 
-                "choice": "的确，继续探索吧。"
-            }, 
+                "choice": "的确，继续探索吧。",
+                "identifier": "branchingcorridor"
+            },
             {
-                "identifier": "dignowcrewfirst", 
-                "choice": "现在就挖。"
+                "choice": "现在就挖。",
+                "identifier": "dignowcrewfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline48"
+    },
     {
-        "identifier": "lifeline49", 
         "actions": [
             {
-                "identifier": "walktoflightdeck", 
-                "choice": "去检查甲板。"
-            }, 
+                "choice": "去检查甲板。",
+                "identifier": "walktoflightdeck"
+            },
             {
-                "identifier": "betterkeepdiggingcrewfirst", 
-                "choice": "继续挖。"
+                "choice": "继续挖。",
+                "identifier": "betterkeepdiggingcrewfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline49"
+    },
     {
-        "identifier": "lifeline50", 
         "actions": [
             {
-                "identifier": "takeabreakcrewfirst", 
-                "choice": "好吧，休息一下吧。"
-            }, 
+                "choice": "好吧，休息一下吧。",
+                "identifier": "takeabreakcrewfirst"
+            },
             {
-                "identifier": "walktoflightdeck", 
-                "choice": "那就去检查甲板。"
+                "choice": "那就去检查甲板。",
+                "identifier": "walktoflightdeck"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline50"
+    },
     {
-        "identifier": "lifeline51", 
         "actions": [
             {
-                "identifier": "digthosegraves", 
-                "choice": "继续挖坟。"
-            }, 
+                "choice": "继续挖坟。",
+                "identifier": "digthosegraves"
+            },
             {
-                "identifier": "branchingcorridor", 
-                "choice": "继续探索。"
+                "choice": "继续探索。",
+                "identifier": "branchingcorridor"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline51"
+    },
     {
-        "identifier": "lifeline52", 
         "actions": [
             {
-                "identifier": "movingonforcapcrewfirst", 
-                "choice": "继续向前吧。"
-            }, 
+                "choice": "继续向前吧。",
+                "identifier": "movingonforcapcrewfirst"
+            },
             {
-                "identifier": "dontforgetcapcrewfirst", 
-                "choice": "一定不能忘了她。"
+                "choice": "一定不能忘了她。",
+                "identifier": "dontforgetcapcrewfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline52"
+    },
     {
-        "identifier": "lifeline53", 
         "actions": [
             {
-                "identifier": "walktoflightdeck", 
-                "choice": "去飞行舱找找"
-            }, 
+                "choice": "去飞行舱找找",
+                "identifier": "walktoflightdeck"
+            },
             {
-                "identifier": "branchingcorridor", 
-                "choice": "继续探索深处"
+                "choice": "继续探索深处",
+                "identifier": "branchingcorridor"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline53"
+    },
     {
-        "identifier": "lifeline54", 
         "actions": [
             {
-                "identifier": "trythegalley", 
-                "choice": "去厨房看看。"
-            }, 
+                "choice": "去厨房看看。",
+                "identifier": "trythegalley"
+            },
             {
-                "identifier": "trythelab", 
-                "choice": "去实验室看看。"
+                "choice": "去实验室看看。",
+                "identifier": "trythelab"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline54"
+    },
     {
-        "identifier": "lifeline55", 
         "actions": [
             {
-                "identifier": "tryinggalleydoor", 
-                "choice": "继续锤门。"
-            }, 
+                "choice": "继续锤门。",
+                "identifier": "tryinggalleydoor"
+            },
             {
-                "identifier": "stoptryinggalleydoor", 
-                "choice": "暂时别管门了。"
+                "choice": "暂时别管门了。",
+                "identifier": "stoptryinggalleydoor"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline55"
+    },
     {
-        "identifier": "lifeline56", 
         "actions": [
             {
-                "identifier": "trythegalley", 
-                "choice": "去厨房搞人类食物！"
-            }, 
+                "choice": "去厨房搞人类食物！",
+                "identifier": "trythegalley"
+            },
             {
-                "identifier": "eatratfood", 
-                "choice": "就吃老鼠丸子吧你！"
+                "choice": "就吃老鼠丸子吧你！",
+                "identifier": "eatratfood"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline56"
+    },
     {
-        "identifier": "lifeline57", 
         "actions": [
             {
-                "identifier": "tryinggalleydoor", 
-                "choice": "再去试试厨房吧。"
-            }, 
+                "choice": "再去试试厨房吧。",
+                "identifier": "tryinggalleydoor"
+            },
             {
-                "identifier": "eatratfood", 
-                "choice": "就吃老鼠丸子吧你！"
+                "choice": "就吃老鼠丸子吧你！",
+                "identifier": "eatratfood"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline57"
+    },
     {
-        "identifier": "lifeline58", 
         "actions": [
             {
-                "identifier": "tryinggalleydoor", 
-                "choice": "回去再试试厨房吧。"
-            }, 
+                "choice": "回去再试试厨房吧。",
+                "identifier": "tryinggalleydoor"
+            },
             {
-                "identifier": "sleepingplans", 
-                "choice": "准备洗洗睡吧。"
+                "choice": "准备洗洗睡吧。",
+                "identifier": "sleepingplans"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline58"
+    },
     {
-        "identifier": "lifeline59", 
         "actions": [
             {
-                "identifier": "trythegalley", 
-                "choice": "试试厨房吧。"
-            }, 
+                "choice": "试试厨房吧。",
+                "identifier": "trythegalley"
+            },
             {
-                "identifier": "sleepingplans", 
-                "choice": "准备洗洗睡吧。"
+                "choice": "准备洗洗睡吧。",
+                "identifier": "sleepingplans"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline59"
+    },
     {
-        "identifier": "lifeline60", 
         "actions": [
             {
-                "identifier": "trythelab", 
-                "choice": "去实验室看看。"
-            }, 
+                "choice": "去实验室看看。",
+                "identifier": "trythelab"
+            },
             {
-                "identifier": "sleepingplans", 
-                "choice": "准备洗洗睡吧。"
+                "choice": "准备洗洗睡吧。",
+                "identifier": "sleepingplans"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline60"
+    },
     {
-        "identifier": "lifeline61", 
         "actions": [
             {
-                "identifier": "trythelab", 
-                "choice": "去实验室看看。"
-            }, 
+                "choice": "去实验室看看。",
+                "identifier": "trythelab"
+            },
             {
-                "identifier": "sleepingplans", 
-                "choice": "准备洗洗睡吧。"
+                "choice": "准备洗洗睡吧。",
+                "identifier": "sleepingplans"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline61"
+    },
     {
-        "identifier": "lifeline62", 
         "actions": [
             {
-                "identifier": "powerpodcapalive", 
-                "choice": "继续给医疗仓供电。"
-            }, 
+                "choice": "继续给医疗仓供电。",
+                "identifier": "powerpodcapalive"
+            },
             {
-                "identifier": "powerbeaconcapalive", 
-                "choice": "给失事信标供电。"
+                "choice": "给失事信标供电。",
+                "identifier": "powerbeaconcapalive"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline62"
+    },
     {
-        "identifier": "lifeline63", 
         "actions": [
             {
-                "identifier": "powerturretcapdead", 
-                "choice": "给小炮台供电。"
-            }, 
+                "choice": "给小炮台供电。",
+                "identifier": "powerturretcapdead"
+            },
             {
-                "identifier": "powerbeaconcapdead", 
-                "choice": "给失事信标供电。"
+                "choice": "给失事信标供电。",
+                "identifier": "powerbeaconcapdead"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline63"
+    },
     {
-        "identifier": "lifeline64", 
         "actions": [
             {
-                "identifier": "powerpodcapalive", 
-                "choice": "不。还是给医疗仓供电吧。"
-            }, 
+                "choice": "不。还是给医疗仓供电吧。",
+                "identifier": "powerpodcapalive"
+            },
             {
-                "identifier": "reallybeaconcapalive", 
-                "choice": "你需要失事信标。"
+                "choice": "你需要失事信标。",
+                "identifier": "reallybeaconcapalive"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline64"
+    },
     {
-        "identifier": "lifeline65", 
         "actions": [
             {
-                "identifier": "sleepintheship", 
-                "choice": "留在船里。"
-            }, 
+                "choice": "留在船里。",
+                "identifier": "sleepintheship"
+            },
             {
-                "identifier": "sleepbythereactor", 
-                "choice": "去反应堆旁边。"
+                "choice": "去反应堆旁边。",
+                "identifier": "sleepbythereactor"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline65"
+    },
     {
-        "identifier": "lifeline66", 
         "actions": [
             {
-                "identifier": "ughthanksforsharing", 
-                "choice": "额，谢谢分享。"
-            }, 
+                "choice": "额，谢谢分享。",
+                "identifier": "ughthanksforsharing"
+            },
             {
-                "identifier": "radiationsicknessmaybe", 
-                "choice": "或许是辐射产物？"
+                "choice": "或许是辐射产物？",
+                "identifier": "radiationsicknessmaybe"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline66"
+    },
     {
-        "identifier": "lifeline67", 
         "actions": [
             {
-                "identifier": "nothanksspit", 
-                "choice": "不用了，总之谢谢了。"
-            }, 
+                "choice": "不用了，总之谢谢了。",
+                "identifier": "nothanksspit"
+            },
             {
-                "identifier": "normalspit", 
-                "choice": "和普通的口水一样啊，你这sb。"
+                "choice": "和普通的口水一样啊，你这sb。",
+                "identifier": "normalspit"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline67"
+    },
     {
-        "identifier": "lifeline68", 
         "actions": [
             {
-                "identifier": "trythatcorridor", 
-                "choice": "去那条走廊。"
-            }, 
+                "choice": "去那条走廊。",
+                "identifier": "trythatcorridor"
+            },
             {
-                "identifier": "trytherest", 
-                "choice": "去别的地方探索一下。"
+                "choice": "去别的地方探索一下。",
+                "identifier": "trytherest"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline68"
+    },
     {
-        "identifier": "lifeline69", 
         "actions": [
             {
-                "identifier": "trythegalleydaytwo", 
-                "choice": "去厨房试试。"
-            }, 
+                "choice": "去厨房试试。",
+                "identifier": "trythegalleydaytwo"
+            },
             {
-                "identifier": "trythelabdaytwo", 
-                "choice": "去实验室试试。"
+                "choice": "去实验室试试。",
+                "identifier": "trythelabdaytwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline69"
+    },
     {
-        "identifier": "lifeline70", 
         "actions": [
             {
-                "identifier": "trythelabdaytwo", 
-                "choice": "去实验室看看。"
-            }, 
+                "choice": "去实验室看看。",
+                "identifier": "trythelabdaytwo"
+            },
             {
-                "identifier": "moveondaytwo", 
-                "choice": "趁着天亮去别处看看。"
+                "choice": "趁着天亮去别处看看。",
+                "identifier": "moveondaytwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline70"
+    },
     {
-        "identifier": "lifeline71", 
         "actions": [
             {
-                "identifier": "tryinggalleydoor2a", 
-                "choice": "继续锤门。"
-            }, 
+                "choice": "继续锤门。",
+                "identifier": "tryinggalleydoor2a"
+            },
             {
-                "identifier": "stoptryinggalleydoor2a", 
-                "choice": "暂时别管门了。"
+                "choice": "暂时别管门了。",
+                "identifier": "stoptryinggalleydoor2a"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline71"
+    },
     {
-        "identifier": "lifeline72", 
         "actions": [
             {
-                "identifier": "trythegalleydaytwo", 
-                "choice": "人类的食物！去厨房试试。"
-            }, 
+                "choice": "人类的食物！去厨房试试。",
+                "identifier": "trythegalleydaytwo"
+            },
             {
-                "identifier": "eatratfooddaytwo", 
-                "choice": "就吃老鼠丸子吧你。"
+                "choice": "就吃老鼠丸子吧你。",
+                "identifier": "eatratfooddaytwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline72"
+    },
     {
-        "identifier": "lifeline73", 
         "actions": [
             {
-                "identifier": "tryinggalleydoor2a", 
-                "choice": "再去厨房试试。"
-            }, 
+                "choice": "再去厨房试试。",
+                "identifier": "tryinggalleydoor2a"
+            },
             {
-                "identifier": "eatratfooddaytwo", 
-                "choice": "就吃老鼠丸子吧你。"
+                "choice": "就吃老鼠丸子吧你。",
+                "identifier": "eatratfooddaytwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline73"
+    },
     {
-        "identifier": "lifeline74", 
         "actions": [
             {
-                "identifier": "trythelabdaytwo", 
-                "choice": "试试实验室吧。"
-            }, 
+                "choice": "试试实验室吧。",
+                "identifier": "trythelabdaytwo"
+            },
             {
-                "identifier": "moveondaytwo", 
-                "choice": "开始探索吧。"
+                "choice": "开始探索吧。",
+                "identifier": "moveondaytwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline74"
+    },
     {
-        "identifier": "lifeline75", 
         "actions": [
             {
-                "identifier": "trythegalleydaytwo", 
-                "choice": "去厨房试试。"
-            }, 
+                "choice": "去厨房试试。",
+                "identifier": "trythegalleydaytwo"
+            },
             {
-                "identifier": "moveondaytwo", 
-                "choice": "趁着天亮开始探索。"
+                "choice": "趁着天亮开始探索。",
+                "identifier": "moveondaytwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline75"
+    },
     {
-        "identifier": "lifeline76", 
         "actions": [
             {
-                "identifier": "wayaroundboulderdaytwo", 
-                "choice": "在附近转转。"
-            }, 
+                "choice": "在附近转转。",
+                "identifier": "wayaroundboulderdaytwo"
+            },
             {
-                "identifier": "backoutofcanyondaytwo", 
-                "choice": "退出峡谷。"
+                "choice": "退出峡谷。",
+                "identifier": "backoutofcanyondaytwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline76"
+    },
     {
-        "identifier": "lifeline77", 
         "actions": [
             {
-                "identifier": "straightacross", 
-                "choice": "直走过去。"
-            }, 
+                "choice": "直走过去。",
+                "identifier": "straightacross"
+            },
             {
-                "identifier": "walkperimeter", 
-                "choice": "绕一周过去。"
+                "choice": "绕一周过去。",
+                "identifier": "walkperimeter"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline77"
+    },
     {
-        "identifier": "lifeline78", 
         "actions": [
             {
-                "identifier": "keepmovingaheadcrater", 
-                "choice": "继续前进。"
-            }, 
+                "choice": "继续前进。",
+                "identifier": "keepmovingaheadcrater"
+            },
             {
-                "identifier": "climbbackupcrater", 
-                "choice": "爬回去先。"
+                "choice": "爬回去先。",
+                "identifier": "climbbackupcrater"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline78"
+    },
     {
-        "identifier": "lifeline79", 
         "actions": [
             {
-                "identifier": "noworrieswannachat", 
-                "choice": "莫慌，想聊聊吗？"
-            }, 
+                "choice": "莫慌，想聊聊吗？",
+                "identifier": "noworrieswannachat"
+            },
             {
-                "identifier": "sorrycantchat", 
-                "choice": "抱歉。懒得理你。"
+                "choice": "抱歉。懒得理你。",
+                "identifier": "sorrycantchat"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline79"
+    },
     {
-        "identifier": "lifeline80", 
         "actions": [
             {
-                "identifier": "allthetimeincraters", 
-                "choice": "当然。经常的事儿。"
-            }, 
+                "choice": "当然。经常的事儿。",
+                "identifier": "allthetimeincraters"
+            },
             {
-                "identifier": "neverincraters", 
-                "choice": "没有这种殊荣。"
+                "choice": "没有这种殊荣。",
+                "identifier": "neverincraters"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline80"
+    },
     {
-        "identifier": "lifeline81", 
         "actions": [
             {
-                "identifier": "keepwanderingcrater", 
-                "choice": "继续走吧你。"
-            }, 
+                "choice": "继续走吧你。",
+                "identifier": "keepwanderingcrater"
+            },
             {
-                "identifier": "iwantcoffee", 
-                "choice": "现在我想喝咖啡了。"
+                "choice": "现在我想喝咖啡了。",
+                "identifier": "iwantcoffee"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline81"
+    },
     {
-        "identifier": "lifeline82", 
         "actions": [
             {
-                "identifier": "clockwisecrater", 
-                "choice": "顺时针！"
-            }, 
+                "choice": "顺时针！",
+                "identifier": "clockwisecrater"
+            },
             {
-                "identifier": "counterclockwisecrater", 
-                "choice": "逆时针！"
+                "choice": "逆时针！",
+                "identifier": "counterclockwisecrater"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline82"
+    },
     {
-        "identifier": "lifeline83", 
         "actions": [
             {
-                "identifier": "backoutofcanyondaytwo", 
-                "choice": "返回到峡谷外面。"
-            }, 
+                "choice": "返回到峡谷外面。",
+                "identifier": "backoutofcanyondaytwo"
+            },
             {
-                "identifier": "tryclimbingdaytwo", 
-                "choice": "尝试着爬一下吧。"
+                "choice": "尝试着爬一下吧。",
+                "identifier": "tryclimbingdaytwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline83"
+    },
     {
-        "identifier": "lifeline84", 
         "actions": [
             {
-                "identifier": "explorecaravel", 
-                "choice": "去探索残骸。"
-            }, 
+                "choice": "去探索残骸。",
+                "identifier": "explorecaravel"
+            },
             {
-                "identifier": "stayclearofcaravel", 
-                "choice": "离它远一点。"
+                "choice": "离它远一点。",
+                "identifier": "stayclearofcaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline84"
+    },
     {
-        "identifier": "lifeline85", 
         "actions": [
             {
-                "identifier": "noworrieswannachatperimeter", 
-                "choice": "莫慌，想聊聊吗？"
-            }, 
+                "choice": "莫慌，想聊聊吗？",
+                "identifier": "noworrieswannachatperimeter"
+            },
             {
-                "identifier": "sorrycantchatperimeter", 
-                "choice": "抱歉，懒得理你。"
+                "choice": "抱歉，懒得理你。",
+                "identifier": "sorrycantchatperimeter"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline85"
+    },
     {
-        "identifier": "lifeline86", 
         "actions": [
             {
-                "identifier": "allthetimeincratersperimeter", 
-                "choice": "当然。经常的事儿。"
-            }, 
+                "choice": "当然。经常的事儿。",
+                "identifier": "allthetimeincratersperimeter"
+            },
             {
-                "identifier": "neverincratersperimeter", 
-                "choice": "没有这种殊荣。"
+                "choice": "没有这种殊荣。",
+                "identifier": "neverincratersperimeter"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline86"
+    },
     {
-        "identifier": "lifeline87", 
         "actions": [
             {
-                "identifier": "keepwanderingcraterperimeter", 
-                "choice": "继续走吧你。"
-            }, 
+                "choice": "继续走吧你。",
+                "identifier": "keepwanderingcraterperimeter"
+            },
             {
-                "identifier": "iwantcoffeeperimeter", 
-                "choice": "现在我想喝咖啡了。"
+                "choice": "现在我想喝咖啡了。",
+                "identifier": "iwantcoffeeperimeter"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline87"
+    },
     {
-        "identifier": "lifeline88", 
         "actions": [
             {
-                "identifier": "postcaravelassessment", 
-                "choice": "对的，继续往山峰走。"
-            }, 
+                "choice": "对的，继续往山峰走。",
+                "identifier": "postcaravelassessment"
+            },
             {
-                "identifier": "checkcaravelafterall", 
-                "choice": "也许应该去探索下船。"
+                "choice": "也许应该去探索下船。",
+                "identifier": "checkcaravelafterall"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline88"
+    },
     {
-        "identifier": "lifeline89", 
         "actions": [
             {
-                "identifier": "turnbackfromcaravel", 
-                "choice": "好吧，回头吧。"
-            }, 
+                "choice": "好吧，回头吧。",
+                "identifier": "turnbackfromcaravel"
+            },
             {
-                "identifier": "goexplorecaravel", 
-                "choice": "不，你应该继续探索。"
+                "choice": "不，你应该继续探索。",
+                "identifier": "goexplorecaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline89"
+    },
     {
-        "identifier": "lifeline90", 
         "actions": [
             {
-                "identifier": "goinsidecaravel", 
-                "choice": "你必须继续探索。"
-            }, 
+                "choice": "你必须继续探索。",
+                "identifier": "goinsidecaravel"
+            },
             {
-                "identifier": "dontgoinsidecaravel", 
-                "choice": "听起来怕怕的，回去吧。"
+                "choice": "听起来怕怕的，回去吧。",
+                "identifier": "dontgoinsidecaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline90"
+    },
     {
-        "identifier": "lifeline91", 
         "actions": [
             {
-                "identifier": "eastcaravel", 
-                "choice": "试试东边的大厅。"
-            }, 
+                "choice": "试试东边的大厅。",
+                "identifier": "eastcaravel"
+            },
             {
-                "identifier": "westcaravel", 
-                "choice": "去西边的大厅。"
+                "choice": "去西边的大厅。",
+                "identifier": "westcaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline91"
+    },
     {
-        "identifier": "lifeline92", 
         "actions": [
             {
-                "identifier": "aheadincaravel", 
-                "choice": "继续直走。"
-            }, 
+                "choice": "继续直走。",
+                "identifier": "aheadincaravel"
+            },
             {
-                "identifier": "turnaroundincaravel", 
-                "choice": "转一圈看看。"
+                "choice": "转一圈看看。",
+                "identifier": "turnaroundincaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline92"
+    },
     {
-        "identifier": "lifeline93", 
         "actions": [
             {
-                "identifier": "aheadincaravel", 
-                "choice": "继续直走。"
-            }, 
+                "choice": "继续直走。",
+                "identifier": "aheadincaravel"
+            },
             {
-                "identifier": "turnaroundincaravel", 
-                "choice": "转一圈看看。"
+                "choice": "转一圈看看。",
+                "identifier": "turnaroundincaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline93"
+    },
     {
-        "identifier": "lifeline94", 
         "actions": [
             {
-                "identifier": "getoutofcaravel", 
-                "choice": "快点跑出去。"
-            }, 
+                "choice": "快点跑出去。",
+                "identifier": "getoutofcaravel"
+            },
             {
-                "identifier": "keepexploringcaravel", 
-                "choice": "继续探索里面。"
+                "choice": "继续探索里面。",
+                "identifier": "keepexploringcaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline94"
+    },
     {
-        "identifier": "lifeline95", 
         "actions": [
             {
-                "identifier": "turnaroundincaravel", 
-                "choice": "好吧，回去吧。"
-            }, 
+                "choice": "好吧，回去吧。",
+                "identifier": "turnaroundincaravel"
+            },
             {
-                "identifier": "fasterincaravel", 
-                "choice": "继续前进，走快点。"
+                "choice": "继续前进，走快点。",
+                "identifier": "fasterincaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline95"
+    },
     {
-        "identifier": "lifeline96", 
         "actions": [
             {
-                "identifier": "leavecaravelnow", 
-                "choice": "同意，快跑！"
-            }, 
+                "choice": "同意，快跑！",
+                "identifier": "leavecaravelnow"
+            },
             {
-                "identifier": "findscuttling", 
-                "choice": "去看看那是啥。"
+                "choice": "去看看那是啥。",
+                "identifier": "findscuttling"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline96"
+    },
     {
-        "identifier": "lifeline97", 
         "actions": [
             {
-                "identifier": "leavecaravelmedroom", 
-                "choice": "好吧，离开那里。"
-            }, 
+                "choice": "好吧，离开那里。",
+                "identifier": "leavecaravelmedroom"
+            },
             {
-                "identifier": "riskitcaravelmedroom", 
-                "choice": "冒险试试；继续探索。"
+                "choice": "冒险试试；继续探索。",
+                "identifier": "riskitcaravelmedroom"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline97"
+    },
     {
-        "identifier": "lifeline98", 
         "actions": [
             {
-                "identifier": "takepillone", 
-                "choice": "现在使用一片止痛片。"
-            }, 
+                "choice": "现在使用一片止痛片。",
+                "identifier": "takepillone"
+            },
             {
-                "identifier": "takenopill", 
-                "choice": "暂时先保留。"
+                "choice": "暂时先保留。",
+                "identifier": "takenopill"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline98"
+    },
     {
-        "identifier": "lifeline99", 
         "actions": [
             {
-                "identifier": "leavecaravelmedroom", 
-                "choice": "好吧，离开那里。"
-            }, 
+                "choice": "好吧，离开那里。",
+                "identifier": "leavecaravelmedroom"
+            },
             {
-                "identifier": "riskitcaravelmedroom", 
-                "choice": "继续探索。"
+                "choice": "继续探索。",
+                "identifier": "riskitcaravelmedroom"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline99"
+    },
     {
-        "identifier": "lifeline100", 
         "actions": [
             {
-                "identifier": "keepexploringcaravel", 
-                "choice": "说真的，我们得去找到它。"
-            }, 
+                "choice": "说真的，我们得去找到它。",
+                "identifier": "keepexploringcaravel"
+            },
             {
-                "identifier": "leavecaravelnow", 
-                "choice": "好吧，离开那里。"
+                "choice": "好吧，离开那里。",
+                "identifier": "leavecaravelnow"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline100"
+    },
     {
-        "identifier": "lifeline101", 
         "actions": [
             {
-                "identifier": "leavecaravelnow", 
-                "choice": "我同意，现在马上离开。"
-            }, 
+                "choice": "我同意，现在马上离开。",
+                "identifier": "leavecaravelnow"
+            },
             {
-                "identifier": "findscuttling", 
-                "choice": "找出那是什么东西。"
+                "choice": "找出那是什么东西。",
+                "identifier": "findscuttling"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline101"
+    },
     {
-        "identifier": "lifeline102", 
         "actions": [
             {
-                "identifier": "returntothecaravel", 
-                "choice": "回飞行舱。"
-            }, 
+                "choice": "回飞行舱。",
+                "identifier": "returntothecaravel"
+            },
             {
-                "identifier": "pushontoVaria", 
-                "choice": "向Varia前进。"
+                "choice": "向Varia前进。",
+                "identifier": "pushontoVaria"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline102"
+    },
     {
-        "identifier": "lifeline103", 
         "actions": [
             {
-                "identifier": "Variaalltheway", 
-                "choice": "继续向Varia前进。"
-            }, 
+                "choice": "继续向Varia前进。",
+                "identifier": "Variaalltheway"
+            },
             {
-                "identifier": "returntothecaravel", 
-                "choice": "回飞行舱。"
+                "choice": "回飞行舱。",
+                "identifier": "returntothecaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline103"
+    },
     {
-        "identifier": "lifeline104", 
         "actions": [
             {
-                "identifier": "leaveginnyatcaravel", 
-                "choice": "把这个ginny留在那里。"
-            }, 
+                "choice": "把这个ginny留在那里。",
+                "identifier": "leaveginnyatcaravel"
+            },
             {
-                "identifier": "takeginnywithyou", 
-                "choice": "把ginny带上。"
+                "choice": "把ginny带上。",
+                "identifier": "takeginnywithyou"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline104"
+    },
     {
-        "identifier": "lifeline105", 
         "actions": [
             {
-                "identifier": "keepgoingtoVaria", 
-                "choice": "继续向Varia前进。"
-            }, 
+                "choice": "继续向Varia前进。",
+                "identifier": "keepgoingtoVaria"
+            },
             {
-                "identifier": "makecampatcaravel", 
-                "choice": "露营。"
+                "choice": "露营。",
+                "identifier": "makecampatcaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline105"
+    },
     {
-        "identifier": "lifeline106", 
         "actions": [
             {
-                "identifier": "onwardtothepeak", 
-                "choice": "继续向着山峰前进。"
-            }, 
+                "choice": "继续向着山峰前进。",
+                "identifier": "onwardtothepeak"
+            },
             {
-                "identifier": "turnbackwhileyoucan", 
-                "choice": "在你还能回去的时候就回去吧。"
+                "choice": "在你还能回去的时候就回去吧。",
+                "identifier": "turnbackwhileyoucan"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline106"
+    },
     {
-        "identifier": "lifeline107", 
         "actions": [
             {
-                "identifier": "keepgoingpeak", 
-                "choice": "继续向山峰前进。"
-            }, 
+                "choice": "继续向山峰前进。",
+                "identifier": "keepgoingpeak"
+            },
             {
-                "identifier": "turnbackwhileyoucan", 
-                "choice": "掉头回Varia。"
+                "choice": "掉头回Varia。",
+                "identifier": "turnbackwhileyoucan"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline107"
+    },
     {
-        "identifier": "lifeline108", 
         "actions": [
             {
-                "identifier": "tryahallwayagain", 
-                "choice": "选择一个走廊。"
-            }, 
+                "choice": "选择一个走廊。",
+                "identifier": "tryahallwayagain"
+            },
             {
-                "identifier": "backtomainhallfirst", 
-                "choice": "检查驾驶舱。"
+                "choice": "检查驾驶舱。",
+                "identifier": "backtomainhallfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline108"
+    },
     {
-        "identifier": "lifeline109", 
         "actions": [
             {
-                "identifier": "tryahallwayfirsttime", 
-                "choice": "选择一个走廊。"
-            }, 
+                "choice": "选择一个走廊。",
+                "identifier": "tryahallwayfirsttime"
+            },
             {
-                "identifier": "backtomainhallfirst", 
-                "choice": "检查驾驶舱。"
+                "choice": "检查驾驶舱。",
+                "identifier": "backtomainhallfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline109"
+    },
     {
-        "identifier": "lifeline110", 
         "actions": [
             {
-                "identifier": "turnbackwhileyoucan", 
-                "choice": "转身回去。"
-            }, 
+                "choice": "转身回去。",
+                "identifier": "turnbackwhileyoucan"
+            },
             {
-                "identifier": "pushaheadeveningtwo", 
-                "choice": "继续前进。"
+                "choice": "继续前进。",
+                "identifier": "pushaheadeveningtwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline110"
+    },
     {
-        "identifier": "lifeline111", 
         "actions": [
             {
-                "identifier": "eastcaravelfirsttime", 
-                "choice": "东边的走廊。"
-            }, 
+                "choice": "东边的走廊。",
+                "identifier": "eastcaravelfirsttime"
+            },
             {
-                "identifier": "westcaravelfirsttime", 
-                "choice": "西边的走廊"
+                "choice": "西边的走廊",
+                "identifier": "westcaravelfirsttime"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline111"
+    },
     {
-        "identifier": "lifeline112", 
         "actions": [
             {
-                "identifier": "tryandfailgalley", 
-                "choice": "继续尝试打开厨房的门。"
-            }, 
+                "choice": "继续尝试打开厨房的门。",
+                "identifier": "tryandfailgalley"
+            },
             {
-                "identifier": "backtomainhallfirst", 
-                "choice": "回到主要道。"
+                "choice": "回到主要道。",
+                "identifier": "backtomainhallfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline112"
+    },
     {
-        "identifier": "lifeline113", 
         "actions": [
             {
-                "identifier": "takepillonefirsttime", 
-                "choice": "现在使用一片止痛片。"
-            }, 
+                "choice": "现在使用一片止痛片。",
+                "identifier": "takepillonefirsttime"
+            },
             {
-                "identifier": "takenopillfirsttime", 
-                "choice": "暂时先保留。"
+                "choice": "暂时先保留。",
+                "identifier": "takenopillfirsttime"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline113"
+    },
     {
-        "identifier": "lifeline114", 
         "actions": [
             {
-                "identifier": "tryandfailgalley", 
-                "choice": "继续尝试打开厨房的门。"
-            }, 
+                "choice": "继续尝试打开厨房的门。",
+                "identifier": "tryandfailgalley"
+            },
             {
-                "identifier": "backtomainhallfirst", 
-                "choice": "回到主要道。"
+                "choice": "回到主要道。",
+                "identifier": "backtomainhallfirst"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline114"
+    },
     {
-        "identifier": "lifeline115", 
         "actions": [
             {
-                "identifier": "hookupproximityalarm", 
-                "choice": "连上警报系统。"
-            }, 
+                "choice": "连上警报系统。",
+                "identifier": "hookupproximityalarm"
+            },
             {
-                "identifier": "dontbotherwithalarm", 
-                "choice": "直接去睡觉。"
+                "choice": "直接去睡觉。",
+                "identifier": "dontbotherwithalarm"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline115"
+    },
     {
-        "identifier": "lifeline116", 
         "actions": [
             {
-                "identifier": "backtosleep", 
-                "choice": "对，回去睡觉。"
-            }, 
+                "choice": "对，回去睡觉。",
+                "identifier": "backtosleep"
+            },
             {
-                "identifier": "gochasenoise", 
-                "choice": "去看看是什么发出了噪音。"
+                "choice": "去看看是什么发出了噪音。",
+                "identifier": "gochasenoise"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline116"
+    },
     {
-        "identifier": "lifeline117", 
         "actions": [
             {
-                "identifier": "backtosleep", 
-                "choice": "好吧，回去睡觉。"
-            }, 
+                "choice": "好吧，回去睡觉。",
+                "identifier": "backtosleep"
+            },
             {
-                "identifier": "snipehunt", 
-                "choice": "不，追查噪音来源。"
+                "choice": "不，追查噪音来源。",
+                "identifier": "snipehunt"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline117"
+    },
     {
-        "identifier": "lifeline118", 
         "actions": [
             {
-                "identifier": "breakfastdaytwo", 
-                "choice": "去吃些早餐。"
-            }, 
+                "choice": "去吃些早餐。",
+                "identifier": "breakfastdaytwo"
+            },
             {
-                "identifier": "keepstudyingfootage", 
-                "choice": "继续观看监控记录。"
+                "choice": "继续观看监控记录。",
+                "identifier": "keepstudyingfootage"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline118"
+    },
     {
-        "identifier": "lifeline119", 
         "actions": [
             {
-                "identifier": "checkoutalarm", 
-                "choice": "检查警报器。"
-            }, 
+                "choice": "检查警报器。",
+                "identifier": "checkoutalarm"
+            },
             {
-                "identifier": "breakfastdaytwo", 
-                "choice": "吃些早餐。"
+                "choice": "吃些早餐。",
+                "identifier": "breakfastdaytwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline119"
+    },
     {
-        "identifier": "lifeline120", 
         "actions": [
             {
-                "identifier": "lookslikewhat", 
-                "choice": "看起来像什么？"
-            }, 
+                "choice": "看起来像什么？",
+                "identifier": "lookslikewhat"
+            },
             {
-                "identifier": "youareloopy", 
-                "choice": "对，很可能就只有你一个人。"
+                "choice": "对，很可能就只有你一个人。",
+                "identifier": "youareloopy"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline120"
+    },
     {
-        "identifier": "lifeline121", 
         "actions": [
             {
-                "identifier": "breakfastdaytwo", 
-                "choice": "去吃些早餐。"
-            }, 
+                "choice": "去吃些早餐。",
+                "identifier": "breakfastdaytwo"
+            },
             {
-                "identifier": "keepstudyingfootage", 
-                "choice": "继续观看监控记录。"
+                "choice": "继续观看监控记录。",
+                "identifier": "keepstudyingfootage"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline121"
+    },
     {
-        "identifier": "lifeline122", 
         "actions": [
             {
-                "identifier": "mmmmtasty", 
-                "choice": "嗯…真美味！"
-            }, 
+                "choice": "嗯…真美味！",
+                "identifier": "mmmmtasty"
+            },
             {
-                "identifier": "soundsgross", 
-                "choice": "听起来好恶心。"
+                "choice": "听起来好恶心。",
+                "identifier": "soundsgross"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline122"
+    },
     {
-        "identifier": "lifeline123", 
         "actions": [
             {
-                "identifier": "surecaravelgalley", 
-                "choice": "对，去试一试。"
-            }, 
+                "choice": "对，去试一试。",
+                "identifier": "surecaravelgalley"
+            },
             {
-                "identifier": "nocaravelgalley", 
-                "choice": "设法找到鼠粮来应付。"
+                "choice": "设法找到鼠粮来应付。",
+                "identifier": "nocaravelgalley"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline123"
+    },
     {
-        "identifier": "lifeline124", 
         "actions": [
             {
-                "identifier": "eatyouearnedit", 
-                "choice": "吃了吧！你自己取得的！"
-            }, 
+                "choice": "吃了吧！你自己取得的！",
+                "identifier": "eatyouearnedit"
+            },
             {
-                "identifier": "keepfishing", 
-                "choice": "继续抓。"
+                "choice": "继续抓。",
+                "identifier": "keepfishing"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline124"
+    },
     {
-        "identifier": "lifeline125", 
         "actions": [
             {
-                "identifier": "cgirat", 
-                "choice": "对，是CGI动画里的老鼠。"
-            }, 
+                "choice": "对，是CGI动画里的老鼠。",
+                "identifier": "cgirat"
+            },
             {
-                "identifier": "stewedveggies", 
-                "choice": "那是炖煮的蔬菜。"
+                "choice": "那是炖煮的蔬菜。",
+                "identifier": "stewedveggies"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline125"
+    },
     {
-        "identifier": "lifeline126", 
         "actions": [
             {
-                "identifier": "checkthelogs", 
-                "choice": "查看日志？"
-            }, 
+                "choice": "查看日志？",
+                "identifier": "checkthelogs"
+            },
             {
-                "identifier": "dontworryaboutit", 
-                "choice": "别想那么多了。"
+                "choice": "别想那么多了。",
+                "identifier": "dontworryaboutit"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline126"
+    },
     {
-        "identifier": "lifeline127", 
         "actions": [
             {
-                "identifier": "cgirat", 
-                "choice": "对，是CGI动画里的老鼠。"
-            }, 
+                "choice": "对，是CGI动画里的老鼠。",
+                "identifier": "cgirat"
+            },
             {
-                "identifier": "stewedveggies", 
-                "choice": "那是炖煮的蔬菜。"
+                "choice": "那是炖煮的蔬菜。",
+                "identifier": "stewedveggies"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline127"
+    },
     {
-        "identifier": "lifeline128", 
         "actions": [
             {
-                "identifier": "peakdaythree", 
-                "choice": "是的，去吧！"
-            }, 
+                "choice": "是的，去吧！",
+                "identifier": "peakdaythree"
+            },
             {
-                "identifier": "sincerelydoubt", 
-                "choice": "我真的存有疑虑。"
+                "choice": "我真的存有疑虑。",
+                "identifier": "sincerelydoubt"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline128"
+    },
     {
-        "identifier": "lifeline129", 
         "actions": [
             {
-                "identifier": "peakdaythree", 
-                "choice": "好吧，之后你应该去探查山峰。"
-            }, 
+                "choice": "好吧，之后你应该去探查山峰。",
+                "identifier": "peakdaythree"
+            },
             {
-                "identifier": "couldbedangerous", 
-                "choice": "有危险。"
+                "choice": "有危险。",
+                "identifier": "couldbedangerous"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline129"
+    },
     {
-        "identifier": "lifeline130", 
         "actions": [
             {
-                "identifier": "nocompass", 
-                "choice": "不带指南针出发。"
-            }, 
+                "choice": "不带指南针出发。",
+                "identifier": "nocompass"
+            },
             {
-                "identifier": "buildcompass", 
-                "choice": "给你自己造一个指南针。"
+                "choice": "给你自己造一个指南针。",
+                "identifier": "buildcompass"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline130"
+    },
     {
-        "identifier": "lifeline131", 
         "actions": [
             {
-                "identifier": "keeppeakdaythree", 
-                "choice": "对，继续走。"
-            }, 
+                "choice": "对，继续走。",
+                "identifier": "keeppeakdaythree"
+            },
             {
-                "identifier": "turnbackdaythree", 
-                "choice": "忘了这回事吧，回去。"
+                "choice": "忘了这回事吧，回去。",
+                "identifier": "turnbackdaythree"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline131"
+    },
     {
-        "identifier": "lifeline132", 
         "actions": [
             {
-                "identifier": "snacktime", 
-                "choice": "当然，那是你自己获取的。"
-            }, 
+                "choice": "当然，那是你自己获取的。",
+                "identifier": "snacktime"
+            },
             {
-                "identifier": "notsnacktime", 
-                "choice": "别浪费时间在吃零食上。"
+                "choice": "别浪费时间在吃零食上。",
+                "identifier": "notsnacktime"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline132"
+    },
     {
-        "identifier": "lifeline133", 
         "actions": [
             {
-                "identifier": "ratsnacks", 
-                "choice": "当然，那是你自己获取的。"
-            }, 
+                "choice": "当然，那是你自己获取的。",
+                "identifier": "ratsnacks"
+            },
             {
-                "identifier": "notsnacktime", 
-                "choice": "别浪费时间在吃零食上。"
+                "choice": "别浪费时间在吃零食上。",
+                "identifier": "notsnacktime"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline133"
+    },
     {
-        "identifier": "lifeline134", 
         "actions": [
             {
-                "identifier": "peakdaythree", 
-                "choice": "让我们祈祷是“好到顶”。"
-            }, 
+                "choice": "让我们祈祷是“好到顶”。",
+                "identifier": "peakdaythree"
+            },
             {
-                "identifier": "dontgobust", 
-                "choice": "我都”破产“了。"
+                "choice": "我都”破产“了。",
+                "identifier": "dontgobust"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline134"
+    },
     {
-        "identifier": "lifeline135", 
         "actions": [
             {
-                "identifier": "takearestyouloser", 
-                "choice": "至少先休息下。"
-            }, 
+                "choice": "至少先休息下。",
+                "identifier": "takearestyouloser"
+            },
             {
-                "identifier": "keeppeakdaythree", 
-                "choice": "不，继续向北走。"
+                "choice": "不，继续向北走。",
+                "identifier": "keeppeakdaythree"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline135"
+    },
     {
-        "identifier": "lifeline136", 
         "actions": [
             {
-                "identifier": "chiliwithbeans", 
-                "choice": "有豆子的。"
-            }, 
+                "choice": "有豆子的。",
+                "identifier": "chiliwithbeans"
+            },
             {
-                "identifier": "chilinobeans", 
-                "choice": "没有豆子的。"
+                "choice": "没有豆子的。",
+                "identifier": "chilinobeans"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline136"
+    },
     {
-        "identifier": "lifeline137", 
         "actions": [
             {
-                "identifier": "takeonepill", 
-                "choice": "当然，来一片。"
-            }, 
+                "choice": "当然，来一片。",
+                "identifier": "takeonepill"
+            },
             {
-                "identifier": "nopillrightnow", 
-                "choice": "过会再吃。"
+                "choice": "过会再吃。",
+                "identifier": "nopillrightnow"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline137"
+    },
     {
-        "identifier": "lifeline138", 
         "actions": [
             {
-                "identifier": "gointocrater", 
-                "choice": "是的，准备好了。"
-            }, 
+                "choice": "是的，准备好了。",
+                "identifier": "gointocrater"
+            },
             {
-                "identifier": "dontgointocrater", 
-                "choice": "还没，再等等吧。"
+                "choice": "还没，再等等吧。",
+                "identifier": "dontgointocrater"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline138"
+    },
     {
-        "identifier": "lifeline139", 
         "actions": [
             {
-                "identifier": "gobackinsidecaravel", 
-                "choice": "进去看看。"
-            }, 
+                "choice": "进去看看。",
+                "identifier": "gobackinsidecaravel"
+            },
             {
-                "identifier": "bypasscaravel", 
-                "choice": "不进去，前往Varia"
+                "choice": "不进去，前往Varia",
+                "identifier": "bypasscaravel"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline139"
+    },
     {
-        "identifier": "lifeline140", 
         "actions": [
             {
-                "identifier": "headbackforreal", 
-                "choice": "我确定，回来吧。"
-            }, 
+                "choice": "我确定，回来吧。",
+                "identifier": "headbackforreal"
+            },
             {
-                "identifier": "justkidding", 
-                "choice": "开玩笑的！进入火山口。"
+                "choice": "开玩笑的！进入火山口。",
+                "identifier": "justkidding"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline140"
+    },
     {
-        "identifier": "lifeline141", 
         "actions": [
             {
-                "identifier": "justkidding", 
-                "choice": "开个玩笑。"
-            }, 
+                "choice": "开个玩笑。",
+                "identifier": "justkidding"
+            },
             {
-                "identifier": "seriouslygiveup", 
-                "choice": "我是认真的，放弃吧。"
+                "choice": "我是认真的，放弃吧。",
+                "identifier": "seriouslygiveup"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline141"
+    },
     {
-        "identifier": "lifeline142", 
         "actions": [
             {
-                "identifier": "gobackinsidecaravel", 
-                "choice": "拿发电机。"
-            }, 
+                "choice": "拿发电机。",
+                "identifier": "gobackinsidecaravel"
+            },
             {
-                "identifier": "forgetthatginny", 
-                "choice": "不管发电机。"
+                "choice": "不管发电机。",
+                "identifier": "forgetthatginny"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline142"
+    },
     {
-        "identifier": "lifeline143", 
         "actions": [
             {
-                "identifier": "goodluckclimbing", 
-                "choice": "嗯，祝你好运。"
-            }, 
+                "choice": "嗯，祝你好运。",
+                "identifier": "goodluckclimbing"
+            },
             {
-                "identifier": "breakaleg", 
-                "choice": "给我断条腿回来。"
+                "choice": "给我断条腿回来。",
+                "identifier": "breakaleg"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline143"
+    },
     {
-        "identifier": "lifeline144", 
         "actions": [
             {
-                "identifier": "Variayetagain", 
-                "choice": "就这么做。"
-            }, 
+                "choice": "就这么做。",
+                "identifier": "Variayetagain"
+            },
             {
-                "identifier": "iwaswrong", 
-                "choice": "等等，我错了。"
+                "choice": "等等，我错了。",
+                "identifier": "iwaswrong"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline144"
+    },
     {
-        "identifier": "lifeline145", 
         "actions": [
             {
-                "identifier": "shrugokay", 
-                "choice": "当然了，快下去。"
-            }, 
+                "choice": "当然了，快下去。",
+                "identifier": "shrugokay"
+            },
             {
-                "identifier": "reallydont", 
-                "choice": "不，别这么做。"
+                "choice": "不，别这么做。",
+                "identifier": "reallydont"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline145"
+    },
     {
-        "identifier": "lifeline146", 
         "actions": [
             {
-                "identifier": "irememberthat", 
-                "choice": "是的，我记得。"
-            }, 
+                "choice": "是的，我记得。",
+                "identifier": "irememberthat"
+            },
             {
-                "identifier": "imissedyou", 
-                "choice": "我很挂记你。"
+                "choice": "我很挂记你。",
+                "identifier": "imissedyou"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline146"
+    },
     {
-        "identifier": "lifeline147", 
         "actions": [
             {
-                "identifier": "takepainkiller", 
-                "choice": "当然，来片药。"
-            }, 
+                "choice": "当然，来片药。",
+                "identifier": "takepainkiller"
+            },
             {
-                "identifier": "nopainkiller", 
-                "choice": "不了，忍忍就好。"
+                "choice": "不了，忍忍就好。",
+                "identifier": "nopainkiller"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline147"
+    },
     {
-        "identifier": "lifeline148", 
         "actions": [
             {
-                "identifier": "highlydoubtit", 
-                "choice": "我很怀疑。"
-            }, 
+                "choice": "我很怀疑。",
+                "identifier": "highlydoubtit"
+            },
             {
-                "identifier": "chewthemoff", 
-                "choice": "嗯，砍下来吃了。"
+                "choice": "嗯，砍下来吃了。",
+                "identifier": "chewthemoff"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline148"
+    },
     {
-        "identifier": "lifeline149", 
         "actions": [
             {
-                "identifier": "Variayetagainginny", 
-                "choice": "就这么做。"
-            }, 
+                "choice": "就这么做。",
+                "identifier": "Variayetagainginny"
+            },
             {
-                "identifier": "iwaswrong", 
-                "choice": "等等，我错了。"
+                "choice": "等等，我错了。",
+                "identifier": "iwaswrong"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline149"
+    },
     {
-        "identifier": "lifeline150", 
         "actions": [
             {
-                "identifier": "iforgiveyou", 
-                "choice": "我原谅你。"
-            }, 
+                "choice": "我原谅你。",
+                "identifier": "iforgiveyou"
+            },
             {
-                "identifier": "stillkindapissed", 
-                "choice": "还是有点生气。"
+                "choice": "还是有点生气。",
+                "identifier": "stillkindapissed"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline150"
+    },
     {
-        "identifier": "lifeline151", 
         "actions": [
             {
-                "identifier": "whatkey", 
-                "choice": "怎么说？"
-            }, 
+                "choice": "怎么说？",
+                "identifier": "whatkey"
+            },
             {
-                "identifier": "whatkey2", 
-                "choice": "回家的关键？"
+                "choice": "回家的关键？",
+                "identifier": "whatkey2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline151"
+    },
     {
-        "identifier": "lifeline152", 
         "actions": [
             {
-                "identifier": "layitonme", 
-                "choice": "说吧。"
-            }, 
+                "choice": "说吧。",
+                "identifier": "layitonme"
+            },
             {
-                "identifier": "preferredsilence", 
-                "choice": "不用了。"
+                "choice": "不用了。",
+                "identifier": "preferredsilence"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline152"
+    },
     {
-        "identifier": "lifeline153", 
         "actions": [
             {
-                "identifier": "yeahforgetit", 
-                "choice": "好吧，不提这事。"
-            }, 
+                "choice": "好吧，不提这事。",
+                "identifier": "yeahforgetit"
+            },
             {
-                "identifier": "waittellme", 
-                "choice": "等等，告诉我！"
+                "choice": "等等，告诉我！",
+                "identifier": "waittellme"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline153"
+    },
     {
-        "identifier": "lifeline154", 
         "actions": [
             {
-                "identifier": "waittellme", 
-                "choice": "对不起，跟我说说吧。"
-            }, 
+                "choice": "对不起，跟我说说吧。",
+                "identifier": "waittellme"
+            },
             {
-                "identifier": "shutupalready", 
-                "choice": "好了，别太在意。"
+                "choice": "好了，别太在意。",
+                "identifier": "shutupalready"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline154"
+    },
     {
-        "identifier": "lifeline155", 
         "actions": [
             {
-                "identifier": "reallyweird", 
-                "choice": "好吧，确实很奇怪。"
-            }, 
+                "choice": "好吧，确实很奇怪。",
+                "identifier": "reallyweird"
+            },
             {
-                "identifier": "justanillusion", 
-                "choice": "你肯定是出现幻觉了。"
+                "choice": "你肯定是出现幻觉了。",
+                "identifier": "justanillusion"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline155"
+    },
     {
-        "identifier": "lifeline156", 
         "actions": [
             {
-                "identifier": "waittellme", 
-                "choice": "说啊，告诉我。"
-            }, 
+                "choice": "说啊，告诉我。",
+                "identifier": "waittellme"
+            },
             {
-                "identifier": "shutupalready", 
-                "choice": "好吧。"
+                "choice": "好吧。",
+                "identifier": "shutupalready"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline156"
+    },
     {
-        "identifier": "lifeline157", 
         "actions": [
             {
-                "identifier": "itisnt", 
-                "choice": "那当然不可能。"
-            }, 
+                "choice": "那当然不可能。",
+                "identifier": "itisnt"
+            },
             {
-                "identifier": "sureyours", 
-                "choice": "你确定是你自己的靴印？"
+                "choice": "你确定是你自己的靴印？",
+                "identifier": "sureyours"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline157"
+    },
     {
-        "identifier": "lifeline158", 
         "actions": [
             {
-                "identifier": "itisnt", 
-                "choice": "那当然不可能。"
-            }, 
+                "choice": "那当然不可能。",
+                "identifier": "itisnt"
+            },
             {
-                "identifier": "sureyours", 
-                "choice": "你确定是你自己的靴印？"
+                "choice": "你确定是你自己的靴印？",
+                "identifier": "sureyours"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline158"
+    },
     {
-        "identifier": "lifeline159", 
         "actions": [
             {
-                "identifier": "scoutperimeter", 
-                "choice": "观察周边。"
-            }, 
+                "choice": "观察周边。",
+                "identifier": "scoutperimeter"
+            },
             {
-                "identifier": "checkopening", 
-                "choice": "检查通路。"
+                "choice": "检查通路。",
+                "identifier": "checkopening"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline159"
+    },
     {
-        "identifier": "lifeline160", 
         "actions": [
             {
-                "identifier": "gothroughdoor", 
-                "choice": "穿过门。"
-            }, 
+                "choice": "穿过门。",
+                "identifier": "gothroughdoor"
+            },
             {
-                "identifier": "exploresomemore", 
-                "choice": "多探索。"
+                "choice": "多探索。",
+                "identifier": "exploresomemore"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline160"
+    },
     {
-        "identifier": "lifeline161", 
         "actions": [
             {
-                "identifier": "whatdidyoufind", 
-                "choice": "那是什么?"
-            }, 
+                "choice": "那是什么?",
+                "identifier": "whatdidyoufind"
+            },
             {
-                "identifier": "areyouokay", 
-                "choice": "你还好吧?"
+                "choice": "你还好吧?",
+                "identifier": "areyouokay"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline161"
+    },
     {
-        "identifier": "lifeline162", 
         "actions": [
             {
-                "identifier": "whatdidyoufind", 
-                "choice": "怎么了?"
-            }, 
+                "choice": "怎么了?",
+                "identifier": "whatdidyoufind"
+            },
             {
-                "identifier": "areyouokay", 
-                "choice": "你还好吗?"
+                "choice": "你还好吗?",
+                "identifier": "areyouokay"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline162"
+    },
     {
-        "identifier": "lifeline163", 
         "actions": [
             {
-                "identifier": "writingseriously", 
-                "choice": "文字？真的吗？"
-            }, 
+                "choice": "文字？真的吗？",
+                "identifier": "writingseriously"
+            },
             {
-                "identifier": "whatsitsay", 
-                "choice": "写得什么？"
+                "choice": "写得什么？",
+                "identifier": "whatsitsay"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline163"
+    },
     {
-        "identifier": "lifeline164", 
         "actions": [
             {
-                "identifier": "scannerscreen", 
-                "choice": "检查那个屏幕。"
-            }, 
+                "choice": "检查那个屏幕。",
+                "identifier": "scannerscreen"
+            },
             {
-                "identifier": "checkforhbo", 
-                "choice": "看看他们有没有家庭影院。"
+                "choice": "看看他们有没有家庭影院。",
+                "identifier": "checkforhbo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline164"
+    },
     {
-        "identifier": "lifeline165", 
         "actions": [
             {
-                "identifier": "buildathing", 
-                "choice": "建个东西踏上去?"
-            }, 
+                "choice": "建个东西踏上去?",
+                "identifier": "buildathing"
+            },
             {
-                "identifier": "explorecomputers", 
-                "choice": "检查那些计算机。"
+                "choice": "检查那些计算机。",
+                "identifier": "explorecomputers"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline165"
+    },
     {
-        "identifier": "lifeline166", 
         "actions": [
             {
-                "identifier": "breathableair", 
-                "choice": "但有可呼吸的空气"
-            }, 
+                "choice": "但有可呼吸的空气",
+                "identifier": "breathableair"
+            },
             {
-                "identifier": "creaturesearlier", 
-                "choice": "那些更早的生物？"
+                "choice": "那些更早的生物？",
+                "identifier": "creaturesearlier"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline166"
+    },
     {
-        "identifier": "lifeline167", 
         "actions": [
             {
-                "identifier": "trycomputers", 
-                "choice": "当然，看看这些是什么。"
-            }, 
+                "choice": "当然，看看这些是什么。",
+                "identifier": "trycomputers"
+            },
             {
-                "identifier": "donttrycomputers", 
-                "choice": "别和它们搞在一起。"
+                "choice": "别和它们搞在一起。",
+                "identifier": "donttrycomputers"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline167"
+    },
     {
-        "identifier": "lifeline168", 
         "actions": [
             {
-                "identifier": "gomeetthem", 
-                "choice": "出去迎接他们。"
-            }, 
+                "choice": "出去迎接他们。",
+                "identifier": "gomeetthem"
+            },
             {
-                "identifier": "staywhereyouare", 
-                "choice": "留在原地。"
+                "choice": "留在原地。",
+                "identifier": "staywhereyouare"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline168"
+    },
     {
-        "identifier": "lifeline169", 
         "actions": [
             {
-                "identifier": "areyousure", 
-                "choice": "你确定吗？"
-            }, 
+                "choice": "你确定吗？",
+                "identifier": "areyousure"
+            },
             {
-                "identifier": "howisthatpossible?", 
-                "choice": "那怎么可能？"
+                "choice": "那怎么可能？",
+                "identifier": "howisthatpossible?"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline169"
+    },
     {
-        "identifier": "lifeline170", 
         "actions": [
             {
-                "identifier": "whatproximity", 
-                "choice": "你看见了什么？"
-            }, 
+                "choice": "你看见了什么？",
+                "identifier": "whatproximity"
+            },
             {
-                "identifier": "okayproximity", 
-                "choice": "一切顺利吗?"
+                "choice": "一切顺利吗?",
+                "identifier": "okayproximity"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline170"
+    },
     {
-        "identifier": "lifeline171", 
         "actions": [
             {
-                "identifier": "awakecomputer", 
-                "choice": "发动它。"
-            }, 
+                "choice": "发动它。",
+                "identifier": "awakecomputer"
+            },
             {
-                "identifier": "asleepcomputer", 
-                "choice": "别管它。"
+                "choice": "别管它。",
+                "identifier": "asleepcomputer"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline171"
+    },
     {
-        "identifier": "lifeline172", 
         "actions": [
             {
-                "identifier": "howmanytotal", 
-                "choice": "一共多少？"
-            }, 
+                "choice": "一共多少？",
+                "identifier": "howmanytotal"
+            },
             {
-                "identifier": "getoutnow", 
-                "choice": "离开那里。"
+                "choice": "离开那里。",
+                "identifier": "getoutnow"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline172"
+    },
     {
-        "identifier": "lifeline173", 
         "actions": [
             {
-                "identifier": "whatscrolling", 
-                "choice": "什么？是什么？"
-            }, 
+                "choice": "什么？是什么？",
+                "identifier": "whatscrolling"
+            },
             {
-                "identifier": "okayscrolling", 
-                "choice": "你还好吗？"
+                "choice": "你还好吗？",
+                "identifier": "okayscrolling"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline173"
+    },
     {
-        "identifier": "lifeline174", 
         "actions": [
             {
-                "identifier": "explorecomputers", 
-                "choice": "探测计算机。"
-            }, 
+                "choice": "探测计算机。",
+                "identifier": "explorecomputers"
+            },
             {
-                "identifier": "explorewiring", 
-                "choice": "探测接线。"
+                "choice": "探测接线。",
+                "identifier": "explorewiring"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline174"
+    },
     {
-        "identifier": "lifeline175", 
         "actions": [
             {
-                "identifier": "tellmenow", 
-                "choice": "告诉我！"
-            }, 
+                "choice": "告诉我！",
+                "identifier": "tellmenow"
+            },
             {
-                "identifier": "takeasecond", 
-                "choice": "慢慢来。"
+                "choice": "慢慢来。",
+                "identifier": "takeasecond"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline175"
+    },
     {
-        "identifier": "lifeline176", 
         "actions": [
             {
-                "identifier": "followthosethings", 
-                "choice": "跟着那些…东西。"
-            }, 
+                "choice": "跟着那些…东西。",
+                "identifier": "followthosethings"
+            },
             {
-                "identifier": "getoutofthere", 
-                "choice": "离开那儿。"
+                "choice": "离开那儿。",
+                "identifier": "getoutofthere"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline176"
+    },
     {
-        "identifier": "lifeline177", 
         "actions": [
             {
-                "identifier": "whatjusthappened", 
-                "choice": "发生了什么？"
-            }, 
+                "choice": "发生了什么？",
+                "identifier": "whatjusthappened"
+            },
             {
-                "identifier": "whatjusthappened2", 
-                "choice": "你还好吗？"
+                "choice": "你还好吗？",
+                "identifier": "whatjusthappened2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline177"
+    },
     {
-        "identifier": "lifeline178", 
         "actions": [
             {
-                "identifier": "breathableair", 
-                "choice": "但有可呼吸的空气"
-            }, 
+                "choice": "但有可呼吸的空气",
+                "identifier": "breathableair"
+            },
             {
-                "identifier": "creaturesearlier", 
-                "choice": "那些更早的生物？"
+                "choice": "那些更早的生物？",
+                "identifier": "creaturesearlier"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline178"
+    },
     {
-        "identifier": "lifeline179", 
         "actions": [
             {
-                "identifier": "goodlogic", 
-                "choice": "逻辑不错，到处看看。"
-            }, 
+                "choice": "逻辑不错，到处看看。",
+                "identifier": "goodlogic"
+            },
             {
-                "identifier": "somethingworse", 
-                "choice": "\"某些更坏的\"?"
+                "choice": "\"某些更坏的\"?",
+                "identifier": "somethingworse"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline179"
+    },
     {
-        "identifier": "lifeline180", 
         "actions": [
             {
-                "identifier": "gooutandmeetthem", 
-                "choice": "出去迎接他们。"
-            }, 
+                "choice": "出去迎接他们。",
+                "identifier": "gooutandmeetthem"
+            },
             {
-                "identifier": "stayrightthere", 
-                "choice": "留在原地。"
+                "choice": "留在原地。",
+                "identifier": "stayrightthere"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline180"
+    },
     {
-        "identifier": "lifeline181", 
         "actions": [
             {
-                "identifier": "wegotdisconnected", 
-                "choice": "我们联系中断。"
-            }, 
+                "choice": "我们联系中断。",
+                "identifier": "wegotdisconnected"
+            },
             {
-                "identifier": "feelokay", 
-                "choice": "你还好吗？"
+                "choice": "你还好吗？",
+                "identifier": "feelokay"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline181"
+    },
     {
-        "identifier": "lifeline182", 
         "actions": [
             {
-                "identifier": "sharethenews", 
-                "choice": "算我的。"
-            }, 
+                "choice": "算我的。",
+                "identifier": "sharethenews"
+            },
             {
-                "identifier": "tryforgoodnews", 
-                "choice": "试下为“好”。"
+                "choice": "试下为“好”。",
+                "identifier": "tryforgoodnews"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline182"
+    },
     {
-        "identifier": "lifeline183", 
         "actions": [
             {
-                "identifier": "thatsinsane", 
-                "choice": "简直疯了。"
-            }, 
+                "choice": "简直疯了。",
+                "identifier": "thatsinsane"
+            },
             {
-                "identifier": "mustvebeenillusion", 
-                "choice": "肯定是你的想象。"
+                "choice": "肯定是你的想象。",
+                "identifier": "mustvebeenillusion"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline183"
+    },
     {
-        "identifier": "lifeline184", 
         "actions": [
             {
-                "identifier": "thatsinsane", 
-                "choice": "简直疯了。"
-            }, 
+                "choice": "简直疯了。",
+                "identifier": "thatsinsane"
+            },
             {
-                "identifier": "mustvebeenillusion", 
-                "choice": "肯定是你的想象。"
+                "choice": "肯定是你的想象。",
+                "identifier": "mustvebeenillusion"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline184"
+    },
     {
-        "identifier": "lifeline185", 
         "actions": [
             {
-                "identifier": "lookforscuttling", 
-                "choice": "去找找。"
-            }, 
+                "choice": "去找找。",
+                "identifier": "lookforscuttling"
+            },
             {
-                "identifier": "stepbackscuttling", 
-                "choice": "从那里退回来。"
+                "choice": "从那里退回来。",
+                "identifier": "stepbackscuttling"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline185"
+    },
     {
-        "identifier": "lifeline186", 
         "actions": [
             {
-                "identifier": "stillhere", 
-                "choice": "没事。我在。"
-            }, 
+                "choice": "没事。我在。",
+                "identifier": "stillhere"
+            },
             {
-                "identifier": "justhappened", 
-                "choice": "刚刚发生了什么？"
+                "choice": "刚刚发生了什么？",
+                "identifier": "justhappened"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline186"
+    },
     {
-        "identifier": "lifeline187", 
         "actions": [
             {
-                "identifier": "gomeetthem", 
-                "choice": "出去迎接他们。"
-            }, 
+                "choice": "出去迎接他们。",
+                "identifier": "gomeetthem"
+            },
             {
-                "identifier": "staywhereyouare", 
-                "choice": "留在原地。"
+                "choice": "留在原地。",
+                "identifier": "staywhereyouare"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline187"
+    },
     {
-        "identifier": "lifeline188", 
         "actions": [
             {
-                "identifier": "awakecomputer", 
-                "choice": "我觉得你应该去。"
-            }, 
+                "choice": "我觉得你应该去。",
+                "identifier": "awakecomputer"
+            },
             {
-                "identifier": "computercareful", 
-                "choice": "小心。"
+                "choice": "小心。",
+                "identifier": "computercareful"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline188"
+    },
     {
-        "identifier": "lifeline189", 
         "actions": [
             {
-                "identifier": "keepatit", 
-                "choice": "是的。继续探索。"
-            }, 
+                "choice": "是的。继续探索。",
+                "identifier": "keepatit"
+            },
             {
-                "identifier": "reallygetouttrue", 
-                "choice": "不。离开那儿！"
+                "choice": "不。离开那儿！",
+                "identifier": "reallygetouttrue"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline189"
+    },
     {
-        "identifier": "lifeline190", 
         "actions": [
             {
-                "identifier": "followthosethings", 
-                "choice": "你说的对，继续走。"
-            }, 
+                "choice": "你说的对，继续走。",
+                "identifier": "followthosethings"
+            },
             {
-                "identifier": "reallygetout", 
-                "choice": "胡说什么。离开。"
+                "choice": "胡说什么。离开。",
+                "identifier": "reallygetout"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline190"
+    },
     {
-        "identifier": "lifeline191", 
         "actions": [
             {
-                "identifier": "goodluckgilligan", 
-                "choice": "祝你好运。"
-            }, 
+                "choice": "祝你好运。",
+                "identifier": "goodluckgilligan"
+            },
             {
-                "identifier": "breakaleggilligan", 
-                "choice": "吉利根。"
+                "choice": "吉利根。",
+                "identifier": "breakaleggilligan"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline191"
+    },
     {
-        "identifier": "lifeline192", 
         "actions": [
             {
-                "identifier": "seriouslymeetthem", 
-                "choice": "真的，出去迎接他们。"
-            }, 
+                "choice": "真的，出去迎接他们。",
+                "identifier": "seriouslymeetthem"
+            },
             {
-                "identifier": "somethingworse", 
-                "choice": "\"某些更糟糕的\"?"
+                "choice": "\"某些更糟糕的\"?",
+                "identifier": "somethingworse"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline192"
+    },
     {
-        "identifier": "lifeline193", 
         "actions": [
             {
-                "identifier": "gooutandmeetthem", 
-                "choice": "出去迎接他们。"
-            }, 
+                "choice": "出去迎接他们。",
+                "identifier": "gooutandmeetthem"
+            },
             {
-                "identifier": "stayrightthere", 
-                "choice": "留在原地。"
+                "choice": "留在原地。",
+                "identifier": "stayrightthere"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline193"
+    },
     {
-        "identifier": "lifeline194", 
         "actions": [
             {
-                "identifier": "whatsupscuttling", 
-                "choice": "发生了什么?"
-            }, 
+                "choice": "发生了什么?",
+                "identifier": "whatsupscuttling"
+            },
             {
-                "identifier": "allrightscuttling", 
-                "choice": "你还好吗？"
+                "choice": "你还好吗？",
+                "identifier": "allrightscuttling"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline194"
+    },
     {
-        "identifier": "lifeline195", 
         "actions": [
             {
-                "identifier": "whatsupscuttling", 
-                "choice": "发生什么了？"
-            }, 
+                "choice": "发生什么了？",
+                "identifier": "whatsupscuttling"
+            },
             {
-                "identifier": "allrightscuttling", 
-                "choice": "你没事吧？"
+                "choice": "你没事吧？",
+                "identifier": "allrightscuttling"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline195"
+    },
     {
-        "identifier": "lifeline196", 
         "actions": [
             {
-                "identifier": "igetitnowtrue", 
-                "choice": "好吧，我明白。"
-            }, 
+                "choice": "好吧，我明白。",
+                "identifier": "igetitnowtrue"
+            },
             {
-                "identifier": "keepatit", 
-                "choice": "继续。研究地图。"
+                "choice": "继续。研究地图。",
+                "identifier": "keepatit"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline196"
+    },
     {
-        "identifier": "lifeline197", 
         "actions": [
             {
-                "identifier": "igetitnow", 
-                "choice": "好。你自作自受吧。"
-            }, 
+                "choice": "好。你自作自受吧。",
+                "identifier": "igetitnow"
+            },
             {
-                "identifier": "followthosethings", 
-                "choice": "继续走。跟着那些东西。"
+                "choice": "继续走。跟着那些东西。",
+                "identifier": "followthosethings"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline197"
+    },
     {
-        "identifier": "lifeline198", 
         "actions": [
             {
-                "identifier": "certainrats", 
-                "choice": "你确定？"
-            }, 
+                "choice": "你确定？",
+                "identifier": "certainrats"
+            },
             {
-                "identifier": "possiblerats", 
-                "choice": "这怎么可能？"
+                "choice": "这怎么可能？",
+                "identifier": "possiblerats"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline198"
+    },
     {
-        "identifier": "lifeline199", 
         "actions": [
             {
-                "identifier": "certainrats", 
-                "choice": "你确定？"
-            }, 
+                "choice": "你确定？",
+                "identifier": "certainrats"
+            },
             {
-                "identifier": "possiblerats", 
-                "choice": "这怎么可能？"
+                "choice": "这怎么可能？",
+                "identifier": "possiblerats"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline199"
+    },
     {
-        "identifier": "lifeline200", 
         "actions": [
             {
-                "identifier": "wildboydead", 
-                "choice": "你死掉的老鼠?"
-            }, 
+                "choice": "你死掉的老鼠?",
+                "identifier": "wildboydead"
+            },
             {
-                "identifier": "wildboydead2", 
-                "choice": "发生什么了?"
+                "choice": "发生什么了?",
+                "identifier": "wildboydead2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline200"
+    },
     {
-        "identifier": "lifeline201", 
         "actions": [
             {
-                "identifier": "makeabreak", 
-                "choice": "逃出去。"
-            }, 
+                "choice": "逃出去。",
+                "identifier": "makeabreak"
+            },
             {
-                "identifier": "stayputandsee", 
-                "choice": "呆在原地，看看会发生什么。"
+                "choice": "呆在原地，看看会发生什么。",
+                "identifier": "stayputandsee"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline201"
+    },
     {
-        "identifier": "lifeline202", 
         "actions": [
             {
-                "identifier": "itsanalien", 
-                "choice": "是个外星生物？"
-            }, 
+                "choice": "是个外星生物？",
+                "identifier": "itsanalien"
+            },
             {
-                "identifier": "gottogetaway", 
-                "choice": "你必须马上离开！"
+                "choice": "你必须马上离开！",
+                "identifier": "gottogetaway"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline202"
+    },
     {
-        "identifier": "lifeline203", 
         "actions": [
             {
-                "identifier": "killtherat", 
-                "choice": "你必须杀掉它。"
-            }, 
+                "choice": "你必须杀掉它。",
+                "identifier": "killtherat"
+            },
             {
-                "identifier": "gottogetaway", 
-                "choice": "你需要离开。"
+                "choice": "你需要离开。",
+                "identifier": "gottogetaway"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline203"
+    },
     {
-        "identifier": "lifeline204", 
         "actions": [
             {
-                "identifier": "processtime", 
-                "choice": "再检查一下。"
-            }, 
+                "choice": "再检查一下。",
+                "identifier": "processtime"
+            },
             {
-                "identifier": "gothroughdoor", 
-                "choice": "穿过大门。"
+                "choice": "穿过大门。",
+                "identifier": "gothroughdoor"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline204"
+    },
     {
-        "identifier": "lifeline205", 
         "actions": [
             {
-                "identifier": "processtime", 
-                "choice": "再检查一下。"
-            }, 
+                "choice": "再检查一下。",
+                "identifier": "processtime"
+            },
             {
-                "identifier": "gothroughdoor", 
-                "choice": "你必须进去。"
+                "choice": "你必须进去。",
+                "identifier": "gothroughdoor"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline205"
+    },
     {
-        "identifier": "lifeline206", 
         "actions": [
             {
-                "identifier": "allratsthere", 
-                "choice": "你所有的老鼠都在那里吗？"
-            }, 
+                "choice": "你所有的老鼠都在那里吗？",
+                "identifier": "allratsthere"
+            },
             {
-                "identifier": "donotgetclose", 
-                "choice": "别靠近。"
+                "choice": "别靠近。",
+                "identifier": "donotgetclose"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline206"
+    },
     {
-        "identifier": "lifeline207", 
         "actions": [
             {
-                "identifier": "allratsthere", 
-                "choice": "你所有的老鼠都在那里吗？"
-            }, 
+                "choice": "你所有的老鼠都在那里吗？",
+                "identifier": "allratsthere"
+            },
             {
-                "identifier": "donotgetclose", 
-                "choice": "别靠近。"
+                "choice": "别靠近。",
+                "identifier": "donotgetclose"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline207"
+    },
     {
-        "identifier": "lifeline208", 
         "actions": [
             {
-                "identifier": "wildboydead", 
-                "choice": "疯小子?你死掉的老鼠?"
-            }, 
+                "choice": "疯小子?你死掉的老鼠?",
+                "identifier": "wildboydead"
+            },
             {
-                "identifier": "wildboydead2", 
-                "choice": "发生什么事了?"
+                "choice": "发生什么事了?",
+                "identifier": "wildboydead2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline208"
+    },
     {
-        "identifier": "lifeline209", 
         "actions": [
             {
-                "identifier": "throwratsmorefood", 
-                "choice": "再扔些食物给它们。"
-            }, 
+                "choice": "再扔些食物给它们。",
+                "identifier": "throwratsmorefood"
+            },
             {
-                "identifier": "getoutbecauserats", 
-                "choice": "从那里离开。"
+                "choice": "从那里离开。",
+                "identifier": "getoutbecauserats"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline209"
+    },
     {
-        "identifier": "lifeline210", 
         "actions": [
             {
-                "identifier": "isitworking", 
-                "choice": "这有用吗？"
-            }, 
+                "choice": "这有用吗？",
+                "identifier": "isitworking"
+            },
             {
-                "identifier": "getoutbecauserats", 
-                "choice": "你应该立刻离开。"
+                "choice": "你应该立刻离开。",
+                "identifier": "getoutbecauserats"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline210"
+    },
     {
-        "identifier": "lifeline211", 
         "actions": [
             {
-                "identifier": "poorlittlerat", 
-                "choice": "那可怜的小家伙。"
-            }, 
+                "choice": "那可怜的小家伙。",
+                "identifier": "poorlittlerat"
+            },
             {
-                "identifier": "getoutbecauserats", 
-                "choice": "你应该立刻离开。"
+                "choice": "你应该立刻离开。",
+                "identifier": "getoutbecauserats"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline211"
+    },
     {
-        "identifier": "lifeline212", 
         "actions": [
             {
-                "identifier": "capturetherat", 
-                "choice": "试着捕捉它。"
-            }, 
+                "choice": "试着捕捉它。",
+                "identifier": "capturetherat"
+            },
             {
-                "identifier": "killtherat", 
-                "choice": "你得杀了它。"
+                "choice": "你得杀了它。",
+                "identifier": "killtherat"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline212"
+    },
     {
-        "identifier": "lifeline213", 
         "actions": [
             {
-                "identifier": "capturetherat", 
-                "choice": "你说得对。只捉住就好。"
-            }, 
+                "choice": "你说得对。只捉住就好。",
+                "identifier": "capturetherat"
+            },
             {
-                "identifier": "killratforreal", 
-                "choice": "你还是杀掉它为好。"
+                "choice": "你还是杀掉它为好。",
+                "identifier": "killratforreal"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline213"
+    },
     {
-        "identifier": "lifeline214", 
         "actions": [
             {
-                "identifier": "gothroughdoor", 
-                "choice": "是时候进去了。"
-            }, 
+                "choice": "是时候进去了。",
+                "identifier": "gothroughdoor"
+            },
             {
-                "identifier": "onlyifsure", 
-                "choice": "当你准备好再说。"
+                "choice": "当你准备好再说。",
+                "identifier": "onlyifsure"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline214"
+    },
     {
-        "identifier": "lifeline215", 
         "actions": [
             {
-                "identifier": "allratstwo", 
-                "choice": "你的老鼠都在那里吗？"
-            }, 
+                "choice": "你的老鼠都在那里吗？",
+                "identifier": "allratstwo"
+            },
             {
-                "identifier": "whatareratsdoing", 
-                "choice": "老鼠在做什么？"
+                "choice": "老鼠在做什么？",
+                "identifier": "whatareratsdoing"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline215"
+    },
     {
-        "identifier": "lifeline216", 
         "actions": [
             {
-                "identifier": "nodebating", 
-                "choice": "是的，毫无疑问。"
-            }, 
+                "choice": "是的，毫无疑问。",
+                "identifier": "nodebating"
+            },
             {
-                "identifier": "donotgetclose", 
-                "choice": "不要靠近。"
+                "choice": "不要靠近。",
+                "identifier": "donotgetclose"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline216"
+    },
     {
-        "identifier": "lifeline217", 
         "actions": [
             {
-                "identifier": "yougotprayers", 
-                "choice": "好啊。"
-            }, 
+                "choice": "好啊。",
+                "identifier": "yougotprayers"
+            },
             {
-                "identifier": "warnshiptwo", 
-                "choice": "你能警告那艘飞船吗？"
+                "choice": "你能警告那艘飞船吗？",
+                "identifier": "warnshiptwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline217"
+    },
     {
-        "identifier": "lifeline218", 
         "actions": [
             {
-                "identifier": "yougotprayers", 
-                "choice": "你懂得。"
-            }, 
+                "choice": "你懂得。",
+                "identifier": "yougotprayers"
+            },
             {
-                "identifier": "howclosearevisitors", 
-                "choice": "你的拜访者们还有多远？"
+                "choice": "你的拜访者们还有多远？",
+                "identifier": "howclosearevisitors"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline218"
+    },
     {
-        "identifier": "lifeline219", 
         "actions": [
             {
-                "identifier": "swearalot", 
-                "choice": "把需要都说出来吧。"
-            }, 
+                "choice": "把需要都说出来吧。",
+                "identifier": "swearalot"
+            },
             {
-                "identifier": "warnshiptwo", 
-                "choice": "你能警告那艘飞船吗？"
+                "choice": "你能警告那艘飞船吗？",
+                "identifier": "warnshiptwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline219"
+    },
     {
-        "identifier": "lifeline220", 
         "actions": [
             {
-                "identifier": "fewercavitiesoverwarn", 
-                "choice": "飞船少了些，虽说。"
-            }, 
+                "choice": "飞船少了些，虽说。",
+                "identifier": "fewercavitiesoverwarn"
+            },
             {
-                "identifier": "howclosearevisitors", 
-                "choice": "你的拜访者们还有多远？"
+                "choice": "你的拜访者们还有多远？",
+                "identifier": "howclosearevisitors"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline220"
+    },
     {
-        "identifier": "lifeline221", 
         "actions": [
             {
-                "identifier": "whatdoescomputersay", 
-                "choice": "它说什么？"
-            }, 
+                "choice": "它说什么？",
+                "identifier": "whatdoescomputersay"
+            },
             {
-                "identifier": "thatcanonlybebad", 
-                "choice": "肯定不是好事。"
+                "choice": "肯定不是好事。",
+                "identifier": "thatcanonlybebad"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline221"
+    },
     {
-        "identifier": "lifeline222", 
         "actions": [
             {
-                "identifier": "whatdoescomputersay", 
-                "choice": "它说什么？"
-            }, 
+                "choice": "它说什么？",
+                "identifier": "whatdoescomputersay"
+            },
             {
-                "identifier": "thatcanonlybebad", 
-                "choice": "肯定不是好事。"
+                "choice": "肯定不是好事。",
+                "identifier": "thatcanonlybebad"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline222"
+    },
     {
-        "identifier": "lifeline223", 
         "actions": [
             {
-                "identifier": "nodebating", 
-                "choice": "是的，毫无疑问。"
-            }, 
+                "choice": "是的，毫无疑问。",
+                "identifier": "nodebating"
+            },
             {
-                "identifier": "whatareratsdoing", 
-                "choice": "老鼠们在做什么？"
+                "choice": "老鼠们在做什么？",
+                "identifier": "whatareratsdoing"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline223"
+    },
     {
-        "identifier": "lifeline224", 
         "actions": [
             {
-                "identifier": "goodthinking", 
-                "choice": "好主意"
-            }, 
+                "choice": "好主意",
+                "identifier": "goodthinking"
+            },
             {
-                "identifier": "youeattoo", 
-                "choice": "你也该吃点。"
+                "choice": "你也该吃点。",
+                "identifier": "youeattoo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline224"
+    },
     {
-        "identifier": "lifeline225", 
         "actions": [
             {
-                "identifier": "hopeitworks", 
-                "choice": "希望你能成功。"
-            }, 
+                "choice": "希望你能成功。",
+                "identifier": "hopeitworks"
+            },
             {
-                "identifier": "warnshiptwo", 
-                "choice": "你能警告飞船吗？"
+                "choice": "你能警告飞船吗？",
+                "identifier": "warnshiptwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline225"
+    },
     {
-        "identifier": "lifeline226", 
         "actions": [
             {
-                "identifier": "mustbeitoverwarn", 
-                "choice": "正是如此。"
-            }, 
+                "choice": "正是如此。",
+                "identifier": "mustbeitoverwarn"
+            },
             {
-                "identifier": "howclosearevisitors", 
-                "choice": "你的拜访者还有多远？"
+                "choice": "你的拜访者还有多远？",
+                "identifier": "howclosearevisitors"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline226"
+    },
     {
-        "identifier": "lifeline227", 
         "actions": [
             {
-                "identifier": "hardtosayoverwarn", 
-                "choice": "不好说。"
-            }, 
+                "choice": "不好说。",
+                "identifier": "hardtosayoverwarn"
+            },
             {
-                "identifier": "howclosearevisitors", 
-                "choice": "你的拜访者还有多远？"
+                "choice": "你的拜访者还有多远？",
+                "identifier": "howclosearevisitors"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline227"
+    },
     {
-        "identifier": "lifeline228", 
         "actions": [
             {
-                "identifier": "horrifyingrats", 
-                "choice": "听上去很可怕。"
-            }, 
+                "choice": "听上去很可怕。",
+                "identifier": "horrifyingrats"
+            },
             {
-                "identifier": "calmandbreathe", 
-                "choice": "冷静，深呼吸。"
+                "choice": "冷静，深呼吸。",
+                "identifier": "calmandbreathe"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline228"
+    },
     {
-        "identifier": "lifeline229", 
         "actions": [
             {
-                "identifier": "breathedummy", 
-                "choice": "你必须保持呼吸。"
-            }, 
+                "choice": "你必须保持呼吸。",
+                "identifier": "breathedummy"
+            },
             {
-                "identifier": "sureyouwont", 
-                "choice": "我想你不会有事的。"
+                "choice": "我想你不会有事的。",
+                "identifier": "sureyouwont"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline229"
+    },
     {
-        "identifier": "lifeline230", 
         "actions": [
             {
-                "identifier": "overridetarget", 
-                "choice": "你能改写程序吗？"
-            }, 
+                "choice": "你能改写程序吗？",
+                "identifier": "overridetarget"
+            },
             {
-                "identifier": "warnship", 
-                "choice": "你能警告那些飞船吗？"
+                "choice": "你能警告那些飞船吗？",
+                "identifier": "warnship"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline230"
+    },
     {
-        "identifier": "lifeline231", 
         "actions": [
             {
-                "identifier": "keepatcomputers", 
-                "choice": "继续研究电脑。"
-            }, 
+                "choice": "继续研究电脑。",
+                "identifier": "keepatcomputers"
+            },
             {
-                "identifier": "tendtotherats", 
-                "choice": "转而观察老鼠。"
+                "choice": "转而观察老鼠。",
+                "identifier": "tendtotherats"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline231"
+    },
     {
-        "identifier": "lifeline232", 
         "actions": [
             {
-                "identifier": "whatsnotgood", 
-                "choice": "怎么了？"
-            }, 
+                "choice": "怎么了？",
+                "identifier": "whatsnotgood"
+            },
             {
-                "identifier": "wasittherats", 
-                "choice": "是老鼠做了什么吗？"
+                "choice": "是老鼠做了什么吗？",
+                "identifier": "wasittherats"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline232"
+    },
     {
-        "identifier": "lifeline233", 
         "actions": [
             {
-                "identifier": "mustbeit", 
-                "choice": "正是如此。"
-            }, 
+                "choice": "正是如此。",
+                "identifier": "mustbeit"
+            },
             {
-                "identifier": "overridetargettwo", 
-                "choice": "你能改写程序吗？"
+                "choice": "你能改写程序吗？",
+                "identifier": "overridetargettwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline233"
+    },
     {
-        "identifier": "lifeline234", 
         "actions": [
             {
-                "identifier": "hopeitworkswarnover", 
-                "choice": "希望你能成功。"
-            }, 
+                "choice": "希望你能成功。",
+                "identifier": "hopeitworkswarnover"
+            },
             {
-                "identifier": "howclosearevisitors", 
-                "choice": "拜访者们还有多远？"
+                "choice": "拜访者们还有多远？",
+                "identifier": "howclosearevisitors"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline234"
+    },
     {
-        "identifier": "lifeline235", 
         "actions": [
             {
-                "identifier": "calmandbreathe", 
-                "choice": "冷静。深呼吸。"
-            }, 
+                "choice": "冷静。深呼吸。",
+                "identifier": "calmandbreathe"
+            },
             {
-                "identifier": "keepwatchingrats", 
-                "choice": "你得接着观察。"
+                "choice": "你得接着观察。",
+                "identifier": "keepwatchingrats"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline235"
+    },
     {
-        "identifier": "lifeline236", 
         "actions": [
             {
-                "identifier": "yougotprayerswarnover", 
-                "choice": "好啊。"
-            }, 
+                "choice": "好啊。",
+                "identifier": "yougotprayerswarnover"
+            },
             {
-                "identifier": "howclosearevisitors", 
-                "choice": "你的拜访者还有多远？"
+                "choice": "你的拜访者还有多远？",
+                "identifier": "howclosearevisitors"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline236"
+    },
     {
-        "identifier": "lifeline237", 
         "actions": [
             {
-                "identifier": "excellentnews", 
-                "choice": "真是好消息！"
-            }, 
+                "choice": "真是好消息！",
+                "identifier": "excellentnews"
+            },
             {
-                "identifier": "stillbeingtargeted", 
-                "choice": "他们还在被瞄准吗？"
+                "choice": "他们还在被瞄准吗？",
+                "identifier": "stillbeingtargeted"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline237"
+    },
     {
-        "identifier": "lifeline238", 
         "actions": [
             {
-                "identifier": "sowhybother", 
-                "choice": "那还有什么可担心的？"
-            }, 
+                "choice": "那还有什么可担心的？",
+                "identifier": "sowhybother"
+            },
             {
-                "identifier": "doitanyway", 
-                "choice": "继续破解，以防万一。"
+                "choice": "继续破解，以防万一。",
+                "identifier": "doitanyway"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline238"
+    },
     {
-        "identifier": "lifeline239", 
         "actions": [
             {
-                "identifier": "whatthehell", 
-                "choice": "发生什么了？"
-            }, 
+                "choice": "发生什么了？",
+                "identifier": "whatthehell"
+            },
             {
-                "identifier": "babblingabout", 
-                "choice": "你刚才胡言乱语什么呢？"
+                "choice": "你刚才胡言乱语什么呢？",
+                "identifier": "babblingabout"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline239"
+    },
     {
-        "identifier": "lifeline240", 
         "actions": [
             {
-                "identifier": "tellmewhatyousee", 
-                "choice": "怎么?!"
-            }, 
+                "choice": "怎么?!",
+                "identifier": "tellmewhatyousee"
+            },
             {
-                "identifier": "tellmewhatyousee2", 
-                "choice": "告诉我你看见什么了!"
+                "choice": "告诉我你看见什么了!",
+                "identifier": "tellmewhatyousee2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline240"
+    },
     {
-        "identifier": "lifeline241", 
         "actions": [
             {
-                "identifier": "tellmewhatyousee", 
-                "choice": "怎么?!"
-            }, 
+                "choice": "怎么?!",
+                "identifier": "tellmewhatyousee"
+            },
             {
-                "identifier": "tellmewhatyousee2", 
-                "choice": "告诉我你看见什么了!"
+                "choice": "告诉我你看见什么了!",
+                "identifier": "tellmewhatyousee2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline241"
+    },
     {
-        "identifier": "lifeline242", 
         "actions": [
             {
-                "identifier": "hardtosay", 
-                "choice": "不好说。"
-            }, 
+                "choice": "不好说。",
+                "identifier": "hardtosay"
+            },
             {
-                "identifier": "overridetargettwo", 
-                "choice": "你能改写程序吗？"
+                "choice": "你能改写程序吗？",
+                "identifier": "overridetargettwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline242"
+    },
     {
-        "identifier": "lifeline243", 
         "actions": [
             {
-                "identifier": "hardtosay", 
-                "choice": "好说。"
-            }, 
+                "choice": "好说。",
+                "identifier": "hardtosay"
+            },
             {
-                "identifier": "howclosearevisitors", 
-                "choice": "你的拜访者还有多远？"
+                "choice": "你的拜访者还有多远？",
+                "identifier": "howclosearevisitors"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline243"
+    },
     {
-        "identifier": "lifeline244", 
         "actions": [
             {
-                "identifier": "fewercavities", 
-                "choice": "though."
-            }, 
+                "choice": "though.",
+                "identifier": "fewercavities"
+            },
             {
-                "identifier": "overridetargettwo", 
-                "choice": "你能改变脉冲波吗？"
+                "choice": "你能改变脉冲波吗？",
+                "identifier": "overridetargettwo"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline244"
+    },
     {
-        "identifier": "lifeline245", 
         "actions": [
             {
-                "identifier": "swearalotwarnover", 
-                "choice": "把你的需要都说出来。"
-            }, 
+                "choice": "把你的需要都说出来。",
+                "identifier": "swearalotwarnover"
+            },
             {
-                "identifier": "howclosearevisitors", 
-                "choice": "拜访者们还有多远？"
+                "choice": "拜访者们还有多远？",
+                "identifier": "howclosearevisitors"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline245"
+    },
     {
-        "identifier": "lifeline246", 
         "actions": [
             {
-                "identifier": "anotherwayin", 
-                "choice": "找条别的路？"
-            }, 
+                "choice": "找条别的路？",
+                "identifier": "anotherwayin"
+            },
             {
-                "identifier": "runforrescueship", 
-                "choice": "往救援飞船那里跑。"
+                "choice": "往救援飞船那里跑。",
+                "identifier": "runforrescueship"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline246"
+    },
     {
-        "identifier": "lifeline247", 
         "actions": [
             {
-                "identifier": "closertorats", 
-                "choice": "你需要走近些。"
-            }, 
+                "choice": "你需要走近些。",
+                "identifier": "closertorats"
+            },
             {
-                "identifier": "awayfromrats", 
-                "choice": "你需要退后。"
+                "choice": "你需要退后。",
+                "identifier": "awayfromrats"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline247"
+    },
     {
-        "identifier": "lifeline248", 
         "actions": [
             {
-                "identifier": "dontbeinsideit", 
-                "choice": "别在里面呆着。"
-            }, 
+                "choice": "别在里面呆着。",
+                "identifier": "dontbeinsideit"
+            },
             {
-                "identifier": "youreappearquickly", 
-                "choice": "你很快会再次显现的。"
+                "choice": "你很快会再次显现的。",
+                "identifier": "youreappearquickly"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline248"
+    },
     {
-        "identifier": "lifeline249", 
         "actions": [
             {
-                "identifier": "whatisit", 
-                "choice": "发生什么事了?"
-            }, 
+                "choice": "发生什么事了?",
+                "identifier": "whatisit"
+            },
             {
-                "identifier": "everythingallright", 
-                "choice": "没出什么事吧？"
+                "choice": "没出什么事吧？",
+                "identifier": "everythingallright"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline249"
+    },
     {
-        "identifier": "lifeline250", 
         "actions": [
             {
-                "identifier": "lotsofhope", 
-                "choice": "愿望真够多的。"
+                "choice": "愿望真够多的。",
+                "identifier": "lotsofhope"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline250"
+    },
     {
-        "identifier": "lifeline251", 
         "actions": [
             {
-                "identifier": "whoaindeed", 
-                "choice": "你还好吗？"
-            }, 
+                "choice": "你还好吗？",
+                "identifier": "whoaindeed"
+            },
             {
-                "identifier": "whoaindeed2", 
-                "choice": "发生什么事了？"
+                "choice": "发生什么事了？",
+                "identifier": "whoaindeed2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline251"
+    },
     {
-        "identifier": "lifeline252", 
         "actions": [
             {
-                "identifier": "absolutelynot", 
-                "choice": "绝对不要！上飞船！"
-            }, 
+                "choice": "绝对不要！上飞船！",
+                "identifier": "absolutelynot"
+            },
             {
-                "identifier": "ignoretheireyes", 
-                "choice": "别管那些眼。"
+                "choice": "别管那些眼。",
+                "identifier": "ignoretheireyes"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline252"
+    },
     {
-        "identifier": "lifeline253", 
         "actions": [
             {
-                "identifier": "whatsupagain", 
-                "choice": "什么?"
-            }, 
+                "choice": "什么?",
+                "identifier": "whatsupagain"
+            },
             {
-                "identifier": "yetagainokay", 
-                "choice": "你没事吧？"
+                "choice": "你没事吧？",
+                "identifier": "yetagainokay"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline253"
+    },
     {
-        "identifier": "lifeline254", 
         "actions": [
             {
-                "identifier": "onlyafewseconds", 
-                "choice": "几秒钟而已。"
-            }, 
+                "choice": "几秒钟而已。",
+                "identifier": "onlyafewseconds"
+            },
             {
-                "identifier": "onlyafewseconds2", 
-                "choice": "一点也不长"
+                "choice": "一点也不长",
+                "identifier": "onlyafewseconds2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline254"
+    },
     {
-        "identifier": "lifeline255", 
         "actions": [
             {
-                "identifier": "whatsupagain", 
-                "choice": "怎么？"
-            }, 
+                "choice": "怎么？",
+                "identifier": "whatsupagain"
+            },
             {
-                "identifier": "yetagainokay", 
-                "choice": "你没事吧？"
+                "choice": "你没事吧？",
+                "identifier": "yetagainokay"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline255"
+    },
     {
-        "identifier": "lifeline256", 
         "actions": [
             {
-                "identifier": "gottawarnothers", 
-                "choice": "你必须警告别人。"
-            }, 
+                "choice": "你必须警告别人。",
+                "identifier": "gottawarnothers"
+            },
             {
-                "identifier": "gottawarnothers2", 
-                "choice": "你看了别人没看到的。"
+                "choice": "你看了别人没看到的。",
+                "identifier": "gottawarnothers2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline256"
+    },
     {
-        "identifier": "lifeline257", 
         "actions": [
             {
-                "identifier": "shutupandrunforit", 
-                "choice": "闭上嘴迈开腿！"
-            }, 
+                "choice": "闭上嘴迈开腿！",
+                "identifier": "shutupandrunforit"
+            },
             {
-                "identifier": "dyingisselfish", 
-                "choice": "现在去死太自私了。"
+                "choice": "现在去死太自私了。",
+                "identifier": "dyingisselfish"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline257"
+    },
     {
-        "identifier": "lifeline258", 
         "actions": [
             {
-                "identifier": "runforrescueship", 
-                "choice": "往救援飞船那跑。"
-            }, 
+                "choice": "往救援飞船那跑。",
+                "identifier": "runforrescueship"
+            },
             {
-                "identifier": "runbackinsidepeak", 
-                "choice": ".跑回山峰里面。"
+                "choice": ".跑回山峰里面。",
+                "identifier": "runbackinsidepeak"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline258"
+    },
     {
-        "identifier": "lifeline259", 
         "actions": [
             {
-                "identifier": "youregonnamakeit", 
-                "choice": "你能办到！"
-            }, 
+                "choice": "你能办到！",
+                "identifier": "youregonnamakeit"
+            },
             {
-                "identifier": "haulinass", 
-                "choice": "少说话！快走！"
+                "choice": "少说话！快走！",
+                "identifier": "haulinass"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline259"
+    },
     {
-        "identifier": "lifeline260", 
         "actions": [
             {
-                "identifier": "soyourequitting", 
-                "choice": "这样也行？你要放弃？"
-            }, 
+                "choice": "这样也行？你要放弃？",
+                "identifier": "soyourequitting"
+            },
             {
-                "identifier": "donotgiveup", 
-                "choice": "现在不能放弃！"
+                "choice": "现在不能放弃！",
+                "identifier": "donotgiveup"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline260"
+    },
     {
-        "identifier": "lifeline261", 
         "actions": [
             {
-                "identifier": "youarewelcome", 
-                "choice": "别客气。"
-            }, 
+                "choice": "别客气。",
+                "identifier": "youarewelcome"
+            },
             {
-                "identifier": "youarewelcome2", 
-                "choice": "好吧。现在…跑！"
+                "choice": "好吧。现在…跑！",
+                "identifier": "youarewelcome2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline261"
+    },
     {
-        "identifier": "lifeline262", 
         "actions": [
             {
-                "identifier": "aretheyoutoffood", 
-                "choice": "它们的食物不够了吗？"
-            }, 
+                "choice": "它们的食物不够了吗？",
+                "identifier": "aretheyoutoffood"
+            },
             {
-                "identifier": "mourningwildboy", 
-                "choice": "他们是在哀悼Wildboy吗？"
+                "choice": "他们是在哀悼Wildboy吗？",
+                "identifier": "mourningwildboy"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline262"
+    },
     {
-        "identifier": "lifeline263", 
         "actions": [
             {
-                "identifier": "aretheyoutoffood", 
-                "choice": "它们的食物不够了吗？"
-            }, 
+                "choice": "它们的食物不够了吗？",
+                "identifier": "aretheyoutoffood"
+            },
             {
-                "identifier": "mourningwildboy", 
-                "choice": "他们是在哀悼Wildboy吗？"
+                "choice": "他们是在哀悼Wildboy吗？",
+                "identifier": "mourningwildboy"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline263"
+    },
     {
-        "identifier": "lifeline264", 
         "actions": [
             {
-                "identifier": "dyingisselfish", 
-                "choice": "现在去死太自私了。"
-            }, 
+                "choice": "现在去死太自私了。",
+                "identifier": "dyingisselfish"
+            },
             {
-                "identifier": "reallythatweak", 
-                "choice": "你真有那么虚弱？"
+                "choice": "你真有那么虚弱？",
+                "identifier": "reallythatweak"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline264"
+    },
     {
-        "identifier": "lifeline265", 
         "actions": [
             {
-                "identifier": "shutupandrunforit", 
-                "choice": "闭上嘴迈开腿！"
-            }, 
+                "choice": "闭上嘴迈开腿！",
+                "identifier": "shutupandrunforit"
+            },
             {
-                "identifier": "dyingisselfish", 
-                "choice": "现在去死太自私了。"
+                "choice": "现在去死太自私了。",
+                "identifier": "dyingisselfish"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline265"
+    },
     {
-        "identifier": "lifeline266", 
         "actions": [
             {
-                "identifier": "morecracks", 
-                "choice": "出什么事了？"
-            }, 
+                "choice": "出什么事了？",
+                "identifier": "morecracks"
+            },
             {
-                "identifier": "morecracks2", 
-                "choice": "“裂隙更多”？"
+                "choice": "“裂隙更多”？",
+                "identifier": "morecracks2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline266"
+    },
     {
-        "identifier": "lifeline267", 
         "actions": [
             {
-                "identifier": "whichplate", 
-                "choice": "下一步干什么？"
-            }, 
+                "choice": "下一步干什么？",
+                "identifier": "whichplate"
+            },
             {
-                "identifier": "nofreakingout", 
-                "choice": "别被吓到。呼吸就好。"
+                "choice": "别被吓到。呼吸就好。",
+                "identifier": "nofreakingout"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline267"
+    },
     {
-        "identifier": "lifeline268", 
         "actions": [
             {
-                "identifier": "whichplate", 
-                "choice": "下一步干什么？"
-            }, 
+                "choice": "下一步干什么？",
+                "identifier": "whichplate"
+            },
             {
-                "identifier": "nofreakingout", 
-                "choice": "别被吓到。呼吸就好。"
+                "choice": "别被吓到。呼吸就好。",
+                "identifier": "nofreakingout"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline268"
+    },
     {
-        "identifier": "lifeline269", 
         "actions": [
             {
-                "identifier": "getbackup", 
-                "choice": "你应该回去。"
-            }, 
+                "choice": "你应该回去。",
+                "identifier": "getbackup"
+            },
             {
-                "identifier": "restrightthere", 
-                "choice": "在这休息一下吧。你应得的。"
+                "choice": "在这休息一下吧。你应得的。",
+                "identifier": "restrightthere"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline269"
+    },
     {
-        "identifier": "lifeline270", 
         "actions": [
             {
-                "identifier": "wontbeanother", 
-                "choice": "仅此一次。"
-            }, 
+                "choice": "仅此一次。",
+                "identifier": "wontbeanother"
+            },
             {
-                "identifier": "reallywhatyouwant", 
-                "choice": "如果你真的这样觉得的话。"
+                "choice": "如果你真的这样觉得的话。",
+                "identifier": "reallywhatyouwant"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline270"
+    },
     {
-        "identifier": "lifeline271", 
         "actions": [
             {
-                "identifier": "tryitandsee", 
-                "choice": "试试看。"
-            }, 
+                "choice": "试试看。",
+                "identifier": "tryitandsee"
+            },
             {
-                "identifier": "bepreparedtofight", 
-                "choice": "准备好战斗。"
+                "choice": "准备好战斗。",
+                "identifier": "bepreparedtofight"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline271"
+    },
     {
-        "identifier": "lifeline272", 
         "actions": [
             {
-                "identifier": "surelayitonme", 
-                "choice": "当然。"
-            }, 
+                "choice": "当然。",
+                "identifier": "surelayitonme"
+            },
             {
-                "identifier": "ratheryoudidnt", 
-                "choice": "我劝你不要。"
+                "choice": "我劝你不要。",
+                "identifier": "ratheryoudidnt"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline272"
+    },
     {
-        "identifier": "lifeline273", 
         "actions": [
             {
-                "identifier": "godownhall", 
-                "choice": "去大厅里和他们会合。"
-            }, 
+                "choice": "去大厅里和他们会合。",
+                "identifier": "godownhall"
+            },
             {
-                "identifier": "casualpose", 
-                "choice": "放松点。"
+                "choice": "放松点。",
+                "identifier": "casualpose"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline273"
+    },
     {
-        "identifier": "lifeline274", 
         "actions": [
             {
-                "identifier": "gettherefirst", 
-                "choice": "你要赶快赶到那里。"
-            }, 
+                "choice": "你要赶快赶到那里。",
+                "identifier": "gettherefirst"
+            },
             {
-                "identifier": "stayguardcomputer", 
-                "choice": "等着，守在电脑前。"
+                "choice": "等着，守在电脑前。",
+                "identifier": "stayguardcomputer"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline274"
+    },
     {
-        "identifier": "lifeline275", 
         "actions": [
             {
-                "identifier": "exceptwhat", 
-                "choice": "什么？"
-            }, 
+                "choice": "什么？",
+                "identifier": "exceptwhat"
+            },
             {
-                "identifier": "isthereaproblem", 
-                "choice": "有什么问题？"
+                "choice": "有什么问题？",
+                "identifier": "isthereaproblem"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline275"
+    },
     {
-        "identifier": "lifeline276", 
         "actions": [
             {
-                "identifier": "throwarod", 
-                "choice": "炸弹飞远咯!"
-            }, 
+                "choice": "炸弹飞远咯!",
+                "identifier": "throwarod"
+            },
             {
-                "identifier": "canyousee", 
-                "choice": "你能看到什么吗？"
+                "choice": "你能看到什么吗？",
+                "identifier": "canyousee"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline276"
+    },
     {
-        "identifier": "lifeline277", 
         "actions": [
             {
-                "identifier": "toolatetorun", 
-                "choice": "现在逃跑有点晚了么？"
-            }, 
+                "choice": "现在逃跑有点晚了么？",
+                "identifier": "toolatetorun"
+            },
             {
-                "identifier": "whatifyoustay", 
-                "choice": "如果你留下来会发生什么？"
+                "choice": "如果你留下来会发生什么？",
+                "identifier": "whatifyoustay"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline277"
+    },
     {
-        "identifier": "lifeline278", 
         "actions": [
             {
-                "identifier": "weirdratthings", 
-                "choice": "你什么意思？"
-            }, 
+                "choice": "你什么意思？",
+                "identifier": "weirdratthings"
+            },
             {
-                "identifier": "staythehellaway", 
-                "choice": "离它远点."
+                "choice": "离它远点.",
+                "identifier": "staythehellaway"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline278"
+    },
     {
-        "identifier": "lifeline279", 
         "actions": [
             {
-                "identifier": "yousaidno", 
-                "choice": "发生了什么？"
-            }, 
+                "choice": "发生了什么？",
+                "identifier": "yousaidno"
+            },
             {
-                "identifier": "whatwentwrong", 
-                "choice": "哪里有问题？"
+                "choice": "哪里有问题？",
+                "identifier": "whatwentwrong"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline279"
+    },
     {
-        "identifier": "lifeline280", 
         "actions": [
             {
-                "identifier": "shouldyoumeetthem", 
-                "choice": "你会去见他们吗？"
-            }, 
+                "choice": "你会去见他们吗？",
+                "identifier": "shouldyoumeetthem"
+            },
             {
-                "identifier": "keepguardingcomputers", 
-                "choice": "继续呆在电脑前。"
+                "choice": "继续呆在电脑前。",
+                "identifier": "keepguardingcomputers"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline280"
+    },
     {
-        "identifier": "lifeline281", 
         "actions": [
             {
-                "identifier": "lookatwhatexactly", 
-                "choice": "看什么？"
-            }, 
+                "choice": "看什么？",
+                "identifier": "lookatwhatexactly"
+            },
             {
-                "identifier": "lookatwhatexactly2", 
-                "choice": "你看到了什么？"
+                "choice": "你看到了什么？",
+                "identifier": "lookatwhatexactly2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline281"
+    },
     {
-        "identifier": "lifeline282", 
         "actions": [
             {
-                "identifier": "glowrodgoodidea", 
-                "choice": "好主意！"
-            }, 
+                "choice": "好主意！",
+                "identifier": "glowrodgoodidea"
+            },
             {
-                "identifier": "glowrodbadidea", 
-                "choice": "不。绝对不行"
+                "choice": "不。绝对不行",
+                "identifier": "glowrodbadidea"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline282"
+    },
     {
-        "identifier": "lifeline283", 
         "actions": [
             {
-                "identifier": "youonlyliveonce", 
-                "choice": "去做吧。你只有一次机会。"
-            }, 
+                "choice": "去做吧。你只有一次机会。",
+                "identifier": "youonlyliveonce"
+            },
             {
-                "identifier": "stayincontrolroom", 
-                "choice": "好吧。呆在那里别动"
+                "choice": "好吧。呆在那里别动",
+                "identifier": "stayincontrolroom"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline283"
+    },
     {
-        "identifier": "lifeline284", 
         "actions": [
             {
-                "identifier": "maybeverybrave", 
-                "choice": "或许真的是很勇敢。"
-            }, 
+                "choice": "或许真的是很勇敢。",
+                "identifier": "maybeverybrave"
+            },
             {
-                "identifier": "reallysaveyou", 
-                "choice": "一定是很想去救你。"
+                "choice": "一定是很想去救你。",
+                "identifier": "reallysaveyou"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline284"
+    },
     {
-        "identifier": "lifeline285", 
         "actions": [
             {
-                "identifier": "milliondollars", 
-                "choice": "不错的想法。"
-            }, 
+                "choice": "不错的想法。",
+                "identifier": "milliondollars"
+            },
             {
-                "identifier": "ratheryoudidnt", 
-                "choice": "自我定位准确一点。"
+                "choice": "自我定位准确一点。",
+                "identifier": "ratheryoudidnt"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline285"
+    },
     {
-        "identifier": "lifeline286", 
         "actions": [
             {
-                "identifier": "whatsiren", 
-                "choice": "什么意思？"
-            }, 
+                "choice": "什么意思？",
+                "identifier": "whatsiren"
+            },
             {
-                "identifier": "goodsiren", 
-                "choice": "好消息还是坏消息？"
+                "choice": "好消息还是坏消息？",
+                "identifier": "goodsiren"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline286"
+    },
     {
-        "identifier": "lifeline287", 
         "actions": [
             {
-                "identifier": "whatsiren", 
-                "choice": "什么意思？"
-            }, 
+                "choice": "什么意思？",
+                "identifier": "whatsiren"
+            },
             {
-                "identifier": "goodsiren", 
-                "choice": "好消息还是坏消息？"
+                "choice": "好消息还是坏消息？",
+                "identifier": "goodsiren"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline287"
+    },
     {
-        "identifier": "lifeline288", 
         "actions": [
             {
-                "identifier": "morecracks", 
-                "choice": "怎么了？"
-            }, 
+                "choice": "怎么了？",
+                "identifier": "morecracks"
+            },
             {
-                "identifier": "morecracks2", 
-                "choice": "“更多”裂缝？"
+                "choice": "“更多”裂缝？",
+                "identifier": "morecracks2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline288"
+    },
     {
-        "identifier": "lifeline289", 
         "actions": [
             {
-                "identifier": "weirdratthings", 
-                "choice": "你什么意思？"
-            }, 
+                "choice": "你什么意思？",
+                "identifier": "weirdratthings"
+            },
             {
-                "identifier": "staythehellaway", 
-                "choice": "他妈的离它远一点。"
+                "choice": "他妈的离它远一点。",
+                "identifier": "staythehellaway"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline289"
+    },
     {
-        "identifier": "lifeline290", 
         "actions": [
             {
-                "identifier": "throwarod", 
-                "choice": "炸弹飞远咯！"
-            }, 
+                "choice": "炸弹飞远咯！",
+                "identifier": "throwarod"
+            },
             {
-                "identifier": "canyousee", 
-                "choice": "你看到什么了吗？"
+                "choice": "你看到什么了吗？",
+                "identifier": "canyousee"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline290"
+    },
     {
-        "identifier": "lifeline291", 
         "actions": [
             {
-                "identifier": "wrongaboutrod", 
-                "choice": "我那会错了。扔一个。"
-            }, 
+                "choice": "我那会错了。扔一个。",
+                "identifier": "wrongaboutrod"
+            },
             {
-                "identifier": "casualpose", 
-                "choice": "等一下。"
+                "choice": "等一下。",
+                "identifier": "casualpose"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline291"
+    },
     {
-        "identifier": "lifeline292", 
         "actions": [
             {
-                "identifier": "spreadunchecked", 
-                "choice": "它们会到处泛滥的。"
-            }, 
+                "choice": "它们会到处泛滥的。",
+                "identifier": "spreadunchecked"
+            },
             {
-                "identifier": "spreadunchecked2", 
-                "choice": "大规模银河种族灭绝。"
+                "choice": "大规模银河种族灭绝。",
+                "identifier": "spreadunchecked2"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline292"
+    },
     {
-        "identifier": "lifeline293", 
         "actions": [
             {
-                "identifier": "tryitandseetrue", 
-                "choice": "试试看。"
-            }, 
+                "choice": "试试看。",
+                "identifier": "tryitandseetrue"
+            },
             {
-                "identifier": "bepreparedtofighttrue", 
-                "choice": "准备好战斗。"
+                "choice": "准备好战斗。",
+                "identifier": "bepreparedtofighttrue"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline293"
+    },
     {
-        "identifier": "lifeline294", 
         "actions": [
             {
-                "identifier": "goodluckinhallway", 
-                "choice": "祝你好运。"
-            }, 
+                "choice": "祝你好运。",
+                "identifier": "goodluckinhallway"
+            },
             {
-                "identifier": "youllbefine", 
-                "choice": "我相信你会没事的。"
+                "choice": "我相信你会没事的。",
+                "identifier": "youllbefine"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline294"
+    },
     {
-        "identifier": "lifeline295", 
         "actions": [
             {
-                "identifier": "weirdratthings", 
-                "choice": "你什么意思？"
-            }, 
+                "choice": "你什么意思？",
+                "identifier": "weirdratthings"
+            },
             {
-                "identifier": "staythehellaway", 
-                "choice": "离它远点。"
+                "choice": "离它远点。",
+                "identifier": "staythehellaway"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline295"
+    },
     {
-        "identifier": "lifeline296", 
         "actions": [
             {
-                "identifier": "weirdratthings", 
-                "choice": "你什么意思？"
-            }, 
+                "choice": "你什么意思？",
+                "identifier": "weirdratthings"
+            },
             {
-                "identifier": "staythehellaway", 
-                "choice": "离它远点。"
+                "choice": "离它远点。",
+                "identifier": "staythehellaway"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline296"
+    },
     {
-        "identifier": "lifeline297", 
         "actions": [
             {
-                "identifier": "guardthecomputer", 
-                "choice": "保护电脑。"
-            }, 
+                "choice": "保护电脑。",
+                "identifier": "guardthecomputer"
+            },
             {
-                "identifier": "guardyourthroat", 
-                "choice": "保护喉咙。"
+                "choice": "保护喉咙。",
+                "identifier": "guardyourthroat"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline297"
+    },
     {
-        "identifier": "lifeline298", 
         "actions": [
             {
-                "identifier": "guardthecomputer", 
-                "choice": "保护电脑。"
-            }, 
+                "choice": "保护电脑。",
+                "identifier": "guardthecomputer"
+            },
             {
-                "identifier": "guardyourthroat", 
-                "choice": "保护喉咙。"
+                "choice": "保护喉咙。",
+                "identifier": "guardyourthroat"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline298"
+    },
     {
-        "identifier": "lifeline299", 
         "actions": [
             {
-                "identifier": "butwhataboutyou", 
-                "choice": "但是…你怎么办？"
-            }, 
+                "choice": "但是…你怎么办？",
+                "identifier": "butwhataboutyou"
+            },
             {
-                "identifier": "escapeintime", 
-                "choice": "你能及时逃出吗？"
+                "choice": "你能及时逃出吗？",
+                "identifier": "escapeintime"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline299"
+    },
     {
-        "identifier": "lifeline300", 
         "actions": [
             {
-                "identifier": "weirdratthings", 
-                "choice": "你什么意思？"
-            }, 
+                "choice": "你什么意思？",
+                "identifier": "weirdratthings"
+            },
             {
-                "identifier": "staythehellaway", 
-                "choice": "离那个鬼地方远一点。"
+                "choice": "离那个鬼地方远一点。",
+                "identifier": "staythehellaway"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline300"
+    },
     {
-        "identifier": "lifeline301", 
         "actions": [
             {
-                "identifier": "doihaveachoice", 
-                "choice": "我有的选吗？"
-            }, 
+                "choice": "我有的选吗？",
+                "identifier": "doihaveachoice"
+            },
             {
-                "identifier": "tellmeyourplan", 
-                "choice": "告诉我你的计划。"
+                "choice": "告诉我你的计划。",
+                "identifier": "tellmeyourplan"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline301"
+    },
     {
-        "identifier": "lifeline302", 
         "actions": [
             {
-                "identifier": "weirdratthings", 
-                "choice": "你什么意思？"
-            }, 
+                "choice": "你什么意思？",
+                "identifier": "weirdratthings"
+            },
             {
-                "identifier": "staythehellaway", 
-                "choice": "他妈的离那儿远一些。"
+                "choice": "他妈的离那儿远一些。",
+                "identifier": "staythehellaway"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline302"
+    },
     {
-        "identifier": "lifeline303", 
         "actions": [
             {
-                "identifier": "weirdratthings", 
-                "choice": "你什么意思？"
-            }, 
+                "choice": "你什么意思？",
+                "identifier": "weirdratthings"
+            },
             {
-                "identifier": "staythehellaway", 
-                "choice": "离那个鬼地方远一点。"
+                "choice": "离那个鬼地方远一点。",
+                "identifier": "staythehellaway"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline303"
+    },
     {
-        "identifier": "lifeline304", 
         "actions": [
             {
-                "identifier": "getbackuptrue", 
-                "choice": "你该回来了。"
-            }, 
+                "choice": "你该回来了。",
+                "identifier": "getbackuptrue"
+            },
             {
-                "identifier": "restrighttheretrue", 
-                "choice": "在那里休息一会儿，你应得的。"
+                "choice": "在那里休息一会儿，你应得的。",
+                "identifier": "restrighttheretrue"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline304"
+    },
     {
-        "identifier": "lifeline305", 
         "actions": [
             {
-                "identifier": "whatsgoingonnow", 
-                "choice": "发生什么了？"
-            }, 
+                "choice": "发生什么了？",
+                "identifier": "whatsgoingonnow"
+            },
             {
-                "identifier": "timejustpassed", 
-                "choice": "过去多久了？"
+                "choice": "过去多久了？",
+                "identifier": "timejustpassed"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline305"
+    },
     {
-        "identifier": "lifeline306", 
         "actions": [
             {
-                "identifier": "wishyouluck", 
-                "choice": "很显然，我希望你运气够好。"
-            }, 
+                "choice": "很显然，我希望你运气够好。",
+                "identifier": "wishyouluck"
+            },
             {
-                "identifier": "wishyouskill", 
-                "choice": "相反，我希望你有技艺够精湛。"
+                "choice": "相反，我希望你有技艺够精湛。",
+                "identifier": "wishyouskill"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline306"
+    },
     {
-        "identifier": "lifeline307", 
         "actions": [
             {
-                "identifier": "holdonweapontwo", 
-                "choice": "等会儿…"
-            }, 
+                "choice": "等会儿…",
+                "identifier": "holdonweapontwo"
+            },
             {
-                "identifier": "reallyreprogram", 
-                "choice": "你真的能对它重新编程吗？"
+                "choice": "你真的能对它重新编程吗？",
+                "identifier": "reallyreprogram"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline307"
+    },
     {
-        "identifier": "lifeline308", 
         "actions": [
             {
-                "identifier": "havetodescribe", 
-                "choice": "你必须详细描述一下。"
-            }, 
+                "choice": "你必须详细描述一下。",
+                "identifier": "havetodescribe"
+            },
             {
-                "identifier": "takeaminute", 
-                "choice": "休息一会儿，如果你需要的话。"
+                "choice": "休息一会儿，如果你需要的话。",
+                "identifier": "takeaminute"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline308"
+    },
     {
-        "identifier": "lifeline309", 
         "actions": [
             {
-                "identifier": "havetodescribe", 
-                "choice": "你必须详细描述一下。"
-            }, 
+                "choice": "你必须详细描述一下。",
+                "identifier": "havetodescribe"
+            },
             {
-                "identifier": "takeaminute", 
-                "choice": "休息一会儿，如果你需要的话。"
+                "choice": "休息一会儿，如果你需要的话。",
+                "identifier": "takeaminute"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline309"
+    },
     {
-        "identifier": "lifeline310", 
         "actions": [
             {
-                "identifier": "tellmeyourplan", 
-                "choice": "那好吧。"
-            }, 
+                "choice": "那好吧。",
+                "identifier": "tellmeyourplan"
+            },
             {
-                "identifier": "reallyreprogram", 
-                "choice": "你真的能对它重新编程吗？"
+                "choice": "你真的能对它重新编程吗？",
+                "identifier": "reallyreprogram"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline310"
+    },
     {
-        "identifier": "lifeline311", 
         "actions": [
             {
-                "identifier": "clearoftheettrue", 
-                "choice": "呆在那儿搞清楚那个E.T."
-            }, 
+                "choice": "呆在那儿搞清楚那个E.T.",
+                "identifier": "clearoftheettrue"
+            },
             {
-                "identifier": "otherratsdoingtrue", 
-                "choice": "其他的老鼠在做什么？"
+                "choice": "其他的老鼠在做什么？",
+                "identifier": "otherratsdoingtrue"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline311"
+    },
     {
-        "identifier": "lifeline312", 
         "actions": [
             {
-                "identifier": "aretheratsdeadtrue", 
-                "choice": "所以说那老鼠死了？"
+                "choice": "所以说那老鼠死了？",
+                "identifier": "aretheratsdeadtrue"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline312"
+    },
     {
-        "identifier": "lifeline313", 
         "actions": [
             {
-                "identifier": "mustbeanillusiontrue", 
-                "choice": "这肯定是个幻觉。"
-            }, 
+                "choice": "这肯定是个幻觉。",
+                "identifier": "mustbeanillusiontrue"
+            },
             {
-                "identifier": "clearoftheettrue", 
-                "choice": "离它远一点。"
+                "choice": "离它远一点。",
+                "identifier": "clearoftheettrue"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline313"
+    },
     {
-        "identifier": "lifeline314", 
         "actions": [
             {
-                "identifier": "whatthistime", 
-                "choice": "怎么了？"
-            }, 
+                "choice": "怎么了？",
+                "identifier": "whatthistime"
+            },
             {
-                "identifier": "morewithrats", 
-                "choice": "那老鼠还有更多不一样的地方？"
+                "choice": "那老鼠还有更多不一样的地方？",
+                "identifier": "morewithrats"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline314"
+    },
     {
-        "identifier": "lifeline315", 
         "actions": [
             {
-                "identifier": "doihaveachoice", 
-                "choice": "我有的选吗？"
-            }, 
+                "choice": "我有的选吗？",
+                "identifier": "doihaveachoice"
+            },
             {
-                "identifier": "tellmeyourplan", 
-                "choice": "告诉我你的计划。"
+                "choice": "告诉我你的计划。",
+                "identifier": "tellmeyourplan"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline315"
+    },
     {
-        "identifier": "lifeline316", 
         "actions": [
             {
-                "identifier": "havetodescribe", 
-                "choice": "好吧。继续说。"
-            }, 
+                "choice": "好吧。继续说。",
+                "identifier": "havetodescribe"
+            },
             {
-                "identifier": "howclosearethey", 
-                "choice": "那些家伙离你有多近？"
+                "choice": "那些家伙离你有多近？",
+                "identifier": "howclosearethey"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline316"
+    },
     {
-        "identifier": "lifeline317", 
         "actions": [
             {
-                "identifier": "holdonweapontwo", 
-                "choice": "等会儿…"
-            }, 
+                "choice": "等会儿…",
+                "identifier": "holdonweapontwo"
+            },
             {
-                "identifier": "reallyreprogram", 
-                "choice": "你真的能对它重新编程吗？"
+                "choice": "你真的能对它重新编程吗？",
+                "identifier": "reallyreprogram"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline317"
+    },
     {
-        "identifier": "lifeline318", 
         "actions": [
             {
-                "identifier": "wellterrifying", 
-                "choice": "好吧，这可…真糟糕。"
-            }, 
+                "choice": "好吧，这可…真糟糕。",
+                "identifier": "wellterrifying"
+            },
             {
-                "identifier": "whatisitdoingnowtrue", 
-                "choice": "他现在在做什么？"
+                "choice": "他现在在做什么？",
+                "identifier": "whatisitdoingnowtrue"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline318"
+    },
     {
-        "identifier": "lifeline319", 
         "actions": [
             {
-                "identifier": "tellmemoretrue", 
-                "choice": "有意思。告诉我更多。"
-            }, 
+                "choice": "有意思。告诉我更多。",
+                "identifier": "tellmemoretrue"
+            },
             {
-                "identifier": "otherratsdoingtrue", 
-                "choice": "其他的老鼠在做什么？"
+                "choice": "其他的老鼠在做什么？",
+                "identifier": "otherratsdoingtrue"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline319"
+    },
     {
-        "identifier": "lifeline320", 
         "actions": [
             {
-                "identifier": "threateningyou", 
-                "choice": "他们吓着你了？"
-            }, 
+                "choice": "他们吓着你了？",
+                "identifier": "threateningyou"
+            },
             {
-                "identifier": "areyousafe", 
-                "choice": "你还安全吗？"
+                "choice": "你还安全吗？",
+                "identifier": "areyousafe"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline320"
+    },
     {
-        "identifier": "lifeline321", 
         "actions": [
             {
-                "identifier": "randombashing", 
-                "choice": "随机密码?"
-            }, 
+                "choice": "随机密码?",
+                "identifier": "randombashing"
+            },
             {
-                "identifier": "cantbeyourplan", 
-                "choice": "你可不能这样做。"
+                "choice": "你可不能这样做。",
+                "identifier": "cantbeyourplan"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline321"
+    },
     {
-        "identifier": "lifeline322", 
         "actions": [
             {
-                "identifier": "whatweapon", 
-                "choice": "你什么意思？"
-            }, 
+                "choice": "你什么意思？",
+                "identifier": "whatweapon"
+            },
             {
-                "identifier": "holdonweapon", 
-                "choice": "等会儿…"
+                "choice": "等会儿…",
+                "identifier": "holdonweapon"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline322"
+    },
     {
-        "identifier": "lifeline323", 
         "actions": [
             {
-                "identifier": "trytostaycalm", 
-                "choice": "试着保持冷静"
-            }, 
+                "choice": "试着保持冷静",
+                "identifier": "trytostaycalm"
+            },
             {
-                "identifier": "whatisitdoingnowtrue", 
-                "choice": "那种生物做了什么？"
+                "choice": "那种生物做了什么？",
+                "identifier": "whatisitdoingnowtrue"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline323"
+    },
     {
-        "identifier": "lifeline324", 
         "actions": [
             {
-                "identifier": "mustbeasolution", 
-                "choice": "肯定有解决的办法的。"
-            }, 
+                "choice": "肯定有解决的办法的。",
+                "identifier": "mustbeasolution"
+            },
             {
-                "identifier": "submittocreature", 
-                "choice": "你屈服于它了？！"
+                "choice": "你屈服于它了？！",
+                "identifier": "submittocreature"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline324"
+    },
     {
-        "identifier": "lifeline325", 
         "actions": [
             {
-                "identifier": "trotterhappened", 
-                "choice": "发生了什么？"
-            }, 
+                "choice": "发生了什么？",
+                "identifier": "trotterhappened"
+            },
             {
-                "identifier": "didyoumakeit", 
-                "choice": "你做到了吗？"
+                "choice": "你做到了吗？",
+                "identifier": "didyoumakeit"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline325"
+    },
     {
-        "identifier": "lifeline326", 
         "actions": [
             {
-                "identifier": "whatdoyousee", 
-                "choice": "告诉我你看到了什么！"
-            }, 
+                "choice": "告诉我你看到了什么！",
+                "identifier": "whatdoyousee"
+            },
             {
-                "identifier": "takeaminuteifyouneed", 
-                "choice": "休息一下，如果你需要的话。"
+                "choice": "休息一下，如果你需要的话。",
+                "identifier": "takeaminuteifyouneed"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline326"
+    },
     {
-        "identifier": "lifeline327", 
         "actions": [
             {
-                "identifier": "idontgetit", 
-                "choice": "我不明白。"
-            }, 
+                "choice": "我不明白。",
+                "identifier": "idontgetit"
+            },
             {
-                "identifier": "areyousafe", 
-                "choice": "告诉我发生了什么。"
+                "choice": "告诉我发生了什么。",
+                "identifier": "areyousafe"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline327"
+    },
     {
-        "identifier": "lifeline328", 
         "actions": [
             {
-                "identifier": "alwayspackheat", 
-                "choice": "有枪总是好的。"
-            }, 
+                "choice": "有枪总是好的。",
+                "identifier": "alwayspackheat"
+            },
             {
-                "identifier": "somethingtocompute", 
-                "choice": "总得多考虑一下。"
+                "choice": "总得多考虑一下。",
+                "identifier": "somethingtocompute"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline328"
+    },
     {
-        "identifier": "lifeline329", 
         "actions": [
             {
-                "identifier": "havetofight", 
-                "choice": "你一定要去战斗！"
-            }, 
+                "choice": "你一定要去战斗！",
+                "identifier": "havetofight"
+            },
             {
-                "identifier": "nofightflee", 
-                "choice": "打不过就跑！"
+                "choice": "打不过就跑！",
+                "identifier": "nofightflee"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline329"
+    },
     {
-        "identifier": "lifeline330", 
         "actions": [
             {
-                "identifier": "likeisaid", 
-                "choice": "我跟你说过的！"
-            }, 
+                "choice": "我跟你说过的！",
+                "identifier": "likeisaid"
+            },
             {
-                "identifier": "findanexit", 
-                "choice": "你能找得到出口吗？"
+                "choice": "你能找得到出口吗？",
+                "identifier": "findanexit"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline330"
+    },
     {
-        "identifier": "lifeline331", 
         "actions": [
             {
-                "identifier": "fightthecreature", 
-                "choice": "不！跟它打！"
-            }, 
+                "choice": "不！跟它打！",
+                "identifier": "fightthecreature"
+            },
             {
-                "identifier": "submittocreature", 
-                "choice": "你屈服于它了？！"
+                "choice": "你屈服于它了？！",
+                "identifier": "submittocreature"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline331"
+    },
     {
-        "identifier": "lifeline332", 
         "actions": [
             {
-                "identifier": "youmustgetawaytrue", 
-                "choice": "快离开。"
-            }, 
+                "choice": "快离开。",
+                "identifier": "youmustgetawaytrue"
+            },
             {
-                "identifier": "stoplookingateyes", 
-                "choice": "别看他们的眼睛。"
+                "choice": "别看他们的眼睛。",
+                "identifier": "stoplookingateyes"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline332"
+    },
     {
-        "identifier": "lifeline333", 
         "actions": [
             {
-                "identifier": "whatsupwithzombies", 
-                "choice": "发生了什么？"
-            }, 
+                "choice": "发生了什么？",
+                "identifier": "whatsupwithzombies"
+            },
             {
-                "identifier": "whoareyoutalkingto", 
-                "choice": "你在和谁说话？"
+                "choice": "你在和谁说话？",
+                "identifier": "whoareyoutalkingto"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline333"
+    },
     {
-        "identifier": "lifeline334", 
         "actions": [
             {
-                "identifier": "mustbeasolution", 
-                "choice": "肯定有什么办法解决的。"
-            }, 
+                "choice": "肯定有什么办法解决的。",
+                "identifier": "mustbeasolution"
+            },
             {
-                "identifier": "submittocreature", 
-                "choice": "你屈服了吗？！"
+                "choice": "你屈服了吗？！",
+                "identifier": "submittocreature"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline334"
+    },
     {
-        "identifier": "lifeline335", 
         "actions": [
             {
-                "identifier": "trotterhappened", 
-                "choice": "发生什么了？"
-            }, 
+                "choice": "发生什么了？",
+                "identifier": "trotterhappened"
+            },
             {
-                "identifier": "didyoumakeit", 
-                "choice": "你做到了吗？"
+                "choice": "你做到了吗？",
+                "identifier": "didyoumakeit"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline335"
+    },
     {
-        "identifier": "lifeline336", 
         "actions": [
             {
-                "identifier": "surestaycalm", 
-                "choice": "好。是的。冷静点。"
-            }, 
+                "choice": "好。是的。冷静点。",
+                "identifier": "surestaycalm"
+            },
             {
-                "identifier": "screwcalm", 
-                "choice": "保持冷静。从那里出去！"
+                "choice": "保持冷静。从那里出去！",
+                "identifier": "screwcalm"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline336"
+    },
     {
-        "identifier": "lifeline337", 
         "actions": [
             {
-                "identifier": "feelinghomesick", 
-                "choice": "觉得想家了？"
-            }, 
+                "choice": "觉得想家了？",
+                "identifier": "feelinghomesick"
+            },
             {
-                "identifier": "thisisexciting", 
-                "choice": "这可真是令人振奋呢！"
+                "choice": "这可真是令人振奋呢！",
+                "identifier": "thisisexciting"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline337"
+    },
     {
-        "identifier": "lifeline338", 
         "actions": [
             {
-                "identifier": "cannotbepossible", 
-                "choice": "那根本不可能"
-            }, 
+                "choice": "那根本不可能",
+                "identifier": "cannotbepossible"
+            },
             {
-                "identifier": "getoutoftherenow", 
-                "choice": "立刻出去。"
+                "choice": "立刻出去。",
+                "identifier": "getoutoftherenow"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline338"
+    },
     {
-        "identifier": "lifeline339", 
         "actions": [
             {
-                "identifier": "notstillyourfriendstrue", 
-                "choice": "这些人不是你的朋友了。"
-            }, 
+                "choice": "这些人不是你的朋友了。",
+                "identifier": "notstillyourfriendstrue"
+            },
             {
-                "identifier": "stoplookingateyes", 
-                "choice": "别再看他的眼睛。"
+                "choice": "别再看他的眼睛。",
+                "identifier": "stoplookingateyes"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline339"
+    },
     {
-        "identifier": "lifeline340", 
         "actions": [
             {
-                "identifier": "youmustgetaway", 
-                "choice": "你得走了。"
-            }, 
+                "choice": "你得走了。",
+                "identifier": "youmustgetaway"
+            },
             {
-                "identifier": "notstillyourfriends", 
-                "choice": "那些不再是你的朋友了。"
+                "choice": "那些不再是你的朋友了。",
+                "identifier": "notstillyourfriends"
             }
-        ]
-    }, 
+        ],
+        "identifier": "lifeline340"
+    },
     {
-        "identifier": "lifeline341", 
         "actions": [
             {
-                "identifier": "whatsupwithzombies", 
-                "choice": "发生了什么？"
-            }, 
+                "choice": "发生了什么？",
+                "identifier": "whatsupwithzombies"
+            },
             {
-                "identifier": "whoareyoutalkingto", 
-                "choice": "你在和谁说话？"
+                "choice": "你在和谁说话？",
+                "identifier": "whoareyoutalkingto"
             }
-        ]
+        ],
+        "identifier": "lifeline341"
     }
 ]

@@ -54,6 +54,7 @@
 :: whois
 <<if $toldname is false>>
 <<set $toldname = true>>
+<<set $whois = true>>
 <<revert [[launch]]>>
 <<endif>>
 哎呀呀呀，抱歉。应该刚才就可以用了。

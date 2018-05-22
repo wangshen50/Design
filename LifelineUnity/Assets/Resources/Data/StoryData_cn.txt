@@ -1,4 +1,4 @@
-﻿// Lifeline story data Copyright 2falsetrue5, 3 Minute Games LLC. 
+// Lifeline story data Copyright 2falsetrue5, 3 Minute Games LLC. 
 // http://3mingames.com
 // If you're reading this, you're in for spoilers but you probably don't care! Thanks for playing, and have fun.
 
@@ -52,7 +52,11 @@
 
 
 :: whois
+<<if $toldname is false>>
 <<set $toldname = true>>
+<<set $whois = true>>
+<<revert [[launch]]>>
+<<endif>>
 哎呀呀呀，抱歉。应该刚才就可以用了。
 刚才我太激动了。
 我的名字叫Taylor。 我是，或者说，我曾经是星船瓦利亚号的一名船员。
