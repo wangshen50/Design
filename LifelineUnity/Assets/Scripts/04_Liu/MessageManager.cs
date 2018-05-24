@@ -105,6 +105,19 @@ public class NormalMessageData : MessageBase
     {
         message = nodeStr;
     }
+}
+
+public class RevertMessageData : MessageBase
+{
+    public string toScene;
+    public override void SetNodeData(string nodeStr)
+    {
+        throw new NotImplementedException();
+    }
+    public override JSONNode ToJSONNode()
+    {
+        throw new NotImplementedException();
+    }
 
 }
 
@@ -174,6 +187,14 @@ public class MessageManager  {
         historyDataList.Add(data);
     }
 
+    public void AddOneRevertMessage(string toScene)
+    {
+        RevertMessageData data = new RevertMessageData();
+        data.toScene = toScene;
+
+        historyDataList.Add(data);
+    }
+
     public void RevertTo(string scene)
     {
         Debug.Log("revertTo " + scene);
@@ -200,6 +221,7 @@ public class MessageManager  {
             }
         }
 
+        GameApp.Instance.status["atScene"] = scene;
         GameApp.Instance.OnRevertToMessage();
     }
 

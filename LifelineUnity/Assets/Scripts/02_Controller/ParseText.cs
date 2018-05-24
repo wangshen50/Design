@@ -51,7 +51,7 @@ public static class ParseText
             else if (line.StartsWith("<<set")) ParseText.HandleSet(cm, line);
             else if (line.StartsWith("[[")) ParseText.ToNewScene(cm, line);
             else if (line.StartsWith("<<category")) ParseText.HandleChoice(cm, line, scene);
-            else if (line.StartsWith("<<revert ")) { ParseText.HandleRevert(cm, line); break; }
+            else if (line.StartsWith("<<revert ")) { ParseText.HandleRevert(cm, line); }
             else ParseText.AddLeftChats(cm, line, scene);
         }
     }
@@ -103,9 +103,7 @@ public static class ParseText
         var scene = line.Substring(11, line.Length - 15);
         //Debug.Log("revert to:substring: " + content);
 
-        cm.messageManager.RevertTo(scene);
-
-        cm.SaveStatusData(scene);
+        cm.messageManager.AddOneRevertMessage(scene);
     }
 }
 

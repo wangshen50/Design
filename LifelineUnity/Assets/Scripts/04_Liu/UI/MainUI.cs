@@ -88,6 +88,13 @@ public class MainUI : MonoBehaviour {
         if (_nextToShowMessageIndex >= lst.Count)
             return;
 
+        if( lst[_nextToShowMessageIndex] is RevertMessageData)
+        {
+            var rd = lst[_nextToShowMessageIndex] as RevertMessageData;
+            GameApp.Instance.messageManager.RevertTo(rd.toScene);
+            return;
+        }
+
         bool reachEnd = mainListView.IsContentTouchEnd(GameApp.Instance.allowOffset);
 
         mainListView.SetListElementCount(_nextToShowMessageIndex + 1, false);
