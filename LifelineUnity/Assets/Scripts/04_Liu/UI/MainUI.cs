@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using System;
 
 /// <summary>
 /// 主界面UI
@@ -15,7 +16,9 @@ public class MainUI : MonoBehaviour {
     public Button replayButton;
     public Button playButton;
 
+    [NonSerialized]
     public int _nextToShowMessageIndex = 0;
+    [NonSerialized]
     public float _currentTimer = 0.0f;
     public GameObject clickMask;
 
@@ -122,6 +125,12 @@ public class MainUI : MonoBehaviour {
 
         if (reachEnd)
             mainListView.MovePanelToElementIndex(_nextToShowMessageIndex, 0);
+
+        var newEle = mainListView.GetShownElementByIndex(_nextToShowMessageIndex);
+        if(newEle)
+        {
+            newEle.GetComponent<Animator>().Play("ShowIn", 0);
+        }
 
         _currentTimer = 0;
         _nextToShowMessageIndex++;
