@@ -15,14 +15,27 @@ public class MainUI : MonoBehaviour {
     public Button replayButton;
     public Button playButton;
 
-    int _nextToShowMessageIndex = 0;
-    float _currentTimer = 0.0f;
+    public int _nextToShowMessageIndex = 0;
+    public float _currentTimer = 0.0f;
+    public GameObject clickMask;
 
+    public void OnStartRevertMessage()
+    {
+        mainListView.scrollRect.enabled = false;
+        clickMask.SetActive(true);
+    }
+
+    public void OnStopRevertMessage()
+    {
+        clickMask.SetActive(false);
+        mainListView.scrollRect.enabled = true;
+    }
 
     private void Start()
     {
         playButton.gameObject.SetActive(true);
         replayButton.gameObject.SetActive(false);
+        clickMask.SetActive(false);
 
         mainListView.InitListView(0, OnGetElement);
     }
@@ -91,7 +104,8 @@ public class MainUI : MonoBehaviour {
         if( lst[_nextToShowMessageIndex] is RevertMessageData)
         {
             var rd = lst[_nextToShowMessageIndex] as RevertMessageData;
-            GameApp.Instance.messageManager.RevertTo(rd.toScene);
+            StartCoroutine(GameApp.Instance.messageManager.RevertTo(rd));
+            //GameApp.Instance.messageManager.RevertTo(rd);
             return;
         }
 
@@ -151,15 +165,5 @@ public class MainUI : MonoBehaviour {
         return null;
     }
 
-    public void OnRevertToMessage()
-    {
-        var lst = GameApp.Instance.messageManager.historyDataList;
-
-        mainListView.SetListElementCount(lst.Count, false);
-        mainListView.MovePanelToElementIndex(lst.Count - 1, 0);
-
-        _nextToShowMessageIndex = lst.Count;
-        _currentTimer = 0;
-    }
 
 }

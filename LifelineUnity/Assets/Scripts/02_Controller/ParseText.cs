@@ -81,7 +81,7 @@ public static class ParseText
         JSONNode choose = cm.choices[int.Parse(line.Substring(19, line.Length - 21))];
         //JSONArray choice = cm.choices[int.Parse(line.Substring(19, line.Length - 21))]["actions"].AsArray;
 
-        cm.messageManager.AddOneChoice(choose);
+        cm.messageManager.AddOneChoice(choose, scene);
     }
 
 

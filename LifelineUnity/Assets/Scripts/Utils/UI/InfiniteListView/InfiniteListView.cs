@@ -11,6 +11,7 @@ namespace UI_2_SuperScroll
     public class InfiniteListView : ListViewBase, IBeginDragHandler, IEndDragHandler, IDragHandler
     {
         ScrollRect _scrollRect;
+        public ScrollRect scrollRect { get { return _scrollRect; } }
         RectTransform _scrollRectTransform;
         RectTransform _viewportRectTransform;
 

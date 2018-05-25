@@ -25,8 +25,12 @@ public class GameApp : MonoBehaviour {
 
     [Tooltip("每隔多少秒弹出下一条信息，如果为负数，表示不会根据时间弹出")]
     public float timerInterval = -1.5f;
+    [Tooltip("鼠标点击时，如果鼠标位移超过这个值，则判断为点击无效")]
     public float clickThrehold = 10.0f;
+    [Tooltip("有新消息出现时，自动上滑的阈值")]
     public float allowOffset = 50.0f;
+    [Tooltip("回溯时，消息消失的时间间隔")]
+    public float revertDisappearInterval = 0.5f;
     #endregion Message
 
     #region Data
@@ -163,11 +167,5 @@ public class GameApp : MonoBehaviour {
         yield return new WaitForSeconds(duration);
         mainUI.replayButton.gameObject.SetActive(true);
     }
-
-    public void OnRevertToMessage()
-    {
-        mainUI.OnRevertToMessage();
-    }
-
 
 }
