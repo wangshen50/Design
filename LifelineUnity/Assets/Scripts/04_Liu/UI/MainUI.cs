@@ -21,14 +21,14 @@ public class MainUI : MonoBehaviour {
 
     public void OnStartRevertMessage()
     {
-        mainListView.scrollRect.enabled = false;
+        //mainListView.scrollRect.enabled = false;
         clickMask.SetActive(true);
     }
 
     public void OnStopRevertMessage()
     {
         clickMask.SetActive(false);
-        mainListView.scrollRect.enabled = true;
+        //mainListView.scrollRect.enabled = true;
     }
 
     private void Start()

@@ -213,6 +213,59 @@ public class MessageManager  {
 
     public IEnumerator RevertTo(RevertMessageData revertData)
     {
+        var mainUI = GameApp.Instance.mainUI;
+
+        bool find = false;
+        bool reverting = false;
+        int finalIndex = 0;
+        int revertCount = 0;
+        for(int i = historyDataList.Count - 1; i >= 0; i--)
+        {
+            if(!reverting)
+            {
+                var message = historyDataList[i] as RevertMessageData;
+                if(message != null)
+                {
+                    reverting = true;
+                    mainUI.OnStartRevertMessage();
+                }
+                historyDataList.RemoveAt(i);
+
+            }else
+            {
+                var message = historyDataList[i];
+                if(message.belongingScene == revertData.toScene)
+                {
+                    find = true;
+                    finalIndex = i;
+                }else
+                {
+                    if (find)
+                        break;
+                }
+
+                var offsetCount = GameApp.Instance.revertDisappearCount;
+                for(int j = 0; j < offsetCount; j++)
+                {
+                    mainUI.mainListView.MovePanelToElementIndex(historyDataList.Count - 1 - revertCount, mainUI.mainListView.ViewportSize - (mainUI.mainListView.ActiveElementList[0].ElementSizeWithPadding / offsetCount) * (offsetCount - j));
+                    yield return new WaitForSeconds(GameApp.Instance.revertDisappearInterval);
+                }
+                revertCount++;
+            }
+        }
+        historyDataList.RemoveRange(finalIndex, revertCount);
+        mainUI.mainListView.SetListElementCount(historyDataList.Count, true);
+        mainUI.mainListView.MovePanelToElementIndex(historyDataList.Count - 1, 0);
+
+        mainUI._nextToShowMessageIndex = historyDataList.Count;
+        mainUI._currentTimer = 0;
+        GameApp.Instance.status["atScene"] = revertData.toScene;
+        mainUI.OnStopRevertMessage();
+    }
+
+        /*
+    public IEnumerator RevertTo(RevertMessageData revertData)
+    {
         Debug.Log("revertTo " + revertData.toScene);
         bool find = false;
         bool reverting = false;
@@ -256,5 +309,5 @@ public class MessageManager  {
         GameApp.Instance.status["atScene"] = revertData.toScene;
         mainUI.OnStopRevertMessage();
     }
-
+    */
 }

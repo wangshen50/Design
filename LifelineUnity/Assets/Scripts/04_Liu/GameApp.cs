@@ -29,7 +29,9 @@ public class GameApp : MonoBehaviour {
     public float clickThrehold = 10.0f;
     [Tooltip("有新消息出现时，自动上滑的阈值")]
     public float allowOffset = 50.0f;
-    [Tooltip("回溯时，消息消失的时间间隔")]
+    [Tooltip("回溯时，一条消息需要滚多少次才滚完")]
+    public int revertDisappearCount = 10;
+    [Tooltip("回溯时，滚一次的事件间隔  ")]
     public float revertDisappearInterval = 0.5f;
     [Tooltip("按钮默认颜色")]
     public Color normalColor = Color.white;
