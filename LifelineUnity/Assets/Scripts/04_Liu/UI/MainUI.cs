@@ -83,6 +83,7 @@ public class MainUI : MonoBehaviour {
         }
     }
 
+    float _nextAvailableClickTime = 0.0f;
     public void OnClickScroll(BaseEventData data)
     {
         float threhold = GameApp.Instance.clickThrehold;
@@ -91,6 +92,12 @@ public class MainUI : MonoBehaviour {
         var startPos = ped.pressPosition;
         if (Mathf.Abs(curPos.x - startPos.x) >= threhold || Mathf.Abs(curPos.y - startPos.y) >= threhold)
             return;
+
+        if (Time.time < _nextAvailableClickTime)
+        {
+            return;
+        }
+        _nextAvailableClickTime = Time.time + GameApp.Instance.doubleClickInterval;
 
         ShowNextMessage();
     }

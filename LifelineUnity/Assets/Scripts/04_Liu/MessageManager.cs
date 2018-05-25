@@ -119,7 +119,7 @@ public class NormalMessageData : MessageBase
             message = normalMatch.Groups[2].ToString();
         }
 
-        message = nodeStr;
+        //message = nodeStr;
     }
 }
 
