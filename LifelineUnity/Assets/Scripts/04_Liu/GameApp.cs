@@ -33,8 +33,6 @@ public class GameApp : MonoBehaviour {
     public int revertDisappearCount = 10;
     [Tooltip("回溯时，滚一次的事件间隔  ")]
     public float revertDisappearInterval = 0.5f;
-    [Tooltip("按钮默认颜色")]
-    public Color normalColor = Color.white;
     [Tooltip("按钮刚被选择后的颜色")]
     public Color selectedColor = Color.white;
     [Tooltip("按钮已选择的颜色")]

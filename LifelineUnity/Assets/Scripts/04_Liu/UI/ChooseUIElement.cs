@@ -15,10 +15,20 @@ public class ChooseUIElement : UIInGroupElement<ChooseMessageData> {
 
     public string selectedPrefix;
 
+    Color defaultChoice1TextColor = Color.white;
+    Color defaultChoice1BtnColor = Color.white;
+    Color defaultChoice2TextColor = Color.white;
+    Color defaultChoice2BtnColor = Color.white;
+
     private void Awake()
     {
         selectedText1.SetActive(false);
         selectedText2.SetActive(false);
+
+        defaultChoice1TextColor = choice1Text.color;
+        defaultChoice1BtnColor = choice1Btn.image.color;
+        defaultChoice2TextColor = choice2Text.color;
+        defaultChoice2BtnColor = choice2Btn.image.color;
     }
 
     protected override void OnDataChange()
@@ -30,33 +40,15 @@ public class ChooseUIElement : UIInGroupElement<ChooseMessageData> {
         choice1Text.text = data.actions[0].choice;
         choice2Text.text = data.actions[1].choice;
 
-        choice1Btn.image.color = GameApp.Instance.normalColor;
-        choice1Text.color = GameApp.Instance.normalColor;
-        choice2Btn.image.color = GameApp.Instance.normalColor;
-        choice2Text.color = GameApp.Instance.normalColor;
+        choice1Btn.image.color = defaultChoice1BtnColor;
+        choice1Text.color = defaultChoice1TextColor;
+        choice2Btn.image.color = defaultChoice2BtnColor;
+        choice2Text.color = defaultChoice2TextColor;
 
-        if(data.selectedIndex == -1) // unselected 
+        if (data.selectedIndex == -1) // unselected 
         {
             choice1Btn.onClick.AddListener(()=>OnSelect(0));
             choice2Btn.onClick.AddListener(()=>OnSelect(1));
-
-        }else if(data.selectedIndex == 0)
-        {
-            choice1Btn.image.color = GameApp.Instance.selectedColor;
-            choice1Text.color = GameApp.Instance.selectedColor;
-
-            //choice1Text.text = selectedPrefix + data.actions[0].choice;
-            choice1Btn.onClick.RemoveAllListeners();
-            choice2Btn.onClick.RemoveAllListeners();
-
-        }else if(data.selectedIndex == 1)
-        {
-            choice2Btn.image.color = GameApp.Instance.selectedColor;
-            choice2Text.color = GameApp.Instance.selectedColor;
-
-            //choice2Text.text = selectedPrefix + data.actions[1].choice;
-            choice1Btn.onClick.RemoveAllListeners();
-            choice2Btn.onClick.RemoveAllListeners();
         }
 
         if(GameApp.Instance.status[data.actions[0].identifier].AsBool)
@@ -82,6 +74,24 @@ public class ChooseUIElement : UIInGroupElement<ChooseMessageData> {
             //selectedText2.SetActive(false);
         }
 
+        if (data.selectedIndex == 0)
+        {
+            choice1Btn.image.color = GameApp.Instance.selectedColor;
+            choice1Text.color = GameApp.Instance.selectedColor;
+
+            //choice1Text.text = selectedPrefix + data.actions[0].choice;
+            choice1Btn.onClick.RemoveAllListeners();
+            choice2Btn.onClick.RemoveAllListeners();
+
+        }else if(data.selectedIndex == 1)
+        {
+            choice2Btn.image.color = GameApp.Instance.selectedColor;
+            choice2Text.color = GameApp.Instance.selectedColor;
+
+            //choice2Text.text = selectedPrefix + data.actions[1].choice;
+            choice1Btn.onClick.RemoveAllListeners();
+            choice2Btn.onClick.RemoveAllListeners();
+        }
     }
 
     private void OnSelect(int selectedIndex)
