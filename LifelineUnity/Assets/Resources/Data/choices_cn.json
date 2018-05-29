@@ -2,6 +2,32 @@
     {
         "actions": [
             {
+                "choice": "警告空姐",
+                "identifier": "warn"
+            },
+            {
+                "choice": "冷静一下",
+                "identifier": "calm"
+            }
+        ],
+        "identifier": "lifeline0"
+    },
+    {
+        "actions": [
+            {
+                "choice": "含糊过去",
+                "identifier": "lie"
+            },
+            {
+                "choice": "如实相告",
+                "identifier": "truth"
+            }
+        ],
+        "identifier": "lifeline1"
+    },
+    {
+        "actions": [
+            {
                 "choice": "摸摸口袋",
                 "identifier": "pocket"
             },
@@ -10,7 +36,7 @@
                 "identifier": "bag"
             }
         ],
-        "identifier": "lifeline0"
+        "identifier": "lifeline2"
     },
     {
         "actions": [
@@ -23,7 +49,7 @@
                 "identifier": "paper"
             }
         ],
-        "identifier": "lifeline1"
+        "identifier": "lifeline3"
     },
     {
         "actions": [
@@ -36,7 +62,7 @@
                 "identifier": "paper"
             }
         ],
-        "identifier": "lifeline2"
+        "identifier": "lifeline4"
     },
     {
         "actions": [
@@ -47,32 +73,6 @@
             {
                 "choice": "翻翻椅背杂物袋",
                 "identifier": "bag"
-            }
-        ],
-        "identifier": "lifeline3"
-    },
-    {
-        "actions": [
-            {
-                "choice": "查看杂志",
-                "identifier": "magazine"
-            },
-            {
-                "choice": "查看报纸",
-                "identifier": "newspaper"
-            }
-        ],
-        "identifier": "lifeline4"
-    },
-    {
-        "actions": [
-            {
-                "choice": "查看杂志",
-                "identifier": "magazine"
-            },
-            {
-                "choice": "查看报纸",
-                "identifier": "newspaper"
             }
         ],
         "identifier": "lifeline5"
@@ -80,6 +80,32 @@
     {
         "actions": [
             {
+                "choice": "查看杂志",
+                "identifier": "magazine"
+            },
+            {
+                "choice": "查看报纸",
+                "identifier": "newspaper"
+            }
+        ],
+        "identifier": "lifeline6"
+    },
+    {
+        "actions": [
+            {
+                "choice": "查看杂志",
+                "identifier": "magazine"
+            },
+            {
+                "choice": "查看报纸",
+                "identifier": "newspaper"
+            }
+        ],
+        "identifier": "lifeline7"
+    },
+    {
+        "actions": [
+            {
                 "choice": "摸摸口袋",
                 "identifier": "pocket"
             },
@@ -88,7 +114,7 @@
                 "identifier": "bag"
             }
         ],
-        "identifier": "lifeline6"
+        "identifier": "lifeline8"
     },
     {
         "actions": [
@@ -101,7 +127,7 @@
                 "identifier": "wash"
             }
         ],
-        "identifier": "lifeline7"
+        "identifier": "lifeline9"
     },
     {
         "actions": [
@@ -114,7 +140,7 @@
                 "identifier": "messagereceived"
             }
         ],
-        "identifier": "lifeline8"
+        "identifier": "lifeline10"
     },
     {
         "actions": [
@@ -127,7 +153,7 @@
                 "identifier": "whathappened"
             }
         ],
-        "identifier": "lifeline9"
+        "identifier": "lifeline11"
     },
     {
         "actions": [
@@ -140,7 +166,7 @@
                 "identifier": "usemap"
             }
         ],
-        "identifier": "lifeline10"
+        "identifier": "lifeline12"
     },
     {
         "actions": [
@@ -153,7 +179,7 @@
                 "identifier": "whoatakeiteasy"
             }
         ],
-        "identifier": "lifeline11"
+        "identifier": "lifeline13"
     },
     {
         "actions": [
@@ -166,7 +192,7 @@
                 "identifier": "talkColby"
             }
         ],
-        "identifier": "lifeline12"
+        "identifier": "lifeline14"
     },
     {
         "actions": [
@@ -179,7 +205,7 @@
                 "identifier": "areyouallright"
             }
         ],
-        "identifier": "lifeline13"
+        "identifier": "lifeline15"
     },
     {
         "actions": [
@@ -192,7 +218,7 @@
                 "identifier": "areyouallright"
             }
         ],
-        "identifier": "lifeline14"
+        "identifier": "lifeline16"
     },
     {
         "actions": [
@@ -205,7 +231,7 @@
                 "identifier": "whathappened"
             }
         ],
-        "identifier": "lifeline15"
+        "identifier": "lifeline17"
     },
     {
         "actions": [
@@ -218,7 +244,7 @@
                 "identifier": "whereareyou"
             }
         ],
-        "identifier": "lifeline16"
+        "identifier": "lifeline18"
     },
     {
         "actions": [
@@ -231,7 +257,7 @@
                 "identifier": "areyouallright"
             }
         ],
-        "identifier": "lifeline17"
+        "identifier": "lifeline19"
     },
     {
         "actions": [
@@ -244,7 +270,7 @@
                 "identifier": "dontbeababy"
             }
         ],
-        "identifier": "lifeline18"
+        "identifier": "lifeline20"
     },
     {
         "actions": [
@@ -257,7 +283,7 @@
                 "identifier": "thickerskin"
             }
         ],
-        "identifier": "lifeline19"
+        "identifier": "lifeline21"
     },
     {
         "actions": [
@@ -270,7 +296,7 @@
                 "identifier": "areyouallright"
             }
         ],
-        "identifier": "lifeline20"
+        "identifier": "lifeline22"
     },
     {
         "actions": [
@@ -283,7 +309,7 @@
                 "identifier": "talkColby"
             }
         ],
-        "identifier": "lifeline21"
+        "identifier": "lifeline23"
     },
     {
         "actions": [
@@ -296,7 +322,7 @@
                 "identifier": "leastprepared"
             }
         ],
-        "identifier": "lifeline22"
+        "identifier": "lifeline24"
     },
     {
         "actions": [
@@ -309,7 +335,7 @@
                 "identifier": "whereareyou"
             }
         ],
-        "identifier": "lifeline23"
+        "identifier": "lifeline25"
     },
     {
         "actions": [
@@ -322,7 +348,7 @@
                 "identifier": "describehere"
             }
         ],
-        "identifier": "lifeline24"
+        "identifier": "lifeline26"
     },
     {
         "actions": [
@@ -335,7 +361,7 @@
                 "identifier": "describehere"
             }
         ],
-        "identifier": "lifeline25"
+        "identifier": "lifeline27"
     },
     {
         "actions": [
@@ -348,7 +374,7 @@
                 "identifier": "whereareyou"
             }
         ],
-        "identifier": "lifeline26"
+        "identifier": "lifeline28"
     },
     {
         "actions": [
@@ -361,7 +387,7 @@
                 "identifier": "backtocrash"
             }
         ],
-        "identifier": "lifeline27"
+        "identifier": "lifeline29"
     },
     {
         "actions": [
@@ -374,7 +400,7 @@
                 "identifier": "gotocrash"
             }
         ],
-        "identifier": "lifeline28"
+        "identifier": "lifeline30"
     },
     {
         "actions": [
@@ -387,7 +413,7 @@
                 "identifier": "gotopeak"
             }
         ],
-        "identifier": "lifeline29"
+        "identifier": "lifeline31"
     },
     {
         "actions": [
@@ -400,7 +426,7 @@
                 "identifier": "describehere"
             }
         ],
-        "identifier": "lifeline30"
+        "identifier": "lifeline32"
     },
     {
         "actions": [
@@ -413,7 +439,7 @@
                 "identifier": "dontforgetcap"
             }
         ],
-        "identifier": "lifeline31"
+        "identifier": "lifeline33"
     },
     {
         "actions": [
@@ -426,7 +452,7 @@
                 "identifier": "rockclimbing"
             }
         ],
-        "identifier": "lifeline32"
+        "identifier": "lifeline34"
     },
     {
         "actions": [
@@ -439,7 +465,7 @@
                 "identifier": "keepitforcap"
             }
         ],
-        "identifier": "lifeline33"
+        "identifier": "lifeline35"
     },
     {
         "actions": [
@@ -452,7 +478,7 @@
                 "identifier": "dontforgetcap"
             }
         ],
-        "identifier": "lifeline34"
+        "identifier": "lifeline36"
     },
     {
         "actions": [
@@ -465,7 +491,7 @@
                 "identifier": "justkeepmovingcrewcapdead"
             }
         ],
-        "identifier": "lifeline35"
+        "identifier": "lifeline37"
     },
     {
         "actions": [
@@ -478,7 +504,7 @@
                 "identifier": "dignow"
             }
         ],
-        "identifier": "lifeline36"
+        "identifier": "lifeline38"
     },
     {
         "actions": [
@@ -491,7 +517,7 @@
                 "identifier": "betterkeepdigging"
             }
         ],
-        "identifier": "lifeline37"
+        "identifier": "lifeline39"
     },
     {
         "actions": [
@@ -504,7 +530,7 @@
                 "identifier": "gogetcap"
             }
         ],
-        "identifier": "lifeline38"
+        "identifier": "lifeline40"
     },
     {
         "actions": [
@@ -517,7 +543,7 @@
                 "identifier": "totheflightdeck"
             }
         ],
-        "identifier": "lifeline39"
+        "identifier": "lifeline41"
     },
     {
         "actions": [
@@ -530,7 +556,7 @@
                 "identifier": "leaveitin"
             }
         ],
-        "identifier": "lifeline40"
+        "identifier": "lifeline42"
     },
     {
         "actions": [
@@ -543,7 +569,7 @@
                 "identifier": "makehercomfy"
             }
         ],
-        "identifier": "lifeline41"
+        "identifier": "lifeline43"
     },
     {
         "actions": [
@@ -556,7 +582,7 @@
                 "identifier": "movethepod"
             }
         ],
-        "identifier": "lifeline42"
+        "identifier": "lifeline44"
     },
     {
         "actions": [
@@ -569,7 +595,7 @@
                 "identifier": "dontforgetcap2"
             }
         ],
-        "identifier": "lifeline43"
+        "identifier": "lifeline45"
     },
     {
         "actions": [
@@ -582,7 +608,7 @@
                 "identifier": "branchingcorridor"
             }
         ],
-        "identifier": "lifeline44"
+        "identifier": "lifeline46"
     },
     {
         "actions": [
@@ -595,7 +621,7 @@
                 "identifier": "takearest"
             }
         ],
-        "identifier": "lifeline45"
+        "identifier": "lifeline47"
     },
     {
         "actions": [
@@ -608,7 +634,7 @@
                 "identifier": "branchingcorridor"
             }
         ],
-        "identifier": "lifeline46"
+        "identifier": "lifeline48"
     },
     {
         "actions": [
@@ -621,7 +647,7 @@
                 "identifier": "movethepod"
             }
         ],
-        "identifier": "lifeline47"
+        "identifier": "lifeline49"
     },
     {
         "actions": [
@@ -634,7 +660,7 @@
                 "identifier": "branchingcorridor"
             }
         ],
-        "identifier": "lifeline48"
+        "identifier": "lifeline50"
     },
     {
         "actions": [
@@ -647,7 +673,7 @@
                 "identifier": "keepmovingcapalive"
             }
         ],
-        "identifier": "lifeline49"
+        "identifier": "lifeline51"
     },
     {
         "actions": [
@@ -660,7 +686,7 @@
                 "identifier": "leaveitincrewfirst"
             }
         ],
-        "identifier": "lifeline50"
+        "identifier": "lifeline52"
     },
     {
         "actions": [
@@ -673,7 +699,7 @@
                 "identifier": "makehercomfycrewfirst"
             }
         ],
-        "identifier": "lifeline51"
+        "identifier": "lifeline53"
     },
     {
         "actions": [
@@ -686,7 +712,7 @@
                 "identifier": "gogetmeds"
             }
         ],
-        "identifier": "lifeline52"
+        "identifier": "lifeline54"
     },
     {
         "actions": [
@@ -699,7 +725,7 @@
                 "identifier": "dontforgetcapcrewfirst"
             }
         ],
-        "identifier": "lifeline53"
+        "identifier": "lifeline55"
     },
     {
         "actions": [
@@ -712,7 +738,7 @@
                 "identifier": "justkeepmovingcrewfirst"
             }
         ],
-        "identifier": "lifeline54"
+        "identifier": "lifeline56"
     },
     {
         "actions": [
@@ -725,7 +751,7 @@
                 "identifier": "keepitforcapcrewfirst"
             }
         ],
-        "identifier": "lifeline55"
+        "identifier": "lifeline57"
     },
     {
         "actions": [
@@ -738,7 +764,7 @@
                 "identifier": "dignowcrewfirst"
             }
         ],
-        "identifier": "lifeline56"
+        "identifier": "lifeline58"
     },
     {
         "actions": [
@@ -751,7 +777,7 @@
                 "identifier": "betterkeepdiggingcrewfirst"
             }
         ],
-        "identifier": "lifeline57"
+        "identifier": "lifeline59"
     },
     {
         "actions": [
@@ -764,7 +790,7 @@
                 "identifier": "walktoflightdeck"
             }
         ],
-        "identifier": "lifeline58"
+        "identifier": "lifeline60"
     },
     {
         "actions": [
@@ -777,7 +803,7 @@
                 "identifier": "branchingcorridor"
             }
         ],
-        "identifier": "lifeline59"
+        "identifier": "lifeline61"
     },
     {
         "actions": [
@@ -790,7 +816,7 @@
                 "identifier": "dontforgetcapcrewfirst"
             }
         ],
-        "identifier": "lifeline60"
+        "identifier": "lifeline62"
     },
     {
         "actions": [
@@ -803,7 +829,7 @@
                 "identifier": "branchingcorridor"
             }
         ],
-        "identifier": "lifeline61"
+        "identifier": "lifeline63"
     },
     {
         "actions": [
@@ -816,7 +842,7 @@
                 "identifier": "trythelab"
             }
         ],
-        "identifier": "lifeline62"
+        "identifier": "lifeline64"
     },
     {
         "actions": [
@@ -829,7 +855,7 @@
                 "identifier": "stoptryinggalleydoor"
             }
         ],
-        "identifier": "lifeline63"
+        "identifier": "lifeline65"
     },
     {
         "actions": [
@@ -842,7 +868,7 @@
                 "identifier": "eatratfood"
             }
         ],
-        "identifier": "lifeline64"
+        "identifier": "lifeline66"
     },
     {
         "actions": [
@@ -855,7 +881,7 @@
                 "identifier": "eatratfood"
             }
         ],
-        "identifier": "lifeline65"
+        "identifier": "lifeline67"
     },
     {
         "actions": [
@@ -868,7 +894,7 @@
                 "identifier": "sleepingplans"
             }
         ],
-        "identifier": "lifeline66"
+        "identifier": "lifeline68"
     },
     {
         "actions": [
@@ -881,33 +907,33 @@
                 "identifier": "sleepingplans"
             }
         ],
-        "identifier": "lifeline67"
-    },
-    {
-        "actions": [
-            {
-                "choice": "去实验室看看。",
-                "identifier": "trythelab"
-            },
-            {
-                "choice": "准备洗洗睡吧。",
-                "identifier": "sleepingplans"
-            }
-        ],
-        "identifier": "lifeline68"
-    },
-    {
-        "actions": [
-            {
-                "choice": "去实验室看看。",
-                "identifier": "trythelab"
-            },
-            {
-                "choice": "准备洗洗睡吧。",
-                "identifier": "sleepingplans"
-            }
-        ],
         "identifier": "lifeline69"
+    },
+    {
+        "actions": [
+            {
+                "choice": "去实验室看看。",
+                "identifier": "trythelab"
+            },
+            {
+                "choice": "准备洗洗睡吧。",
+                "identifier": "sleepingplans"
+            }
+        ],
+        "identifier": "lifeline70"
+    },
+    {
+        "actions": [
+            {
+                "choice": "去实验室看看。",
+                "identifier": "trythelab"
+            },
+            {
+                "choice": "准备洗洗睡吧。",
+                "identifier": "sleepingplans"
+            }
+        ],
+        "identifier": "lifeline71"
     },
     {
         "actions": [
@@ -920,7 +946,7 @@
                 "identifier": "powerbeaconcapalive"
             }
         ],
-        "identifier": "lifeline70"
+        "identifier": "lifeline72"
     },
     {
         "actions": [
@@ -933,7 +959,7 @@
                 "identifier": "powerbeaconcapdead"
             }
         ],
-        "identifier": "lifeline71"
+        "identifier": "lifeline73"
     },
     {
         "actions": [
@@ -946,7 +972,7 @@
                 "identifier": "reallybeaconcapalive"
             }
         ],
-        "identifier": "lifeline72"
+        "identifier": "lifeline74"
     },
     {
         "actions": [
@@ -959,7 +985,7 @@
                 "identifier": "sleepbythereactor"
             }
         ],
-        "identifier": "lifeline73"
+        "identifier": "lifeline75"
     },
     {
         "actions": [
@@ -972,7 +998,7 @@
                 "identifier": "radiationsicknessmaybe"
             }
         ],
-        "identifier": "lifeline74"
+        "identifier": "lifeline76"
     },
     {
         "actions": [
@@ -985,7 +1011,7 @@
                 "identifier": "normalspit"
             }
         ],
-        "identifier": "lifeline75"
+        "identifier": "lifeline77"
     },
     {
         "actions": [
@@ -998,7 +1024,7 @@
                 "identifier": "trytherest"
             }
         ],
-        "identifier": "lifeline76"
+        "identifier": "lifeline78"
     },
     {
         "actions": [
@@ -1011,7 +1037,7 @@
                 "identifier": "trythelabdaytwo"
             }
         ],
-        "identifier": "lifeline77"
+        "identifier": "lifeline79"
     },
     {
         "actions": [
@@ -1024,7 +1050,7 @@
                 "identifier": "moveondaytwo"
             }
         ],
-        "identifier": "lifeline78"
+        "identifier": "lifeline80"
     },
     {
         "actions": [
@@ -1037,7 +1063,7 @@
                 "identifier": "stoptryinggalleydoor2a"
             }
         ],
-        "identifier": "lifeline79"
+        "identifier": "lifeline81"
     },
     {
         "actions": [
@@ -1050,7 +1076,7 @@
                 "identifier": "eatratfooddaytwo"
             }
         ],
-        "identifier": "lifeline80"
+        "identifier": "lifeline82"
     },
     {
         "actions": [
@@ -1063,7 +1089,7 @@
                 "identifier": "eatratfooddaytwo"
             }
         ],
-        "identifier": "lifeline81"
+        "identifier": "lifeline83"
     },
     {
         "actions": [
@@ -1076,7 +1102,7 @@
                 "identifier": "moveondaytwo"
             }
         ],
-        "identifier": "lifeline82"
+        "identifier": "lifeline84"
     },
     {
         "actions": [
@@ -1089,7 +1115,7 @@
                 "identifier": "moveondaytwo"
             }
         ],
-        "identifier": "lifeline83"
+        "identifier": "lifeline85"
     },
     {
         "actions": [
@@ -1102,7 +1128,7 @@
                 "identifier": "backoutofcanyondaytwo"
             }
         ],
-        "identifier": "lifeline84"
+        "identifier": "lifeline86"
     },
     {
         "actions": [
@@ -1115,7 +1141,7 @@
                 "identifier": "walkperimeter"
             }
         ],
-        "identifier": "lifeline85"
+        "identifier": "lifeline87"
     },
     {
         "actions": [
@@ -1128,7 +1154,7 @@
                 "identifier": "climbbackupcrater"
             }
         ],
-        "identifier": "lifeline86"
+        "identifier": "lifeline88"
     },
     {
         "actions": [
@@ -1141,7 +1167,7 @@
                 "identifier": "sorrycantchat"
             }
         ],
-        "identifier": "lifeline87"
+        "identifier": "lifeline89"
     },
     {
         "actions": [
@@ -1154,7 +1180,7 @@
                 "identifier": "neverincraters"
             }
         ],
-        "identifier": "lifeline88"
+        "identifier": "lifeline90"
     },
     {
         "actions": [
@@ -1167,7 +1193,7 @@
                 "identifier": "iwantcoffee"
             }
         ],
-        "identifier": "lifeline89"
+        "identifier": "lifeline91"
     },
     {
         "actions": [
@@ -1180,7 +1206,7 @@
                 "identifier": "counterclockwisecrater"
             }
         ],
-        "identifier": "lifeline90"
+        "identifier": "lifeline92"
     },
     {
         "actions": [
@@ -1193,7 +1219,7 @@
                 "identifier": "tryclimbingdaytwo"
             }
         ],
-        "identifier": "lifeline91"
+        "identifier": "lifeline93"
     },
     {
         "actions": [
@@ -1206,7 +1232,7 @@
                 "identifier": "stayclearofcaravel"
             }
         ],
-        "identifier": "lifeline92"
+        "identifier": "lifeline94"
     },
     {
         "actions": [
@@ -1219,7 +1245,7 @@
                 "identifier": "sorrycantchatperimeter"
             }
         ],
-        "identifier": "lifeline93"
+        "identifier": "lifeline95"
     },
     {
         "actions": [
@@ -1232,7 +1258,7 @@
                 "identifier": "neverincratersperimeter"
             }
         ],
-        "identifier": "lifeline94"
+        "identifier": "lifeline96"
     },
     {
         "actions": [
@@ -1245,7 +1271,7 @@
                 "identifier": "iwantcoffeeperimeter"
             }
         ],
-        "identifier": "lifeline95"
+        "identifier": "lifeline97"
     },
     {
         "actions": [
@@ -1258,7 +1284,7 @@
                 "identifier": "checkcaravelafterall"
             }
         ],
-        "identifier": "lifeline96"
+        "identifier": "lifeline98"
     },
     {
         "actions": [
@@ -1271,7 +1297,7 @@
                 "identifier": "goexplorecaravel"
             }
         ],
-        "identifier": "lifeline97"
+        "identifier": "lifeline99"
     },
     {
         "actions": [
@@ -1284,7 +1310,7 @@
                 "identifier": "dontgoinsidecaravel"
             }
         ],
-        "identifier": "lifeline98"
+        "identifier": "lifeline100"
     },
     {
         "actions": [
@@ -1297,33 +1323,33 @@
                 "identifier": "westcaravel"
             }
         ],
-        "identifier": "lifeline99"
-    },
-    {
-        "actions": [
-            {
-                "choice": "继续直走。",
-                "identifier": "aheadincaravel"
-            },
-            {
-                "choice": "转一圈看看。",
-                "identifier": "turnaroundincaravel"
-            }
-        ],
-        "identifier": "lifeline100"
-    },
-    {
-        "actions": [
-            {
-                "choice": "继续直走。",
-                "identifier": "aheadincaravel"
-            },
-            {
-                "choice": "转一圈看看。",
-                "identifier": "turnaroundincaravel"
-            }
-        ],
         "identifier": "lifeline101"
+    },
+    {
+        "actions": [
+            {
+                "choice": "继续直走。",
+                "identifier": "aheadincaravel"
+            },
+            {
+                "choice": "转一圈看看。",
+                "identifier": "turnaroundincaravel"
+            }
+        ],
+        "identifier": "lifeline102"
+    },
+    {
+        "actions": [
+            {
+                "choice": "继续直走。",
+                "identifier": "aheadincaravel"
+            },
+            {
+                "choice": "转一圈看看。",
+                "identifier": "turnaroundincaravel"
+            }
+        ],
+        "identifier": "lifeline103"
     },
     {
         "actions": [
@@ -1336,7 +1362,7 @@
                 "identifier": "keepexploringcaravel"
             }
         ],
-        "identifier": "lifeline102"
+        "identifier": "lifeline104"
     },
     {
         "actions": [
@@ -1349,7 +1375,7 @@
                 "identifier": "fasterincaravel"
             }
         ],
-        "identifier": "lifeline103"
+        "identifier": "lifeline105"
     },
     {
         "actions": [
@@ -1362,7 +1388,7 @@
                 "identifier": "findscuttling"
             }
         ],
-        "identifier": "lifeline104"
+        "identifier": "lifeline106"
     },
     {
         "actions": [
@@ -1375,7 +1401,7 @@
                 "identifier": "riskitcaravelmedroom"
             }
         ],
-        "identifier": "lifeline105"
+        "identifier": "lifeline107"
     },
     {
         "actions": [
@@ -1388,7 +1414,7 @@
                 "identifier": "takenopill"
             }
         ],
-        "identifier": "lifeline106"
+        "identifier": "lifeline108"
     },
     {
         "actions": [
@@ -1401,7 +1427,7 @@
                 "identifier": "riskitcaravelmedroom"
             }
         ],
-        "identifier": "lifeline107"
+        "identifier": "lifeline109"
     },
     {
         "actions": [
@@ -1414,7 +1440,7 @@
                 "identifier": "leavecaravelnow"
             }
         ],
-        "identifier": "lifeline108"
+        "identifier": "lifeline110"
     },
     {
         "actions": [
@@ -1427,7 +1453,7 @@
                 "identifier": "findscuttling"
             }
         ],
-        "identifier": "lifeline109"
+        "identifier": "lifeline111"
     },
     {
         "actions": [
@@ -1440,7 +1466,7 @@
                 "identifier": "pushontoVaria"
             }
         ],
-        "identifier": "lifeline110"
+        "identifier": "lifeline112"
     },
     {
         "actions": [
@@ -1453,7 +1479,7 @@
                 "identifier": "returntothecaravel"
             }
         ],
-        "identifier": "lifeline111"
+        "identifier": "lifeline113"
     },
     {
         "actions": [
@@ -1466,7 +1492,7 @@
                 "identifier": "takeginnywithyou"
             }
         ],
-        "identifier": "lifeline112"
+        "identifier": "lifeline114"
     },
     {
         "actions": [
@@ -1479,7 +1505,7 @@
                 "identifier": "makecampatcaravel"
             }
         ],
-        "identifier": "lifeline113"
+        "identifier": "lifeline115"
     },
     {
         "actions": [
@@ -1492,7 +1518,7 @@
                 "identifier": "turnbackwhileyoucan"
             }
         ],
-        "identifier": "lifeline114"
+        "identifier": "lifeline116"
     },
     {
         "actions": [
@@ -1505,7 +1531,7 @@
                 "identifier": "turnbackwhileyoucan"
             }
         ],
-        "identifier": "lifeline115"
+        "identifier": "lifeline117"
     },
     {
         "actions": [
@@ -1518,7 +1544,7 @@
                 "identifier": "backtomainhallfirst"
             }
         ],
-        "identifier": "lifeline116"
+        "identifier": "lifeline118"
     },
     {
         "actions": [
@@ -1531,7 +1557,7 @@
                 "identifier": "backtomainhallfirst"
             }
         ],
-        "identifier": "lifeline117"
+        "identifier": "lifeline119"
     },
     {
         "actions": [
@@ -1544,7 +1570,7 @@
                 "identifier": "pushaheadeveningtwo"
             }
         ],
-        "identifier": "lifeline118"
+        "identifier": "lifeline120"
     },
     {
         "actions": [
@@ -1555,32 +1581,6 @@
             {
                 "choice": "西边的走廊",
                 "identifier": "westcaravelfirsttime"
-            }
-        ],
-        "identifier": "lifeline119"
-    },
-    {
-        "actions": [
-            {
-                "choice": "继续尝试打开厨房的门。",
-                "identifier": "tryandfailgalley"
-            },
-            {
-                "choice": "回到主要道。",
-                "identifier": "backtomainhallfirst"
-            }
-        ],
-        "identifier": "lifeline120"
-    },
-    {
-        "actions": [
-            {
-                "choice": "现在使用一片止痛片。",
-                "identifier": "takepillonefirsttime"
-            },
-            {
-                "choice": "暂时先保留。",
-                "identifier": "takenopillfirsttime"
             }
         ],
         "identifier": "lifeline121"
@@ -1601,6 +1601,32 @@
     {
         "actions": [
             {
+                "choice": "现在使用一片止痛片。",
+                "identifier": "takepillonefirsttime"
+            },
+            {
+                "choice": "暂时先保留。",
+                "identifier": "takenopillfirsttime"
+            }
+        ],
+        "identifier": "lifeline123"
+    },
+    {
+        "actions": [
+            {
+                "choice": "继续尝试打开厨房的门。",
+                "identifier": "tryandfailgalley"
+            },
+            {
+                "choice": "回到主要道。",
+                "identifier": "backtomainhallfirst"
+            }
+        ],
+        "identifier": "lifeline124"
+    },
+    {
+        "actions": [
+            {
                 "choice": "连上警报系统。",
                 "identifier": "hookupproximityalarm"
             },
@@ -1609,7 +1635,7 @@
                 "identifier": "dontbotherwithalarm"
             }
         ],
-        "identifier": "lifeline123"
+        "identifier": "lifeline125"
     },
     {
         "actions": [
@@ -1622,7 +1648,7 @@
                 "identifier": "gochasenoise"
             }
         ],
-        "identifier": "lifeline124"
+        "identifier": "lifeline126"
     },
     {
         "actions": [
@@ -1635,7 +1661,7 @@
                 "identifier": "snipehunt"
             }
         ],
-        "identifier": "lifeline125"
+        "identifier": "lifeline127"
     },
     {
         "actions": [
@@ -1648,7 +1674,7 @@
                 "identifier": "keepstudyingfootage"
             }
         ],
-        "identifier": "lifeline126"
+        "identifier": "lifeline128"
     },
     {
         "actions": [
@@ -1661,7 +1687,7 @@
                 "identifier": "breakfastdaytwo"
             }
         ],
-        "identifier": "lifeline127"
+        "identifier": "lifeline129"
     },
     {
         "actions": [
@@ -1674,7 +1700,7 @@
                 "identifier": "youareloopy"
             }
         ],
-        "identifier": "lifeline128"
+        "identifier": "lifeline130"
     },
     {
         "actions": [
@@ -1687,7 +1713,7 @@
                 "identifier": "keepstudyingfootage"
             }
         ],
-        "identifier": "lifeline129"
+        "identifier": "lifeline131"
     },
     {
         "actions": [
@@ -1700,7 +1726,7 @@
                 "identifier": "soundsgross"
             }
         ],
-        "identifier": "lifeline130"
+        "identifier": "lifeline132"
     },
     {
         "actions": [
@@ -1713,7 +1739,7 @@
                 "identifier": "nocaravelgalley"
             }
         ],
-        "identifier": "lifeline131"
+        "identifier": "lifeline133"
     },
     {
         "actions": [
@@ -1724,32 +1750,6 @@
             {
                 "choice": "继续抓。",
                 "identifier": "keepfishing"
-            }
-        ],
-        "identifier": "lifeline132"
-    },
-    {
-        "actions": [
-            {
-                "choice": "对，是CGI动画里的老鼠。",
-                "identifier": "cgirat"
-            },
-            {
-                "choice": "那是炖煮的蔬菜。",
-                "identifier": "stewedveggies"
-            }
-        ],
-        "identifier": "lifeline133"
-    },
-    {
-        "actions": [
-            {
-                "choice": "查看日志？",
-                "identifier": "checkthelogs"
-            },
-            {
-                "choice": "别想那么多了。",
-                "identifier": "dontworryaboutit"
             }
         ],
         "identifier": "lifeline134"
@@ -1770,6 +1770,32 @@
     {
         "actions": [
             {
+                "choice": "查看日志？",
+                "identifier": "checkthelogs"
+            },
+            {
+                "choice": "别想那么多了。",
+                "identifier": "dontworryaboutit"
+            }
+        ],
+        "identifier": "lifeline136"
+    },
+    {
+        "actions": [
+            {
+                "choice": "对，是CGI动画里的老鼠。",
+                "identifier": "cgirat"
+            },
+            {
+                "choice": "那是炖煮的蔬菜。",
+                "identifier": "stewedveggies"
+            }
+        ],
+        "identifier": "lifeline137"
+    },
+    {
+        "actions": [
+            {
                 "choice": "是的，去吧！",
                 "identifier": "peakdaythree"
             },
@@ -1778,7 +1804,7 @@
                 "identifier": "sincerelydoubt"
             }
         ],
-        "identifier": "lifeline136"
+        "identifier": "lifeline138"
     },
     {
         "actions": [
@@ -1791,7 +1817,7 @@
                 "identifier": "couldbedangerous"
             }
         ],
-        "identifier": "lifeline137"
+        "identifier": "lifeline139"
     },
     {
         "actions": [
@@ -1804,7 +1830,7 @@
                 "identifier": "buildcompass"
             }
         ],
-        "identifier": "lifeline138"
+        "identifier": "lifeline140"
     },
     {
         "actions": [
@@ -1817,7 +1843,7 @@
                 "identifier": "turnbackdaythree"
             }
         ],
-        "identifier": "lifeline139"
+        "identifier": "lifeline141"
     },
     {
         "actions": [
@@ -1830,7 +1856,7 @@
                 "identifier": "notsnacktime"
             }
         ],
-        "identifier": "lifeline140"
+        "identifier": "lifeline142"
     },
     {
         "actions": [
@@ -1843,7 +1869,7 @@
                 "identifier": "notsnacktime"
             }
         ],
-        "identifier": "lifeline141"
+        "identifier": "lifeline143"
     },
     {
         "actions": [
@@ -1856,7 +1882,7 @@
                 "identifier": "dontgobust"
             }
         ],
-        "identifier": "lifeline142"
+        "identifier": "lifeline144"
     },
     {
         "actions": [
@@ -1869,7 +1895,7 @@
                 "identifier": "keeppeakdaythree"
             }
         ],
-        "identifier": "lifeline143"
+        "identifier": "lifeline145"
     },
     {
         "actions": [
@@ -1882,7 +1908,7 @@
                 "identifier": "chilinobeans"
             }
         ],
-        "identifier": "lifeline144"
+        "identifier": "lifeline146"
     },
     {
         "actions": [
@@ -1895,7 +1921,7 @@
                 "identifier": "nopillrightnow"
             }
         ],
-        "identifier": "lifeline145"
+        "identifier": "lifeline147"
     },
     {
         "actions": [
@@ -1908,7 +1934,7 @@
                 "identifier": "dontgointocrater"
             }
         ],
-        "identifier": "lifeline146"
+        "identifier": "lifeline148"
     },
     {
         "actions": [
@@ -1921,7 +1947,7 @@
                 "identifier": "bypasscaravel"
             }
         ],
-        "identifier": "lifeline147"
+        "identifier": "lifeline149"
     },
     {
         "actions": [
@@ -1934,7 +1960,7 @@
                 "identifier": "justkidding"
             }
         ],
-        "identifier": "lifeline148"
+        "identifier": "lifeline150"
     },
     {
         "actions": [
@@ -1947,7 +1973,7 @@
                 "identifier": "seriouslygiveup"
             }
         ],
-        "identifier": "lifeline149"
+        "identifier": "lifeline151"
     },
     {
         "actions": [
@@ -1960,7 +1986,7 @@
                 "identifier": "forgetthatginny"
             }
         ],
-        "identifier": "lifeline150"
+        "identifier": "lifeline152"
     },
     {
         "actions": [
@@ -1973,7 +1999,7 @@
                 "identifier": "breakaleg"
             }
         ],
-        "identifier": "lifeline151"
+        "identifier": "lifeline153"
     },
     {
         "actions": [
@@ -1986,7 +2012,7 @@
                 "identifier": "iwaswrong"
             }
         ],
-        "identifier": "lifeline152"
+        "identifier": "lifeline154"
     },
     {
         "actions": [
@@ -1999,7 +2025,7 @@
                 "identifier": "reallydont"
             }
         ],
-        "identifier": "lifeline153"
+        "identifier": "lifeline155"
     },
     {
         "actions": [
@@ -2012,7 +2038,7 @@
                 "identifier": "imissedyou"
             }
         ],
-        "identifier": "lifeline154"
+        "identifier": "lifeline156"
     },
     {
         "actions": [
@@ -2025,7 +2051,7 @@
                 "identifier": "nopainkiller"
             }
         ],
-        "identifier": "lifeline155"
+        "identifier": "lifeline157"
     },
     {
         "actions": [
@@ -2038,7 +2064,7 @@
                 "identifier": "chewthemoff"
             }
         ],
-        "identifier": "lifeline156"
+        "identifier": "lifeline158"
     },
     {
         "actions": [
@@ -2051,7 +2077,7 @@
                 "identifier": "iwaswrong"
             }
         ],
-        "identifier": "lifeline157"
+        "identifier": "lifeline159"
     },
     {
         "actions": [
@@ -2064,7 +2090,7 @@
                 "identifier": "stillkindapissed"
             }
         ],
-        "identifier": "lifeline158"
+        "identifier": "lifeline160"
     },
     {
         "actions": [
@@ -2077,7 +2103,7 @@
                 "identifier": "whatkey2"
             }
         ],
-        "identifier": "lifeline159"
+        "identifier": "lifeline161"
     },
     {
         "actions": [
@@ -2090,7 +2116,7 @@
                 "identifier": "preferredsilence"
             }
         ],
-        "identifier": "lifeline160"
+        "identifier": "lifeline162"
     },
     {
         "actions": [
@@ -2103,7 +2129,7 @@
                 "identifier": "waittellme"
             }
         ],
-        "identifier": "lifeline161"
+        "identifier": "lifeline163"
     },
     {
         "actions": [
@@ -2116,7 +2142,7 @@
                 "identifier": "shutupalready"
             }
         ],
-        "identifier": "lifeline162"
+        "identifier": "lifeline164"
     },
     {
         "actions": [
@@ -2129,7 +2155,7 @@
                 "identifier": "justanillusion"
             }
         ],
-        "identifier": "lifeline163"
+        "identifier": "lifeline165"
     },
     {
         "actions": [
@@ -2142,33 +2168,33 @@
                 "identifier": "shutupalready"
             }
         ],
-        "identifier": "lifeline164"
-    },
-    {
-        "actions": [
-            {
-                "choice": "那当然不可能。",
-                "identifier": "itisnt"
-            },
-            {
-                "choice": "你确定是你自己的靴印？",
-                "identifier": "sureyours"
-            }
-        ],
-        "identifier": "lifeline165"
-    },
-    {
-        "actions": [
-            {
-                "choice": "那当然不可能。",
-                "identifier": "itisnt"
-            },
-            {
-                "choice": "你确定是你自己的靴印？",
-                "identifier": "sureyours"
-            }
-        ],
         "identifier": "lifeline166"
+    },
+    {
+        "actions": [
+            {
+                "choice": "那当然不可能。",
+                "identifier": "itisnt"
+            },
+            {
+                "choice": "你确定是你自己的靴印？",
+                "identifier": "sureyours"
+            }
+        ],
+        "identifier": "lifeline167"
+    },
+    {
+        "actions": [
+            {
+                "choice": "那当然不可能。",
+                "identifier": "itisnt"
+            },
+            {
+                "choice": "你确定是你自己的靴印？",
+                "identifier": "sureyours"
+            }
+        ],
+        "identifier": "lifeline168"
     },
     {
         "actions": [
@@ -2181,7 +2207,7 @@
                 "identifier": "checkopening"
             }
         ],
-        "identifier": "lifeline167"
+        "identifier": "lifeline169"
     },
     {
         "actions": [
@@ -2194,7 +2220,7 @@
                 "identifier": "exploresomemore"
             }
         ],
-        "identifier": "lifeline168"
+        "identifier": "lifeline170"
     },
     {
         "actions": [
@@ -2207,7 +2233,7 @@
                 "identifier": "areyouokay"
             }
         ],
-        "identifier": "lifeline169"
+        "identifier": "lifeline171"
     },
     {
         "actions": [
@@ -2220,7 +2246,7 @@
                 "identifier": "areyouokay"
             }
         ],
-        "identifier": "lifeline170"
+        "identifier": "lifeline172"
     },
     {
         "actions": [
@@ -2233,7 +2259,7 @@
                 "identifier": "whatsitsay"
             }
         ],
-        "identifier": "lifeline171"
+        "identifier": "lifeline173"
     },
     {
         "actions": [
@@ -2246,7 +2272,7 @@
                 "identifier": "checkforhbo"
             }
         ],
-        "identifier": "lifeline172"
+        "identifier": "lifeline174"
     },
     {
         "actions": [
@@ -2259,7 +2285,7 @@
                 "identifier": "explorecomputers"
             }
         ],
-        "identifier": "lifeline173"
+        "identifier": "lifeline175"
     },
     {
         "actions": [
@@ -2272,7 +2298,7 @@
                 "identifier": "creaturesearlier"
             }
         ],
-        "identifier": "lifeline174"
+        "identifier": "lifeline176"
     },
     {
         "actions": [
@@ -2285,7 +2311,7 @@
                 "identifier": "donttrycomputers"
             }
         ],
-        "identifier": "lifeline175"
+        "identifier": "lifeline177"
     },
     {
         "actions": [
@@ -2298,7 +2324,7 @@
                 "identifier": "staywhereyouare"
             }
         ],
-        "identifier": "lifeline176"
+        "identifier": "lifeline178"
     },
     {
         "actions": [
@@ -2311,7 +2337,7 @@
                 "identifier": "howisthatpossible?"
             }
         ],
-        "identifier": "lifeline177"
+        "identifier": "lifeline179"
     },
     {
         "actions": [
@@ -2324,7 +2350,7 @@
                 "identifier": "okayproximity"
             }
         ],
-        "identifier": "lifeline178"
+        "identifier": "lifeline180"
     },
     {
         "actions": [
@@ -2337,7 +2363,7 @@
                 "identifier": "asleepcomputer"
             }
         ],
-        "identifier": "lifeline179"
+        "identifier": "lifeline181"
     },
     {
         "actions": [
@@ -2350,7 +2376,7 @@
                 "identifier": "getoutnow"
             }
         ],
-        "identifier": "lifeline180"
+        "identifier": "lifeline182"
     },
     {
         "actions": [
@@ -2363,7 +2389,7 @@
                 "identifier": "okayscrolling"
             }
         ],
-        "identifier": "lifeline181"
+        "identifier": "lifeline183"
     },
     {
         "actions": [
@@ -2376,7 +2402,7 @@
                 "identifier": "explorewiring"
             }
         ],
-        "identifier": "lifeline182"
+        "identifier": "lifeline184"
     },
     {
         "actions": [
@@ -2389,7 +2415,7 @@
                 "identifier": "takeasecond"
             }
         ],
-        "identifier": "lifeline183"
+        "identifier": "lifeline185"
     },
     {
         "actions": [
@@ -2402,7 +2428,7 @@
                 "identifier": "getoutofthere"
             }
         ],
-        "identifier": "lifeline184"
+        "identifier": "lifeline186"
     },
     {
         "actions": [
@@ -2415,7 +2441,7 @@
                 "identifier": "whatjusthappened2"
             }
         ],
-        "identifier": "lifeline185"
+        "identifier": "lifeline187"
     },
     {
         "actions": [
@@ -2428,7 +2454,7 @@
                 "identifier": "creaturesearlier"
             }
         ],
-        "identifier": "lifeline186"
+        "identifier": "lifeline188"
     },
     {
         "actions": [
@@ -2441,7 +2467,7 @@
                 "identifier": "somethingworse"
             }
         ],
-        "identifier": "lifeline187"
+        "identifier": "lifeline189"
     },
     {
         "actions": [
@@ -2454,7 +2480,7 @@
                 "identifier": "stayrightthere"
             }
         ],
-        "identifier": "lifeline188"
+        "identifier": "lifeline190"
     },
     {
         "actions": [
@@ -2467,7 +2493,7 @@
                 "identifier": "feelokay"
             }
         ],
-        "identifier": "lifeline189"
+        "identifier": "lifeline191"
     },
     {
         "actions": [
@@ -2480,33 +2506,33 @@
                 "identifier": "tryforgoodnews"
             }
         ],
-        "identifier": "lifeline190"
-    },
-    {
-        "actions": [
-            {
-                "choice": "简直疯了。",
-                "identifier": "thatsinsane"
-            },
-            {
-                "choice": "肯定是你的想象。",
-                "identifier": "mustvebeenillusion"
-            }
-        ],
-        "identifier": "lifeline191"
-    },
-    {
-        "actions": [
-            {
-                "choice": "简直疯了。",
-                "identifier": "thatsinsane"
-            },
-            {
-                "choice": "肯定是你的想象。",
-                "identifier": "mustvebeenillusion"
-            }
-        ],
         "identifier": "lifeline192"
+    },
+    {
+        "actions": [
+            {
+                "choice": "简直疯了。",
+                "identifier": "thatsinsane"
+            },
+            {
+                "choice": "肯定是你的想象。",
+                "identifier": "mustvebeenillusion"
+            }
+        ],
+        "identifier": "lifeline193"
+    },
+    {
+        "actions": [
+            {
+                "choice": "简直疯了。",
+                "identifier": "thatsinsane"
+            },
+            {
+                "choice": "肯定是你的想象。",
+                "identifier": "mustvebeenillusion"
+            }
+        ],
+        "identifier": "lifeline194"
     },
     {
         "actions": [
@@ -2519,7 +2545,7 @@
                 "identifier": "stepbackscuttling"
             }
         ],
-        "identifier": "lifeline193"
+        "identifier": "lifeline195"
     },
     {
         "actions": [
@@ -2532,7 +2558,7 @@
                 "identifier": "justhappened"
             }
         ],
-        "identifier": "lifeline194"
+        "identifier": "lifeline196"
     },
     {
         "actions": [
@@ -2545,7 +2571,7 @@
                 "identifier": "staywhereyouare"
             }
         ],
-        "identifier": "lifeline195"
+        "identifier": "lifeline197"
     },
     {
         "actions": [
@@ -2558,7 +2584,7 @@
                 "identifier": "computercareful"
             }
         ],
-        "identifier": "lifeline196"
+        "identifier": "lifeline198"
     },
     {
         "actions": [
@@ -2571,7 +2597,7 @@
                 "identifier": "reallygetouttrue"
             }
         ],
-        "identifier": "lifeline197"
+        "identifier": "lifeline199"
     },
     {
         "actions": [
@@ -2584,7 +2610,7 @@
                 "identifier": "reallygetout"
             }
         ],
-        "identifier": "lifeline198"
+        "identifier": "lifeline200"
     },
     {
         "actions": [
@@ -2597,7 +2623,7 @@
                 "identifier": "breakaleggilligan"
             }
         ],
-        "identifier": "lifeline199"
+        "identifier": "lifeline201"
     },
     {
         "actions": [
@@ -2610,7 +2636,7 @@
                 "identifier": "somethingworse"
             }
         ],
-        "identifier": "lifeline200"
+        "identifier": "lifeline202"
     },
     {
         "actions": [
@@ -2623,7 +2649,7 @@
                 "identifier": "stayrightthere"
             }
         ],
-        "identifier": "lifeline201"
+        "identifier": "lifeline203"
     },
     {
         "actions": [
@@ -2636,7 +2662,7 @@
                 "identifier": "allrightscuttling"
             }
         ],
-        "identifier": "lifeline202"
+        "identifier": "lifeline204"
     },
     {
         "actions": [
@@ -2649,7 +2675,7 @@
                 "identifier": "allrightscuttling"
             }
         ],
-        "identifier": "lifeline203"
+        "identifier": "lifeline205"
     },
     {
         "actions": [
@@ -2662,7 +2688,7 @@
                 "identifier": "keepatit"
             }
         ],
-        "identifier": "lifeline204"
+        "identifier": "lifeline206"
     },
     {
         "actions": [
@@ -2675,33 +2701,33 @@
                 "identifier": "followthosethings"
             }
         ],
-        "identifier": "lifeline205"
-    },
-    {
-        "actions": [
-            {
-                "choice": "你确定？",
-                "identifier": "certainrats"
-            },
-            {
-                "choice": "这怎么可能？",
-                "identifier": "possiblerats"
-            }
-        ],
-        "identifier": "lifeline206"
-    },
-    {
-        "actions": [
-            {
-                "choice": "你确定？",
-                "identifier": "certainrats"
-            },
-            {
-                "choice": "这怎么可能？",
-                "identifier": "possiblerats"
-            }
-        ],
         "identifier": "lifeline207"
+    },
+    {
+        "actions": [
+            {
+                "choice": "你确定？",
+                "identifier": "certainrats"
+            },
+            {
+                "choice": "这怎么可能？",
+                "identifier": "possiblerats"
+            }
+        ],
+        "identifier": "lifeline208"
+    },
+    {
+        "actions": [
+            {
+                "choice": "你确定？",
+                "identifier": "certainrats"
+            },
+            {
+                "choice": "这怎么可能？",
+                "identifier": "possiblerats"
+            }
+        ],
+        "identifier": "lifeline209"
     },
     {
         "actions": [
@@ -2714,7 +2740,7 @@
                 "identifier": "wildboydead2"
             }
         ],
-        "identifier": "lifeline208"
+        "identifier": "lifeline210"
     },
     {
         "actions": [
@@ -2727,7 +2753,7 @@
                 "identifier": "stayputandsee"
             }
         ],
-        "identifier": "lifeline209"
+        "identifier": "lifeline211"
     },
     {
         "actions": [
@@ -2740,7 +2766,7 @@
                 "identifier": "gottogetaway"
             }
         ],
-        "identifier": "lifeline210"
+        "identifier": "lifeline212"
     },
     {
         "actions": [
@@ -2753,7 +2779,7 @@
                 "identifier": "gottogetaway"
             }
         ],
-        "identifier": "lifeline211"
+        "identifier": "lifeline213"
     },
     {
         "actions": [
@@ -2766,7 +2792,7 @@
                 "identifier": "gothroughdoor"
             }
         ],
-        "identifier": "lifeline212"
+        "identifier": "lifeline214"
     },
     {
         "actions": [
@@ -2779,33 +2805,33 @@
                 "identifier": "gothroughdoor"
             }
         ],
-        "identifier": "lifeline213"
-    },
-    {
-        "actions": [
-            {
-                "choice": "你所有的老鼠都在那里吗？",
-                "identifier": "allratsthere"
-            },
-            {
-                "choice": "别靠近。",
-                "identifier": "donotgetclose"
-            }
-        ],
-        "identifier": "lifeline214"
-    },
-    {
-        "actions": [
-            {
-                "choice": "你所有的老鼠都在那里吗？",
-                "identifier": "allratsthere"
-            },
-            {
-                "choice": "别靠近。",
-                "identifier": "donotgetclose"
-            }
-        ],
         "identifier": "lifeline215"
+    },
+    {
+        "actions": [
+            {
+                "choice": "你所有的老鼠都在那里吗？",
+                "identifier": "allratsthere"
+            },
+            {
+                "choice": "别靠近。",
+                "identifier": "donotgetclose"
+            }
+        ],
+        "identifier": "lifeline216"
+    },
+    {
+        "actions": [
+            {
+                "choice": "你所有的老鼠都在那里吗？",
+                "identifier": "allratsthere"
+            },
+            {
+                "choice": "别靠近。",
+                "identifier": "donotgetclose"
+            }
+        ],
+        "identifier": "lifeline217"
     },
     {
         "actions": [
@@ -2818,7 +2844,7 @@
                 "identifier": "wildboydead2"
             }
         ],
-        "identifier": "lifeline216"
+        "identifier": "lifeline218"
     },
     {
         "actions": [
@@ -2831,7 +2857,7 @@
                 "identifier": "getoutbecauserats"
             }
         ],
-        "identifier": "lifeline217"
+        "identifier": "lifeline219"
     },
     {
         "actions": [
@@ -2844,7 +2870,7 @@
                 "identifier": "getoutbecauserats"
             }
         ],
-        "identifier": "lifeline218"
+        "identifier": "lifeline220"
     },
     {
         "actions": [
@@ -2857,7 +2883,7 @@
                 "identifier": "getoutbecauserats"
             }
         ],
-        "identifier": "lifeline219"
+        "identifier": "lifeline221"
     },
     {
         "actions": [
@@ -2870,7 +2896,7 @@
                 "identifier": "killtherat"
             }
         ],
-        "identifier": "lifeline220"
+        "identifier": "lifeline222"
     },
     {
         "actions": [
@@ -2883,7 +2909,7 @@
                 "identifier": "killratforreal"
             }
         ],
-        "identifier": "lifeline221"
+        "identifier": "lifeline223"
     },
     {
         "actions": [
@@ -2896,7 +2922,7 @@
                 "identifier": "onlyifsure"
             }
         ],
-        "identifier": "lifeline222"
+        "identifier": "lifeline224"
     },
     {
         "actions": [
@@ -2909,7 +2935,7 @@
                 "identifier": "whatareratsdoing"
             }
         ],
-        "identifier": "lifeline223"
+        "identifier": "lifeline225"
     },
     {
         "actions": [
@@ -2922,7 +2948,7 @@
                 "identifier": "donotgetclose"
             }
         ],
-        "identifier": "lifeline224"
+        "identifier": "lifeline226"
     },
     {
         "actions": [
@@ -2935,7 +2961,7 @@
                 "identifier": "warnshiptwo"
             }
         ],
-        "identifier": "lifeline225"
+        "identifier": "lifeline227"
     },
     {
         "actions": [
@@ -2948,7 +2974,7 @@
                 "identifier": "howclosearevisitors"
             }
         ],
-        "identifier": "lifeline226"
+        "identifier": "lifeline228"
     },
     {
         "actions": [
@@ -2961,7 +2987,7 @@
                 "identifier": "warnshiptwo"
             }
         ],
-        "identifier": "lifeline227"
+        "identifier": "lifeline229"
     },
     {
         "actions": [
@@ -2974,33 +3000,33 @@
                 "identifier": "howclosearevisitors"
             }
         ],
-        "identifier": "lifeline228"
-    },
-    {
-        "actions": [
-            {
-                "choice": "它说什么？",
-                "identifier": "whatdoescomputersay"
-            },
-            {
-                "choice": "肯定不是好事。",
-                "identifier": "thatcanonlybebad"
-            }
-        ],
-        "identifier": "lifeline229"
-    },
-    {
-        "actions": [
-            {
-                "choice": "它说什么？",
-                "identifier": "whatdoescomputersay"
-            },
-            {
-                "choice": "肯定不是好事。",
-                "identifier": "thatcanonlybebad"
-            }
-        ],
         "identifier": "lifeline230"
+    },
+    {
+        "actions": [
+            {
+                "choice": "它说什么？",
+                "identifier": "whatdoescomputersay"
+            },
+            {
+                "choice": "肯定不是好事。",
+                "identifier": "thatcanonlybebad"
+            }
+        ],
+        "identifier": "lifeline231"
+    },
+    {
+        "actions": [
+            {
+                "choice": "它说什么？",
+                "identifier": "whatdoescomputersay"
+            },
+            {
+                "choice": "肯定不是好事。",
+                "identifier": "thatcanonlybebad"
+            }
+        ],
+        "identifier": "lifeline232"
     },
     {
         "actions": [
@@ -3013,7 +3039,7 @@
                 "identifier": "whatareratsdoing"
             }
         ],
-        "identifier": "lifeline231"
+        "identifier": "lifeline233"
     },
     {
         "actions": [
@@ -3026,7 +3052,7 @@
                 "identifier": "youeattoo"
             }
         ],
-        "identifier": "lifeline232"
+        "identifier": "lifeline234"
     },
     {
         "actions": [
@@ -3039,7 +3065,7 @@
                 "identifier": "warnshiptwo"
             }
         ],
-        "identifier": "lifeline233"
+        "identifier": "lifeline235"
     },
     {
         "actions": [
@@ -3052,7 +3078,7 @@
                 "identifier": "howclosearevisitors"
             }
         ],
-        "identifier": "lifeline234"
+        "identifier": "lifeline236"
     },
     {
         "actions": [
@@ -3065,7 +3091,7 @@
                 "identifier": "howclosearevisitors"
             }
         ],
-        "identifier": "lifeline235"
+        "identifier": "lifeline237"
     },
     {
         "actions": [
@@ -3078,7 +3104,7 @@
                 "identifier": "calmandbreathe"
             }
         ],
-        "identifier": "lifeline236"
+        "identifier": "lifeline238"
     },
     {
         "actions": [
@@ -3091,7 +3117,7 @@
                 "identifier": "sureyouwont"
             }
         ],
-        "identifier": "lifeline237"
+        "identifier": "lifeline239"
     },
     {
         "actions": [
@@ -3104,7 +3130,7 @@
                 "identifier": "warnship"
             }
         ],
-        "identifier": "lifeline238"
+        "identifier": "lifeline240"
     },
     {
         "actions": [
@@ -3117,7 +3143,7 @@
                 "identifier": "tendtotherats"
             }
         ],
-        "identifier": "lifeline239"
+        "identifier": "lifeline241"
     },
     {
         "actions": [
@@ -3130,7 +3156,7 @@
                 "identifier": "wasittherats"
             }
         ],
-        "identifier": "lifeline240"
+        "identifier": "lifeline242"
     },
     {
         "actions": [
@@ -3143,7 +3169,7 @@
                 "identifier": "overridetargettwo"
             }
         ],
-        "identifier": "lifeline241"
+        "identifier": "lifeline243"
     },
     {
         "actions": [
@@ -3156,7 +3182,7 @@
                 "identifier": "howclosearevisitors"
             }
         ],
-        "identifier": "lifeline242"
+        "identifier": "lifeline244"
     },
     {
         "actions": [
@@ -3169,7 +3195,7 @@
                 "identifier": "keepwatchingrats"
             }
         ],
-        "identifier": "lifeline243"
+        "identifier": "lifeline245"
     },
     {
         "actions": [
@@ -3182,7 +3208,7 @@
                 "identifier": "howclosearevisitors"
             }
         ],
-        "identifier": "lifeline244"
+        "identifier": "lifeline246"
     },
     {
         "actions": [
@@ -3195,7 +3221,7 @@
                 "identifier": "stillbeingtargeted"
             }
         ],
-        "identifier": "lifeline245"
+        "identifier": "lifeline247"
     },
     {
         "actions": [
@@ -3208,7 +3234,7 @@
                 "identifier": "doitanyway"
             }
         ],
-        "identifier": "lifeline246"
+        "identifier": "lifeline248"
     },
     {
         "actions": [
@@ -3221,33 +3247,33 @@
                 "identifier": "babblingabout"
             }
         ],
-        "identifier": "lifeline247"
-    },
-    {
-        "actions": [
-            {
-                "choice": "怎么?!",
-                "identifier": "tellmewhatyousee"
-            },
-            {
-                "choice": "告诉我你看见什么了!",
-                "identifier": "tellmewhatyousee2"
-            }
-        ],
-        "identifier": "lifeline248"
-    },
-    {
-        "actions": [
-            {
-                "choice": "怎么?!",
-                "identifier": "tellmewhatyousee"
-            },
-            {
-                "choice": "告诉我你看见什么了!",
-                "identifier": "tellmewhatyousee2"
-            }
-        ],
         "identifier": "lifeline249"
+    },
+    {
+        "actions": [
+            {
+                "choice": "怎么?!",
+                "identifier": "tellmewhatyousee"
+            },
+            {
+                "choice": "告诉我你看见什么了!",
+                "identifier": "tellmewhatyousee2"
+            }
+        ],
+        "identifier": "lifeline250"
+    },
+    {
+        "actions": [
+            {
+                "choice": "怎么?!",
+                "identifier": "tellmewhatyousee"
+            },
+            {
+                "choice": "告诉我你看见什么了!",
+                "identifier": "tellmewhatyousee2"
+            }
+        ],
+        "identifier": "lifeline251"
     },
     {
         "actions": [
@@ -3260,7 +3286,7 @@
                 "identifier": "overridetargettwo"
             }
         ],
-        "identifier": "lifeline250"
+        "identifier": "lifeline252"
     },
     {
         "actions": [
@@ -3273,7 +3299,7 @@
                 "identifier": "howclosearevisitors"
             }
         ],
-        "identifier": "lifeline251"
+        "identifier": "lifeline253"
     },
     {
         "actions": [
@@ -3286,7 +3312,7 @@
                 "identifier": "overridetargettwo"
             }
         ],
-        "identifier": "lifeline252"
+        "identifier": "lifeline254"
     },
     {
         "actions": [
@@ -3299,7 +3325,7 @@
                 "identifier": "howclosearevisitors"
             }
         ],
-        "identifier": "lifeline253"
+        "identifier": "lifeline255"
     },
     {
         "actions": [
@@ -3312,7 +3338,7 @@
                 "identifier": "runforrescueship"
             }
         ],
-        "identifier": "lifeline254"
+        "identifier": "lifeline256"
     },
     {
         "actions": [
@@ -3325,7 +3351,7 @@
                 "identifier": "awayfromrats"
             }
         ],
-        "identifier": "lifeline255"
+        "identifier": "lifeline257"
     },
     {
         "actions": [
@@ -3338,7 +3364,7 @@
                 "identifier": "youreappearquickly"
             }
         ],
-        "identifier": "lifeline256"
+        "identifier": "lifeline258"
     },
     {
         "actions": [
@@ -3351,7 +3377,7 @@
                 "identifier": "everythingallright"
             }
         ],
-        "identifier": "lifeline257"
+        "identifier": "lifeline259"
     },
     {
         "actions": [
@@ -3360,7 +3386,7 @@
                 "identifier": "lotsofhope"
             }
         ],
-        "identifier": "lifeline258"
+        "identifier": "lifeline260"
     },
     {
         "actions": [
@@ -3373,7 +3399,7 @@
                 "identifier": "whoaindeed2"
             }
         ],
-        "identifier": "lifeline259"
+        "identifier": "lifeline261"
     },
     {
         "actions": [
@@ -3386,7 +3412,7 @@
                 "identifier": "ignoretheireyes"
             }
         ],
-        "identifier": "lifeline260"
+        "identifier": "lifeline262"
     },
     {
         "actions": [
@@ -3399,7 +3425,7 @@
                 "identifier": "yetagainokay"
             }
         ],
-        "identifier": "lifeline261"
+        "identifier": "lifeline263"
     },
     {
         "actions": [
@@ -3412,7 +3438,7 @@
                 "identifier": "onlyafewseconds2"
             }
         ],
-        "identifier": "lifeline262"
+        "identifier": "lifeline264"
     },
     {
         "actions": [
@@ -3425,7 +3451,7 @@
                 "identifier": "yetagainokay"
             }
         ],
-        "identifier": "lifeline263"
+        "identifier": "lifeline265"
     },
     {
         "actions": [
@@ -3438,7 +3464,7 @@
                 "identifier": "gottawarnothers2"
             }
         ],
-        "identifier": "lifeline264"
+        "identifier": "lifeline266"
     },
     {
         "actions": [
@@ -3451,7 +3477,7 @@
                 "identifier": "dyingisselfish"
             }
         ],
-        "identifier": "lifeline265"
+        "identifier": "lifeline267"
     },
     {
         "actions": [
@@ -3464,7 +3490,7 @@
                 "identifier": "runbackinsidepeak"
             }
         ],
-        "identifier": "lifeline266"
+        "identifier": "lifeline268"
     },
     {
         "actions": [
@@ -3477,7 +3503,7 @@
                 "identifier": "haulinass"
             }
         ],
-        "identifier": "lifeline267"
+        "identifier": "lifeline269"
     },
     {
         "actions": [
@@ -3490,7 +3516,7 @@
                 "identifier": "donotgiveup"
             }
         ],
-        "identifier": "lifeline268"
+        "identifier": "lifeline270"
     },
     {
         "actions": [
@@ -3503,33 +3529,33 @@
                 "identifier": "youarewelcome2"
             }
         ],
-        "identifier": "lifeline269"
-    },
-    {
-        "actions": [
-            {
-                "choice": "它们的食物不够了吗？",
-                "identifier": "aretheyoutoffood"
-            },
-            {
-                "choice": "他们是在哀悼Wildboy吗？",
-                "identifier": "mourningwildboy"
-            }
-        ],
-        "identifier": "lifeline270"
-    },
-    {
-        "actions": [
-            {
-                "choice": "它们的食物不够了吗？",
-                "identifier": "aretheyoutoffood"
-            },
-            {
-                "choice": "他们是在哀悼Wildboy吗？",
-                "identifier": "mourningwildboy"
-            }
-        ],
         "identifier": "lifeline271"
+    },
+    {
+        "actions": [
+            {
+                "choice": "它们的食物不够了吗？",
+                "identifier": "aretheyoutoffood"
+            },
+            {
+                "choice": "他们是在哀悼Wildboy吗？",
+                "identifier": "mourningwildboy"
+            }
+        ],
+        "identifier": "lifeline272"
+    },
+    {
+        "actions": [
+            {
+                "choice": "它们的食物不够了吗？",
+                "identifier": "aretheyoutoffood"
+            },
+            {
+                "choice": "他们是在哀悼Wildboy吗？",
+                "identifier": "mourningwildboy"
+            }
+        ],
+        "identifier": "lifeline273"
     },
     {
         "actions": [
@@ -3542,7 +3568,7 @@
                 "identifier": "reallythatweak"
             }
         ],
-        "identifier": "lifeline272"
+        "identifier": "lifeline274"
     },
     {
         "actions": [
@@ -3555,7 +3581,7 @@
                 "identifier": "dyingisselfish"
             }
         ],
-        "identifier": "lifeline273"
+        "identifier": "lifeline275"
     },
     {
         "actions": [
@@ -3568,33 +3594,33 @@
                 "identifier": "morecracks2"
             }
         ],
-        "identifier": "lifeline274"
-    },
-    {
-        "actions": [
-            {
-                "choice": "下一步干什么？",
-                "identifier": "whichplate"
-            },
-            {
-                "choice": "别被吓到。呼吸就好。",
-                "identifier": "nofreakingout"
-            }
-        ],
-        "identifier": "lifeline275"
-    },
-    {
-        "actions": [
-            {
-                "choice": "下一步干什么？",
-                "identifier": "whichplate"
-            },
-            {
-                "choice": "别被吓到。呼吸就好。",
-                "identifier": "nofreakingout"
-            }
-        ],
         "identifier": "lifeline276"
+    },
+    {
+        "actions": [
+            {
+                "choice": "下一步干什么？",
+                "identifier": "whichplate"
+            },
+            {
+                "choice": "别被吓到。呼吸就好。",
+                "identifier": "nofreakingout"
+            }
+        ],
+        "identifier": "lifeline277"
+    },
+    {
+        "actions": [
+            {
+                "choice": "下一步干什么？",
+                "identifier": "whichplate"
+            },
+            {
+                "choice": "别被吓到。呼吸就好。",
+                "identifier": "nofreakingout"
+            }
+        ],
+        "identifier": "lifeline278"
     },
     {
         "actions": [
@@ -3607,7 +3633,7 @@
                 "identifier": "restrightthere"
             }
         ],
-        "identifier": "lifeline277"
+        "identifier": "lifeline279"
     },
     {
         "actions": [
@@ -3620,7 +3646,7 @@
                 "identifier": "reallywhatyouwant"
             }
         ],
-        "identifier": "lifeline278"
+        "identifier": "lifeline280"
     },
     {
         "actions": [
@@ -3633,7 +3659,7 @@
                 "identifier": "bepreparedtofight"
             }
         ],
-        "identifier": "lifeline279"
+        "identifier": "lifeline281"
     },
     {
         "actions": [
@@ -3646,7 +3672,7 @@
                 "identifier": "ratheryoudidnt"
             }
         ],
-        "identifier": "lifeline280"
+        "identifier": "lifeline282"
     },
     {
         "actions": [
@@ -3659,7 +3685,7 @@
                 "identifier": "casualpose"
             }
         ],
-        "identifier": "lifeline281"
+        "identifier": "lifeline283"
     },
     {
         "actions": [
@@ -3672,7 +3698,7 @@
                 "identifier": "stayguardcomputer"
             }
         ],
-        "identifier": "lifeline282"
+        "identifier": "lifeline284"
     },
     {
         "actions": [
@@ -3685,7 +3711,7 @@
                 "identifier": "isthereaproblem"
             }
         ],
-        "identifier": "lifeline283"
+        "identifier": "lifeline285"
     },
     {
         "actions": [
@@ -3698,7 +3724,7 @@
                 "identifier": "canyousee"
             }
         ],
-        "identifier": "lifeline284"
+        "identifier": "lifeline286"
     },
     {
         "actions": [
@@ -3711,7 +3737,7 @@
                 "identifier": "whatifyoustay"
             }
         ],
-        "identifier": "lifeline285"
+        "identifier": "lifeline287"
     },
     {
         "actions": [
@@ -3724,7 +3750,7 @@
                 "identifier": "staythehellaway"
             }
         ],
-        "identifier": "lifeline286"
+        "identifier": "lifeline288"
     },
     {
         "actions": [
@@ -3737,7 +3763,7 @@
                 "identifier": "whatwentwrong"
             }
         ],
-        "identifier": "lifeline287"
+        "identifier": "lifeline289"
     },
     {
         "actions": [
@@ -3750,7 +3776,7 @@
                 "identifier": "keepguardingcomputers"
             }
         ],
-        "identifier": "lifeline288"
+        "identifier": "lifeline290"
     },
     {
         "actions": [
@@ -3763,7 +3789,7 @@
                 "identifier": "lookatwhatexactly2"
             }
         ],
-        "identifier": "lifeline289"
+        "identifier": "lifeline291"
     },
     {
         "actions": [
@@ -3776,7 +3802,7 @@
                 "identifier": "glowrodbadidea"
             }
         ],
-        "identifier": "lifeline290"
+        "identifier": "lifeline292"
     },
     {
         "actions": [
@@ -3789,7 +3815,7 @@
                 "identifier": "stayincontrolroom"
             }
         ],
-        "identifier": "lifeline291"
+        "identifier": "lifeline293"
     },
     {
         "actions": [
@@ -3802,7 +3828,7 @@
                 "identifier": "reallysaveyou"
             }
         ],
-        "identifier": "lifeline292"
+        "identifier": "lifeline294"
     },
     {
         "actions": [
@@ -3815,33 +3841,33 @@
                 "identifier": "ratheryoudidnt"
             }
         ],
-        "identifier": "lifeline293"
-    },
-    {
-        "actions": [
-            {
-                "choice": "什么意思？",
-                "identifier": "whatsiren"
-            },
-            {
-                "choice": "好消息还是坏消息？",
-                "identifier": "goodsiren"
-            }
-        ],
-        "identifier": "lifeline294"
-    },
-    {
-        "actions": [
-            {
-                "choice": "什么意思？",
-                "identifier": "whatsiren"
-            },
-            {
-                "choice": "好消息还是坏消息？",
-                "identifier": "goodsiren"
-            }
-        ],
         "identifier": "lifeline295"
+    },
+    {
+        "actions": [
+            {
+                "choice": "什么意思？",
+                "identifier": "whatsiren"
+            },
+            {
+                "choice": "好消息还是坏消息？",
+                "identifier": "goodsiren"
+            }
+        ],
+        "identifier": "lifeline296"
+    },
+    {
+        "actions": [
+            {
+                "choice": "什么意思？",
+                "identifier": "whatsiren"
+            },
+            {
+                "choice": "好消息还是坏消息？",
+                "identifier": "goodsiren"
+            }
+        ],
+        "identifier": "lifeline297"
     },
     {
         "actions": [
@@ -3854,7 +3880,7 @@
                 "identifier": "morecracks2"
             }
         ],
-        "identifier": "lifeline296"
+        "identifier": "lifeline298"
     },
     {
         "actions": [
@@ -3867,7 +3893,7 @@
                 "identifier": "staythehellaway"
             }
         ],
-        "identifier": "lifeline297"
+        "identifier": "lifeline299"
     },
     {
         "actions": [
@@ -3880,7 +3906,7 @@
                 "identifier": "canyousee"
             }
         ],
-        "identifier": "lifeline298"
+        "identifier": "lifeline300"
     },
     {
         "actions": [
@@ -3893,7 +3919,7 @@
                 "identifier": "casualpose"
             }
         ],
-        "identifier": "lifeline299"
+        "identifier": "lifeline301"
     },
     {
         "actions": [
@@ -3906,7 +3932,7 @@
                 "identifier": "spreadunchecked2"
             }
         ],
-        "identifier": "lifeline300"
+        "identifier": "lifeline302"
     },
     {
         "actions": [
@@ -3919,7 +3945,7 @@
                 "identifier": "bepreparedtofighttrue"
             }
         ],
-        "identifier": "lifeline301"
+        "identifier": "lifeline303"
     },
     {
         "actions": [
@@ -3932,43 +3958,17 @@
                 "identifier": "youllbefine"
             }
         ],
-        "identifier": "lifeline302"
-    },
-    {
-        "actions": [
-            {
-                "choice": "你什么意思？",
-                "identifier": "weirdratthings"
-            },
-            {
-                "choice": "离它远点。",
-                "identifier": "staythehellaway"
-            }
-        ],
-        "identifier": "lifeline303"
-    },
-    {
-        "actions": [
-            {
-                "choice": "你什么意思？",
-                "identifier": "weirdratthings"
-            },
-            {
-                "choice": "离它远点。",
-                "identifier": "staythehellaway"
-            }
-        ],
         "identifier": "lifeline304"
     },
     {
         "actions": [
             {
-                "choice": "保护电脑。",
-                "identifier": "guardthecomputer"
+                "choice": "你什么意思？",
+                "identifier": "weirdratthings"
             },
             {
-                "choice": "保护喉咙。",
-                "identifier": "guardyourthroat"
+                "choice": "离它远点。",
+                "identifier": "staythehellaway"
             }
         ],
         "identifier": "lifeline305"
@@ -3976,6 +3976,19 @@
     {
         "actions": [
             {
+                "choice": "你什么意思？",
+                "identifier": "weirdratthings"
+            },
+            {
+                "choice": "离它远点。",
+                "identifier": "staythehellaway"
+            }
+        ],
+        "identifier": "lifeline306"
+    },
+    {
+        "actions": [
+            {
                 "choice": "保护电脑。",
                 "identifier": "guardthecomputer"
             },
@@ -3984,7 +3997,20 @@
                 "identifier": "guardyourthroat"
             }
         ],
-        "identifier": "lifeline306"
+        "identifier": "lifeline307"
+    },
+    {
+        "actions": [
+            {
+                "choice": "保护电脑。",
+                "identifier": "guardthecomputer"
+            },
+            {
+                "choice": "保护喉咙。",
+                "identifier": "guardyourthroat"
+            }
+        ],
+        "identifier": "lifeline308"
     },
     {
         "actions": [
@@ -3997,7 +4023,7 @@
                 "identifier": "escapeintime"
             }
         ],
-        "identifier": "lifeline307"
+        "identifier": "lifeline309"
     },
     {
         "actions": [
@@ -4010,7 +4036,7 @@
                 "identifier": "staythehellaway"
             }
         ],
-        "identifier": "lifeline308"
+        "identifier": "lifeline310"
     },
     {
         "actions": [
@@ -4023,7 +4049,7 @@
                 "identifier": "tellmeyourplan"
             }
         ],
-        "identifier": "lifeline309"
+        "identifier": "lifeline311"
     },
     {
         "actions": [
@@ -4036,7 +4062,7 @@
                 "identifier": "staythehellaway"
             }
         ],
-        "identifier": "lifeline310"
+        "identifier": "lifeline312"
     },
     {
         "actions": [
@@ -4049,7 +4075,7 @@
                 "identifier": "staythehellaway"
             }
         ],
-        "identifier": "lifeline311"
+        "identifier": "lifeline313"
     },
     {
         "actions": [
@@ -4062,7 +4088,7 @@
                 "identifier": "restrighttheretrue"
             }
         ],
-        "identifier": "lifeline312"
+        "identifier": "lifeline314"
     },
     {
         "actions": [
@@ -4075,7 +4101,7 @@
                 "identifier": "timejustpassed"
             }
         ],
-        "identifier": "lifeline313"
+        "identifier": "lifeline315"
     },
     {
         "actions": [
@@ -4088,7 +4114,7 @@
                 "identifier": "wishyouskill"
             }
         ],
-        "identifier": "lifeline314"
+        "identifier": "lifeline316"
     },
     {
         "actions": [
@@ -4101,33 +4127,33 @@
                 "identifier": "reallyreprogram"
             }
         ],
-        "identifier": "lifeline315"
-    },
-    {
-        "actions": [
-            {
-                "choice": "你必须详细描述一下。",
-                "identifier": "havetodescribe"
-            },
-            {
-                "choice": "休息一会儿，如果你需要的话。",
-                "identifier": "takeaminute"
-            }
-        ],
-        "identifier": "lifeline316"
-    },
-    {
-        "actions": [
-            {
-                "choice": "你必须详细描述一下。",
-                "identifier": "havetodescribe"
-            },
-            {
-                "choice": "休息一会儿，如果你需要的话。",
-                "identifier": "takeaminute"
-            }
-        ],
         "identifier": "lifeline317"
+    },
+    {
+        "actions": [
+            {
+                "choice": "你必须详细描述一下。",
+                "identifier": "havetodescribe"
+            },
+            {
+                "choice": "休息一会儿，如果你需要的话。",
+                "identifier": "takeaminute"
+            }
+        ],
+        "identifier": "lifeline318"
+    },
+    {
+        "actions": [
+            {
+                "choice": "你必须详细描述一下。",
+                "identifier": "havetodescribe"
+            },
+            {
+                "choice": "休息一会儿，如果你需要的话。",
+                "identifier": "takeaminute"
+            }
+        ],
+        "identifier": "lifeline319"
     },
     {
         "actions": [
@@ -4140,7 +4166,7 @@
                 "identifier": "reallyreprogram"
             }
         ],
-        "identifier": "lifeline318"
+        "identifier": "lifeline320"
     },
     {
         "actions": [
@@ -4153,7 +4179,7 @@
                 "identifier": "otherratsdoingtrue"
             }
         ],
-        "identifier": "lifeline319"
+        "identifier": "lifeline321"
     },
     {
         "actions": [
@@ -4162,7 +4188,7 @@
                 "identifier": "aretheratsdeadtrue"
             }
         ],
-        "identifier": "lifeline320"
+        "identifier": "lifeline322"
     },
     {
         "actions": [
@@ -4175,7 +4201,7 @@
                 "identifier": "clearoftheettrue"
             }
         ],
-        "identifier": "lifeline321"
+        "identifier": "lifeline323"
     },
     {
         "actions": [
@@ -4188,7 +4214,7 @@
                 "identifier": "morewithrats"
             }
         ],
-        "identifier": "lifeline322"
+        "identifier": "lifeline324"
     },
     {
         "actions": [
@@ -4201,7 +4227,7 @@
                 "identifier": "tellmeyourplan"
             }
         ],
-        "identifier": "lifeline323"
+        "identifier": "lifeline325"
     },
     {
         "actions": [
@@ -4214,7 +4240,7 @@
                 "identifier": "howclosearethey"
             }
         ],
-        "identifier": "lifeline324"
+        "identifier": "lifeline326"
     },
     {
         "actions": [
@@ -4227,7 +4253,7 @@
                 "identifier": "reallyreprogram"
             }
         ],
-        "identifier": "lifeline325"
+        "identifier": "lifeline327"
     },
     {
         "actions": [
@@ -4240,7 +4266,7 @@
                 "identifier": "whatisitdoingnowtrue"
             }
         ],
-        "identifier": "lifeline326"
+        "identifier": "lifeline328"
     },
     {
         "actions": [
@@ -4253,7 +4279,7 @@
                 "identifier": "otherratsdoingtrue"
             }
         ],
-        "identifier": "lifeline327"
+        "identifier": "lifeline329"
     },
     {
         "actions": [
@@ -4266,7 +4292,7 @@
                 "identifier": "areyousafe"
             }
         ],
-        "identifier": "lifeline328"
+        "identifier": "lifeline330"
     },
     {
         "actions": [
@@ -4279,7 +4305,7 @@
                 "identifier": "cantbeyourplan"
             }
         ],
-        "identifier": "lifeline329"
+        "identifier": "lifeline331"
     },
     {
         "actions": [
@@ -4292,7 +4318,7 @@
                 "identifier": "holdonweapon"
             }
         ],
-        "identifier": "lifeline330"
+        "identifier": "lifeline332"
     },
     {
         "actions": [
@@ -4305,7 +4331,7 @@
                 "identifier": "whatisitdoingnowtrue"
             }
         ],
-        "identifier": "lifeline331"
+        "identifier": "lifeline333"
     },
     {
         "actions": [
@@ -4318,7 +4344,7 @@
                 "identifier": "submittocreature"
             }
         ],
-        "identifier": "lifeline332"
+        "identifier": "lifeline334"
     },
     {
         "actions": [
@@ -4331,7 +4357,7 @@
                 "identifier": "didyoumakeit"
             }
         ],
-        "identifier": "lifeline333"
+        "identifier": "lifeline335"
     },
     {
         "actions": [
@@ -4344,7 +4370,7 @@
                 "identifier": "takeaminuteifyouneed"
             }
         ],
-        "identifier": "lifeline334"
+        "identifier": "lifeline336"
     },
     {
         "actions": [
@@ -4357,7 +4383,7 @@
                 "identifier": "areyousafe"
             }
         ],
-        "identifier": "lifeline335"
+        "identifier": "lifeline337"
     },
     {
         "actions": [
@@ -4370,7 +4396,7 @@
                 "identifier": "somethingtocompute"
             }
         ],
-        "identifier": "lifeline336"
+        "identifier": "lifeline338"
     },
     {
         "actions": [
@@ -4383,7 +4409,7 @@
                 "identifier": "nofightflee"
             }
         ],
-        "identifier": "lifeline337"
+        "identifier": "lifeline339"
     },
     {
         "actions": [
@@ -4396,7 +4422,7 @@
                 "identifier": "findanexit"
             }
         ],
-        "identifier": "lifeline338"
+        "identifier": "lifeline340"
     },
     {
         "actions": [
@@ -4409,7 +4435,7 @@
                 "identifier": "submittocreature"
             }
         ],
-        "identifier": "lifeline339"
+        "identifier": "lifeline341"
     },
     {
         "actions": [
@@ -4422,7 +4448,7 @@
                 "identifier": "stoplookingateyes"
             }
         ],
-        "identifier": "lifeline340"
+        "identifier": "lifeline342"
     },
     {
         "actions": [
@@ -4435,7 +4461,7 @@
                 "identifier": "whoareyoutalkingto"
             }
         ],
-        "identifier": "lifeline341"
+        "identifier": "lifeline343"
     },
     {
         "actions": [
@@ -4448,7 +4474,7 @@
                 "identifier": "submittocreature"
             }
         ],
-        "identifier": "lifeline342"
+        "identifier": "lifeline344"
     },
     {
         "actions": [
@@ -4461,7 +4487,7 @@
                 "identifier": "didyoumakeit"
             }
         ],
-        "identifier": "lifeline343"
+        "identifier": "lifeline345"
     },
     {
         "actions": [
@@ -4474,7 +4500,7 @@
                 "identifier": "screwcalm"
             }
         ],
-        "identifier": "lifeline344"
+        "identifier": "lifeline346"
     },
     {
         "actions": [
@@ -4487,7 +4513,7 @@
                 "identifier": "thisisexciting"
             }
         ],
-        "identifier": "lifeline345"
+        "identifier": "lifeline347"
     },
     {
         "actions": [
@@ -4500,7 +4526,7 @@
                 "identifier": "getoutoftherenow"
             }
         ],
-        "identifier": "lifeline346"
+        "identifier": "lifeline348"
     },
     {
         "actions": [
@@ -4513,7 +4539,7 @@
                 "identifier": "stoplookingateyes"
             }
         ],
-        "identifier": "lifeline347"
+        "identifier": "lifeline349"
     },
     {
         "actions": [
@@ -4526,7 +4552,7 @@
                 "identifier": "notstillyourfriends"
             }
         ],
-        "identifier": "lifeline348"
+        "identifier": "lifeline350"
     },
     {
         "actions": [
@@ -4539,6 +4565,6 @@
                 "identifier": "whoareyoutalkingto"
             }
         ],
-        "identifier": "lifeline349"
+        "identifier": "lifeline351"
     }
 ]
