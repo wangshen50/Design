@@ -6,7 +6,7 @@
                 "identifier": "warn"
             },
             {
-                "choice": "冷静一下",
+                "choice": "冷静一下（尚未开放）",
                 "identifier": "calm"
             }
         ],

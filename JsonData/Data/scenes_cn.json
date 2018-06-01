@@ -62,9 +62,21 @@
         "[[reality]]",
         "<<elseif $revertnumber is 1>>",
         "[[panic]]",
+        "<<elseif $revertnumber is 2>>",
+        "[[determined]]",
         "<<endif>>"
     ],
+    "determined": [
+        "我睁开了眼睛",
+        "..........",
+        "好，我又回来了！",
+        "先把自己没扣上的安全带放到显眼的位置",
+        "“请把安全带系好，谢谢”",
+        "果然，空姐又来了",
+        ".........."
+    ],
     "panic": [
+        "<<set $calm = true>>",
         "我还活着？",
         "我摸了摸自己的脸",
         "似乎完美无缺",
@@ -143,7 +155,8 @@
         "拜托，让我再回去一次",
         "我闭上的眼睛",
         "..........",
-        ".........."
+        "..........",
+        "[[secondrevert]]"
     ],
     "truth": [
         "我决定如实相告",
@@ -356,6 +369,10 @@
     ],
     "firstrevert": [
         "<<set $revertnumber = 1>>",
+        "<<revert [[report]]>>"
+    ],
+    "secondrevert": [
+        "<<set $revertnumber = 2>>",
         "<<revert [[report]]>>"
     ],
     "launch": [
