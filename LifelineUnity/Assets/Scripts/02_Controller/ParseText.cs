@@ -19,7 +19,11 @@ public static class ParseText
             // Debug.Log("line = " + line);
             if (if_else)
             {
-                if (line.StartsWith("<<else"))
+                if(line.StartsWith("<<elseif"))
+                {
+                    skip_line = !skip_line;
+
+                }else if (line.StartsWith("<<else"))
                 {
                     skip_line = !skip_line;
                     continue;
@@ -29,8 +33,11 @@ public static class ParseText
                     if_else = false;
                     continue;
                 }
-                if (skip_line) continue;
+
+                if (skip_line)
+                    continue;
             }
+
             if (line.StartsWith("<<if") || line.StartsWith("<<elseif"))
             {
                 if_else = true;
